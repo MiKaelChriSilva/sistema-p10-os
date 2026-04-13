@@ -22,74 +22,67 @@ st.set_page_config(
 
 # --- CLASSES PRINCIPAIS ---
 
+from github import Github
+import base64
+
 class DatabaseManager:
-    """Gerencia todas as operações de banco de dados"""
+    """Gerencia todas as operações de banco de dados usando GitHub"""
+    
+    @staticmethod
+    def _get_github():
+        """Conecta ao GitHub usando token dos secrets"""
+        token = st.secrets["GITHUB_TOKEN"]
+        return Github(token)
     
     @staticmethod
     def carregar_dados() -> Dict:
-        """Carrega dados do arquivo JSON com tratamento de erro"""
-        if not os.path.exists(DB_FILE):
-            return DatabaseManager._get_default_data()
-        
+        """Carrega dados do GitHub"""
         try:
-            with open(DB_FILE, 'r', encoding='utf-8') as f:
-                dados = json.load(f)
-                # Verificar se tem equipamentos, se não tiver, adicionar exemplos
-                if not dados.get("materiais") or all(len(v) == 0 for v in dados["materiais"].values()):
-                    dados["materiais"] = DatabaseManager._get_example_materiais()
-                    DatabaseManager.salvar_dados(dados)
+            g = DatabaseManager._get_github()
+            repo = g.get_repo(st.secrets["GITHUB_REPO"])
+            
+            try:
+                # Tenta ler o arquivo
+                contents = repo.get_contents("estoque_os_web.json")
+                dados_json = base64.b64decode(contents.content).decode('utf-8')
+                return json.loads(dados_json)
+            except:
+                # Arquivo não existe, criar padrão
+                dados = DatabaseManager._get_default_data()
+                DatabaseManager.salvar_dados(dados)
                 return dados
-        except (json.JSONDecodeError, IOError) as e:
-            st.error(f"Erro ao carregar dados: {e}")
+        except Exception as e:
+            st.error(f"Erro ao carregar: {e}")
             return DatabaseManager._get_default_data()
     
     @staticmethod
-    def _get_example_materiais() -> Dict:
-        """Retorna materiais de exemplo"""
-        return {
-            "Som": {
-                "caixa jbl": 10,
-                "mesa de som yamaha": 3,
-                "microfone shure": 8,
-                "cabo xlr": 20,
-                "amplificador": 4
-            },
-            "Luz": {
-                "refletor led": 15,
-                "moving head": 6,
-                "maquina de fumaça": 3,
-                "dimmer": 5
-            },
-            "Painel de LED": {
-                "painel indoor p3": 20,
-                "painel outdoor p5": 10,
-                "fonte de alimentação": 8,
-                "cabo de dados": 15
-            },
-            "Sistema de AC": {
-                "ar condicionado 12000": 2,
-                "exaustor": 4,
-                "duto flexível": 50
-            },
-            "Cabos": {
-                "cabo powercon": 15,
-                "cabo rj45": 30,
-                "cabo fibra ótica": 5,
-                "cabo p10": 25
-            },
-            "Estruturas": {
-                "treliça 1m": 20,
-                "base para led": 8,
-                "claw": 30,
-                "spigot": 15
-            },
-            "Materiais Diversos": {
-                "fita adesiva": 10,
-                "enforca gato": 100,
-                "conector": 50,
-                "luva de proteção": 20
-            }
-        }
+    def salvar_dados(data: Dict) -> bool:
+        """Salva dados no GitHub"""
+        try:
+            g = DatabaseManager._get_github()
+            repo = g.get_repo(st.secrets["GITHUB_REPO"])
+            dados_json = json.dumps(data, indent=4, ensure_ascii=False)
+            
+            try:
+                # Atualizar arquivo existente
+                contents = repo.get_contents("estoque_os_web.json")
+                repo.update_file(
+                    "estoque_os_web.json",
+                    f"Atualização automática - {datetime.now()}",
+                    dados_json,
+                    contents.sha
+                )
+            except:
+                # Criar novo arquivo
+                repo.create_file(
+                    "estoque_os_web.json",
+                    "Criação inicial do banco de dados",
+                    dados_json
+                )
+            return True
+        except Exception as e:
+            st.error(f"Erro ao salvar: {e}")
+            return False
     
     @staticmethod
     def _get_default_data() -> Dict:
@@ -103,119 +96,27 @@ class DatabaseManager:
             "contador_os": 1,
             "backup_restaurado": False
         }
-
-
-class AuthSystem:
-    """Sistema de autenticação e gerenciamento de usuários"""
     
     @staticmethod
-    def verificar_login(usuario: str, senha: str, dados: Dict) -> bool:
-        """Verifica credenciais do usuário"""
-        if usuario in dados["usuarios"]:
-            senha_hash = hashlib.sha256(senha.encode()).hexdigest()
-            return dados["usuarios"][usuario] == senha_hash
-        return False
-    
-    @staticmethod
-    def criar_usuario(usuario: str, senha: str, dados: Dict) -> tuple[bool, str]:
-        """Cria novo usuário com validações"""
-        # Validações
-        if not usuario or not senha:
-            return False, "Preencha todos os campos"
-        
-        if len(usuario) < 3:
-            return False, "Usuário deve ter pelo menos 3 caracteres"
-        
-        if len(senha) < 6:
-            return False, "Senha deve ter pelo menos 6 caracteres"
-        
-        if usuario in dados["usuarios"]:
-            return False, "Usuário já existe"
-        
-        # Criar usuário
-        dados["usuarios"][usuario] = DatabaseManager._hash_senha(senha)
-        return True, f"Usuário '{usuario}' criado com sucesso!"
-    
-    @staticmethod
-    def alterar_senha(usuario: str, senha_antiga: str, senha_nova: str, dados: Dict) -> tuple[bool, str]:
-        """Altera senha do usuário"""
-        if not AuthSystem.verificar_login(usuario, senha_antiga, dados):
-            return False, "Senha atual incorreta"
-        
-        if len(senha_nova) < 6:
-            return False, "Nova senha deve ter pelo menos 6 caracteres"
-        
-        dados["usuarios"][usuario] = DatabaseManager._hash_senha(senha_nova)
-        return True, "Senha alterada com sucesso!"
-
-
-class OSManager:
-    """Gerencia operações de Ordem de Serviço"""
-    
-    @staticmethod
-    def gerar_os(categoria: str, material: str, quantidade: int, destino: str, 
-                  responsavel: str, data_retorno: str, dados: Dict) -> Optional[Dict]:
-        """Gera nova Ordem de Serviço"""
-        # Validar estoque
-        if categoria not in dados["materiais"]:
-            return None
-        
-        if material not in dados["materiais"][categoria]:
-            return None
-        
-        estoque_atual = dados["materiais"][categoria][material]
-        if quantidade > estoque_atual:
-            return None
-        
-        # Criar OS
-        nova_os = {
-            "id": dados["contador_os"],
-            "categoria": categoria,
-            "material": material,
-            "quantidade": quantidade,
-            "destino": destino.upper(),
-            "responsavel": responsavel.upper(),
-            "data_retorno": data_retorno,
-            "status": "Pendente",
-            "data_emissao": datetime.now().strftime("%d/%m/%Y %H:%M")
+    def _get_example_materiais() -> Dict:
+        """Retorna materiais de exemplo"""
+        return {
+            "Som": {"caixa jbl": 10, "mesa de som yamaha": 3, "microfone shure": 8},
+            "Luz": {"refletor led": 15, "moving head": 6, "maquina de fumaça": 3},
+            "Painel de LED": {"painel indoor p3": 20, "painel outdoor p5": 10},
+            "Cabos": {"cabo powercon": 15, "cabo rj45": 30},
+            "Estruturas": {"treliça 1m": 20, "claw": 30},
+            "Materiais Diversos": {"fita adesiva": 10, "enforca gato": 100}
         }
-        
-        # Atualizar estoque
-        dados["materiais"][categoria][material] -= quantidade
-        
-        # Se estoque zerar, remover item (opcional)
-        if dados["materiais"][categoria][material] == 0:
-            del dados["materiais"][categoria][material]
-            # Se categoria ficar vazia, remover categoria
-            if not dados["materiais"][categoria]:
-                del dados["materiais"][categoria]
-        
-        dados["ordens_servico"].append(nova_os)
-        dados["contador_os"] += 1
-        
-        return nova_os
     
     @staticmethod
-    def dar_baixa(id_os: int, dados: Dict) -> tuple[bool, str]:
-        """Registra retorno de material"""
-        for os_item in dados["ordens_servico"]:
-            if os_item["id"] == id_os and os_item["status"] == "Pendente":
-                # Devolver ao estoque
-                categoria = os_item["categoria"]
-                material = os_item["material"]
-                
-                if categoria not in dados["materiais"]:
-                    dados["materiais"][categoria] = {}
-                
-                dados["materiais"][categoria][material] = \
-                    dados["materiais"][categoria].get(material, 0) + os_item["quantidade"]
-                
-                os_item["status"] = "Finalizada"
-                os_item["data_baixa"] = datetime.now().strftime("%d/%m/%Y %H:%M")
-                
-                return True, f"Baixa da OS #{id_os} realizada com sucesso!"
-        
-        return False, "OS não encontrada ou já finalizada"
+    def _hash_senha(senha: str) -> str:
+        return hashlib.sha256(senha.encode()).hexdigest()
+    
+    @staticmethod
+    def restaurar_backup() -> bool:
+        """Restaura backup (não necessário no GitHub)"""
+        return DatabaseManager.carregar_dados() is not None
 
 
 # --- CSS PERSONALIZADO ---
