@@ -11,7 +11,7 @@
             "p3.91 oneligth": 36
         },
         "Som": {
-            "sistema slin markpro": 8
+            "sistema slin markpro": 7
         }
     },
     "ordens_servico": [
@@ -170,8 +170,19 @@
             "status": "Finalizada",
             "data_emissao": "10/04/2026 21:32",
             "data_baixa": "13/04/2026 20:29"
+        },
+        {
+            "id": 14,
+            "categoria": "Som",
+            "material": "sistema slin markpro",
+            "quantidade": 1,
+            "destino": "IMPACTO",
+            "responsavel": "TOMAS MORTO",
+            "data_retorno": "13/04/2026",
+            "status": "Pendente",
+            "data_emissao": "13/04/2026 20:38"
         }
     ],
-    "contador_os": 14,
+    "contador_os": 15,
     "backup_restaurado": false
 }
