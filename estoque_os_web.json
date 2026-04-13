@@ -1,0 +1,175 @@
+{
+    "usuarios": {
+        "admin": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+        "administrador1": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    "materiais": {
+        "Painel de LED": {
+            "indoor": 10
+        },
+        "Cabos": {
+            "ac ponte": 7
+        },
+        "Sistema de AC": {
+            "multivia": 30
+        }
+    },
+    "ordens_servico": [
+        {
+            "id": 1,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 9,
+            "destino": "EPTC",
+            "responsavel": "ENZO",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 18:54",
+            "data_baixa": "10/04/2026 18:59"
+        },
+        {
+            "id": 2,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 7,
+            "destino": "EPTC",
+            "responsavel": "MIKAEL",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:24",
+            "data_baixa": "10/04/2026 20:29"
+        },
+        {
+            "id": 3,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 5,
+            "destino": "EPTC",
+            "responsavel": "JULIA",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:29",
+            "data_baixa": "10/04/2026 20:33"
+        },
+        {
+            "id": 4,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "RENER",
+            "responsavel": "GABRIEL",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:34",
+            "data_baixa": "10/04/2026 20:52"
+        },
+        {
+            "id": 5,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "INTEL",
+            "responsavel": "NIKOLAS",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:38",
+            "data_baixa": "10/04/2026 20:52"
+        },
+        {
+            "id": 6,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 5,
+            "destino": "RENER",
+            "responsavel": "MARIA",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:45",
+            "data_baixa": "10/04/2026 20:52"
+        },
+        {
+            "id": 7,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "EPTC",
+            "responsavel": "RENATA",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:48",
+            "data_baixa": "10/04/2026 20:52"
+        },
+        {
+            "id": 8,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "EPTC",
+            "responsavel": "JESUS",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:52",
+            "data_baixa": "10/04/2026 21:09"
+        },
+        {
+            "id": 9,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "SHOW",
+            "responsavel": "DUDU",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:55",
+            "data_baixa": "10/04/2026 21:09"
+        },
+        {
+            "id": 10,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "FREE",
+            "responsavel": "AGATHA",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 20:59",
+            "data_baixa": "10/04/2026 21:09"
+        },
+        {
+            "id": 11,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "MKJ",
+            "responsavel": "DCD",
+            "data_retorno": "10/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 21:04",
+            "data_baixa": "10/04/2026 21:09"
+        },
+        {
+            "id": 12,
+            "categoria": "Som",
+            "material": "caixa jbl",
+            "quantidade": 1,
+            "destino": "IGREJA",
+            "responsavel": "ESTER",
+            "data_retorno": "10/04/2026",
+            "status": "Pendente",
+            "data_emissao": "10/04/2026 21:11"
+        },
+        {
+            "id": 13,
+            "categoria": "Cabos",
+            "material": "ac ponte",
+            "quantidade": 1,
+            "destino": "DGDGD",
+            "responsavel": "DGFDG",
+            "data_retorno": "10/04/2026",
+            "status": "Pendente",
+            "data_emissao": "10/04/2026 21:32"
+        }
+    ],
+    "contador_os": 14,
+    "backup_restaurado": false
+}
