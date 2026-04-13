@@ -10,9 +10,6 @@
         },
         "Sistema de AC": {
             "multivia": 30
-        },
-        "Som": {
-            "jbl": 999999999
         }
     },
     "ordens_servico": [
