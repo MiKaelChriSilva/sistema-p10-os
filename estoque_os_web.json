@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 americanled": 84,
+            "p3.91 americanled": 94,
             "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
@@ -200,8 +200,9 @@
             "destino": "IMPACTO",
             "responsavel": "TOMAS",
             "data_retorno": "13/04/2026",
-            "status": "Pendente",
-            "data_emissao": "13/04/2026 21:02"
+            "status": "Finalizada",
+            "data_emissao": "13/04/2026 21:02",
+            "data_baixa": "13/04/2026 21:03"
         }
     ],
     "contador_os": 16,
