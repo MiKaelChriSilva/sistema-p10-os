@@ -9,6 +9,9 @@
         "Painel de LED": {
             "p3.91 americanled": 94,
             "p3.91 oneligth": 36
+        },
+        "Som": {
+            "sistema slin markpro": 8
         }
     },
     "ordens_servico": [
