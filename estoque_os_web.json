@@ -5,7 +5,11 @@
         "Mikael": "80933a3d51d92d877ecf8dbf0216fa3a7b13946c4782e886a169e9d8bbea6aa6",
         "p10operacao": "b0ff35fbe7ea95fc268ed8c2cd3462d3bcf2fff798cb0ee2d7acac5bc10a499b"
     },
-    "materiais": {},
+    "materiais": {
+        "Painel de LED": {
+            "p3.91 americanled": 94
+        }
+    },
     "ordens_servico": [
         {
             "id": 1,
