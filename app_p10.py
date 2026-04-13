@@ -10,9 +10,6 @@ import re
 from github import Github
 import base64
 import random
-import smtplib
-from email.mime.text import MimeText
-from email.mime.multipart import MimeMultipart
 
 # --- CONSTANTES ---
 DB_FILE = 'estoque_os_web.json'
