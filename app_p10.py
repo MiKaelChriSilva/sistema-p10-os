@@ -600,7 +600,7 @@ def exibir_recibo(os_info: Dict):
         
         <div class="recibo-paper">
             <div class="header">
-                <h1>10 SOLUCOES EM EVENTOS</h1>
+                <h1>P10 SOLUCOES EM EVENTOS</h1>
                 <h2>ORDEM DE SERVIÇO (OS)</h2>
             </div>
             
