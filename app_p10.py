@@ -234,17 +234,24 @@ def aplicar_css():
         }
     }
     
-    .stApp {
-        background: linear-gradient(135deg, rgba(255, 69, 0, 0.05) 0%, 
-                    rgba(50, 205, 50, 0.05) 50%, rgba(0, 191, 255, 0.05) 100%);
-    }
-    
-    /* Texto normal - cinza escuro suave */
+    /* Texto normal - cinza médio */
     .stMarkdown, .stMarkdown p, div[data-testid="stMarkdownContainer"] p {
-        color: #444444 !important;
+        color: #555555 !important;
     }
     
-    /* Títulos com gradiente colorido */
+    /* Métricas - cor profissional */
+    [data-testid="stMetricValue"] {
+        color: #2c3e50 !important;
+        font-size: 2rem !important;
+        font-weight: 600 !important;
+    }
+    
+    [data-testid="stMetricLabel"] {
+        color: #7f8c8d !important;
+        font-size: 0.9rem !important;
+    }
+    
+    /* Títulos com gradiente */
     h1, h2, h3 {
         background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
         -webkit-background-clip: text;
@@ -254,15 +261,15 @@ def aplicar_css():
     
     /* Sidebar */
     [data-testid="stSidebar"] {
-        background-color: #f0f2f6;
-        border-right: 1px solid #e0e0e0;
+        background-color: #f8f9fa;
+        border-right: 1px solid #dee2e6;
     }
     
     [data-testid="stSidebar"] .stMarkdown, 
     [data-testid="stSidebar"] p,
     [data-testid="stSidebar"] h2 {
-        color: #444444 !important;
-        -webkit-text-fill-color: #444444 !important;
+        color: #495057 !important;
+        -webkit-text-fill-color: #495057 !important;
     }
     
     /* Botões */
@@ -272,56 +279,15 @@ def aplicar_css():
         border: none;
         border-radius: 8px;
         font-weight: bold;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     
     div.stButton > button:first-child:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    
-    /* Métricas - CORRIGIDO para ficar mais visível */
-    [data-testid="stMetricValue"] {
-        color: #1a1a1a !important;
-        font-size: 2rem !important;
-        font-weight: bold !important;
-    }
-    
-    [data-testid="stMetricLabel"] {
-        color: #555555 !important;
-        font-size: 1rem !important;
-    }
-    
-    /* Dataframes */
-    .stDataFrame, .dataframe {
-        color: #444444 !important;
-    }
-    
-    /* Expanders */
-    .streamlit-expanderHeader {
-        color: #444444 !important;
-    }
-    
-    /* Inputs */
-    .stTextInput input, .stSelectbox select, .stNumberInput input {
-        color: #444444 !important;
-        background-color: white !important;
-    }
-    
-    /* Info/Warning/Success boxes */
-    .stInfo, .stSuccess, .stWarning, .stError {
-        color: #444444 !important;
-    }
-    
-    /* Labels */
-    label {
-        color: #555555 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
     </style>
     """
     st.markdown(p10_styles, unsafe_allow_html=True)
-
 
 # --- FUNÇÕES DE UI ---
 def tela_login():
