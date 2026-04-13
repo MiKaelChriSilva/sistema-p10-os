@@ -1,17 +1,26 @@
 {
     "usuarios": {
         "admin": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
-        "administrador1": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+        "administrador1": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "Mikael": "80933a3d51d92d877ecf8dbf0216fa3a7b13946c4782e886a169e9d8bbea6aa6",
+        "p10operacao": "b0ff35fbe7ea95fc268ed8c2cd3462d3bcf2fff798cb0ee2d7acac5bc10a499b"
     },
     "materiais": {
         "Painel de LED": {
-            "indoor": 10
+            "p3.91 americanled": 94,
+            "p3.91 oneligth": 36,
+            "outdoor p.5 m1": 26,
+            "outdoor p.5 m2": 22,
+            "indoor p2.6": 15,
+            "indoor p2.97m1": 40,
+            "indoor p2.97m2": 36
         },
-        "Cabos": {
-            "ac ponte": 7
+        "Som": {
+            "sistema slin markpro": 8
         },
-        "Sistema de AC": {
-            "multivia": 30
+        "Materiais Diversos": {
+            "chapinha american led": 1001,
+            "parafuso 17": 1000
         }
     },
     "ordens_servico": [
@@ -155,8 +164,9 @@
             "destino": "IGREJA",
             "responsavel": "ESTER",
             "data_retorno": "10/04/2026",
-            "status": "Pendente",
-            "data_emissao": "10/04/2026 21:11"
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 21:11",
+            "data_baixa": "13/04/2026 20:29"
         },
         {
             "id": 13,
@@ -166,10 +176,35 @@
             "destino": "DGDGD",
             "responsavel": "DGFDG",
             "data_retorno": "10/04/2026",
-            "status": "Pendente",
-            "data_emissao": "10/04/2026 21:32"
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 21:32",
+            "data_baixa": "13/04/2026 20:29"
+        },
+        {
+            "id": 14,
+            "categoria": "Som",
+            "material": "sistema slin markpro",
+            "quantidade": 1,
+            "destino": "IMPACTO",
+            "responsavel": "TOMAS MORTO",
+            "data_retorno": "13/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "13/04/2026 20:38",
+            "data_baixa": "13/04/2026 20:43"
+        },
+        {
+            "id": 15,
+            "categoria": "Painel de LED",
+            "material": "p3.91 americanled",
+            "quantidade": 10,
+            "destino": "IMPACTO",
+            "responsavel": "TOMAS",
+            "data_retorno": "13/04/2026",
+            "status": "Finalizada",
+            "data_emissao": "13/04/2026 21:02",
+            "data_baixa": "13/04/2026 21:03"
         }
     ],
-    "contador_os": 14,
+    "contador_os": 16,
     "backup_restaurado": false
 }
