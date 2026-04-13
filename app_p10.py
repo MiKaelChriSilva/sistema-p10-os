@@ -15,6 +15,7 @@ CATEGORIAS = ["Som", "Luz", "Painel de LED", "Sistema de AC", "Cabos", "Estrutur
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="P10 Soluções - Gestão OS",
+    page_icon="logo.ico",
     layout="wide",
     initial_sidebar_state="expanded"
 )
