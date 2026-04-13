@@ -6,9 +6,6 @@
         "p10operacao": "b0ff35fbe7ea95fc268ed8c2cd3462d3bcf2fff798cb0ee2d7acac5bc10a499b"
     },
     "materiais": {
-        "Cabos": {
-            "ac ponte": 8
-        },
         "Sistema de AC": {
             "multivia": 30
         }
