@@ -8,7 +8,7 @@
             "indoor": 10
         },
         "Cabos": {
-            "ac ponte": 7
+            "ac ponte": 8
         },
         "Sistema de AC": {
             "multivia": 30
@@ -171,8 +171,9 @@
             "destino": "DGDGD",
             "responsavel": "DGFDG",
             "data_retorno": "10/04/2026",
-            "status": "Pendente",
-            "data_emissao": "10/04/2026 21:32"
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 21:32",
+            "data_baixa": "13/04/2026 20:29"
         }
     ],
     "contador_os": 14,
