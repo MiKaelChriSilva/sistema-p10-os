@@ -234,19 +234,17 @@ def aplicar_css():
         }
     }
     
-    /* Garantir que o texto fique visível em ambos os temas */
     .stApp {
         background: linear-gradient(135deg, rgba(255, 69, 0, 0.05) 0%, 
                     rgba(50, 205, 50, 0.05) 50%, rgba(0, 191, 255, 0.05) 100%);
     }
     
-    /* Forçar cor do texto para escuro (visível no tema claro) */
-    .stMarkdown, .stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3,
-    .stText, .stText p, div[data-testid="stMarkdownContainer"] p {
-        color: #333333 !important;
+    /* Texto normal - cinza escuro suave */
+    .stMarkdown, .stMarkdown p, div[data-testid="stMarkdownContainer"] p {
+        color: #444444 !important;
     }
     
-    /* Títulos com gradiente */
+    /* Títulos com gradiente colorido */
     h1, h2, h3 {
         background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
         -webkit-background-clip: text;
@@ -254,17 +252,17 @@ def aplicar_css():
         background-clip: text;
     }
     
-    /* Sidebar com texto escuro */
+    /* Sidebar */
     [data-testid="stSidebar"] {
-        background-color: #f8f9fa;
-        border-right: 1px solid #e9ecef;
+        background-color: #f0f2f6;
+        border-right: 1px solid #e0e0e0;
     }
     
     [data-testid="stSidebar"] .stMarkdown, 
     [data-testid="stSidebar"] p,
     [data-testid="stSidebar"] h2 {
-        color: #333333 !important;
-        -webkit-text-fill-color: #333333 !important;
+        color: #444444 !important;
+        -webkit-text-fill-color: #444444 !important;
     }
     
     /* Botões */
@@ -283,33 +281,42 @@ def aplicar_css():
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     
-    /* Métricas */
+    /* Métricas - CORRIGIDO para ficar mais visível */
     [data-testid="stMetricValue"] {
-        color: #333333 !important;
+        color: #1a1a1a !important;
+        font-size: 2rem !important;
+        font-weight: bold !important;
     }
     
     [data-testid="stMetricLabel"] {
-        color: #666666 !important;
+        color: #555555 !important;
+        font-size: 1rem !important;
     }
     
     /* Dataframes */
     .stDataFrame, .dataframe {
-        color: #333333 !important;
+        color: #444444 !important;
     }
     
     /* Expanders */
     .streamlit-expanderHeader {
-        color: #333333 !important;
+        color: #444444 !important;
     }
     
     /* Inputs */
     .stTextInput input, .stSelectbox select, .stNumberInput input {
-        color: #333333 !important;
+        color: #444444 !important;
+        background-color: white !important;
     }
     
     /* Info/Warning/Success boxes */
     .stInfo, .stSuccess, .stWarning, .stError {
-        color: #333333 !important;
+        color: #444444 !important;
+    }
+    
+    /* Labels */
+    label {
+        color: #555555 !important;
     }
     </style>
     """
