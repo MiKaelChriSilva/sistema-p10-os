@@ -18,6 +18,7 @@ CATEGORIAS = ["Som", "Luz", "Painel de LED", "Sistema de AC", "Cabos", "Estrutur
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="P10 Soluções - Gestão OS",
+    page_icon="logo.ico",  
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -1093,7 +1094,13 @@ def tela_historico_os(dados: Dict):
     with tab1:
         if os_abertas:
             for i, os_item in enumerate(os_abertas):
-                itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                # Verificar se existe a chave "itens" (formato novo) ou é formato antigo
+                if "itens" in os_item:
+                    itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                else:
+                    # Formato antigo (um único item)
+                    itens_resumo = f"{os_item.get('material', 'N/A')}({os_item.get('quantidade', 0)})"
+                
                 with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']} - {itens_resumo}"):
                     col_info1, col_info2 = st.columns(2)
                     with col_info1:
@@ -1103,12 +1110,23 @@ def tela_historico_os(dados: Dict):
                         st.write(f"**Emissão:** {os_item['data_emissao']}")
                     
                     st.write("**Itens:**")
-                    for item in os_item["itens"]:
-                        st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
+                    if "itens" in os_item:
+                        for item in os_item["itens"]:
+                            st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
+                    else:
+                        # Formato antigo
+                        st.write(f"  - {os_item.get('categoria', 'N/A')} / {os_item.get('material', 'N/A').upper()}: {os_item.get('quantidade', 0)}x")
                     
                     c1, c2, c3 = st.columns(3)
                     with c1:
                         if st.button("🖨️ Imprimir", key=f"print_{i}_{os_item['id']}"):
+                            # Converter formato antigo para novo se necessário
+                            if "itens" not in os_item:
+                                os_item["itens"] = [{
+                                    "categoria": os_item["categoria"],
+                                    "material": os_item["material"],
+                                    "quantidade": os_item["quantidade"]
+                                }]
                             exibir_recibo(os_item)
                     with c2:
                         if st.button("✅ Dar Baixa", key=f"baixa_{i}_{os_item['id']}"):
@@ -1119,13 +1137,23 @@ def tela_historico_os(dados: Dict):
                     with c3:
                         if st.button("🗑️ Cancelar", key=f"cancel_{i}_{os_item['id']}"):
                             # Devolver todos os itens ao estoque
-                            for item in os_item["itens"]:
-                                cat = item["categoria"]
-                                mat = item["material"]
-                                qtd = item["quantidade"]
+                            if "itens" in os_item:
+                                for item in os_item["itens"]:
+                                    cat = item["categoria"]
+                                    mat = item["material"]
+                                    qtd = item["quantidade"]
+                                    if cat not in dados["materiais"]:
+                                        dados["materiais"][cat] = {}
+                                    dados["materiais"][cat][mat] = dados["materiais"][cat].get(mat, 0) + qtd
+                            else:
+                                # Formato antigo
+                                cat = os_item["categoria"]
+                                mat = os_item["material"]
+                                qtd = os_item["quantidade"]
                                 if cat not in dados["materiais"]:
                                     dados["materiais"][cat] = {}
                                 dados["materiais"][cat][mat] = dados["materiais"][cat].get(mat, 0) + qtd
+                            
                             dados["ordens_servico"].remove(os_item)
                             DatabaseManager.salvar_dados(dados)
                             st.success(f"OS #{os_item['id']} cancelada!")
@@ -1136,7 +1164,12 @@ def tela_historico_os(dados: Dict):
     with tab2:
         if os_fechadas:
             for i, os_item in enumerate(os_fechadas):
-                itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                # Verificar se existe a chave "itens" (formato novo) ou é formato antigo
+                if "itens" in os_item:
+                    itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                else:
+                    itens_resumo = f"{os_item.get('material', 'N/A')}({os_item.get('quantidade', 0)})"
+                
                 with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']} - {itens_resumo}"):
                     col_f1, col_f2 = st.columns(2)
                     with col_f1:
@@ -1145,10 +1178,16 @@ def tela_historico_os(dados: Dict):
                         st.write(f"**Finalizada em:** {os_item.get('data_baixa', 'N/A')}")
                     
                     if st.button("🖨️ Reimprimir", key=f"reprint_{i}_{os_item['id']}", use_container_width=True):
+                        # Converter formato antigo para novo se necessário
+                        if "itens" not in os_item:
+                            os_item["itens"] = [{
+                                "categoria": os_item["categoria"],
+                                "material": os_item["material"],
+                                "quantidade": os_item["quantidade"]
+                            }]
                         exibir_recibo(os_item)
         else:
             st.info("Nenhuma OS finalizada")
-
 
 def barra_lateral():
     """Configuração da barra lateral"""
