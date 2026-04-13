@@ -9,6 +9,10 @@ from typing import Dict, List, Optional
 import re
 from github import Github
 import base64
+import random
+import smtplib
+from email.mime.text import MimeText
+from email.mime.multipart import MimeMultipart
 
 # --- CONSTANTES ---
 DB_FILE = 'estoque_os_web.json'
@@ -92,6 +96,7 @@ class DatabaseManager:
             "usuarios": {
                 "admin": DatabaseManager._hash_senha("admin123")
             },
+            "recuperacao_senha": {},
             "materiais": DatabaseManager._get_example_materiais(),
             "ordens_servico": [],
             "contador_os": 1,
@@ -131,7 +136,7 @@ class AuthSystem:
         return False
     
     @staticmethod
-    def criar_usuario(usuario: str, senha: str, dados: Dict) -> tuple[bool, str]:
+    def criar_usuario(usuario: str, senha: str, email: str, dados: Dict) -> tuple[bool, str]:
         if not usuario or not senha:
             return False, "Preencha todos os campos"
         
@@ -145,6 +150,12 @@ class AuthSystem:
             return False, "Usuário já existe"
         
         dados["usuarios"][usuario] = DatabaseManager._hash_senha(senha)
+        
+        # Salvar email para recuperação
+        if "recuperacao_senha" not in dados:
+            dados["recuperacao_senha"] = {}
+        dados["recuperacao_senha"][usuario] = {"email": email, "codigo": None}
+        
         return True, f"Usuário '{usuario}' criado com sucesso!"
     
     @staticmethod
@@ -157,29 +168,71 @@ class AuthSystem:
         
         dados["usuarios"][usuario] = DatabaseManager._hash_senha(senha_nova)
         return True, "Senha alterada com sucesso!"
+    
+    @staticmethod
+    def gerar_codigo_recuperacao(usuario: str, dados: Dict) -> str:
+        """Gera código de recuperação de 6 dígitos"""
+        codigo = str(random.randint(100000, 999999))
+        
+        if "recuperacao_senha" not in dados:
+            dados["recuperacao_senha"] = {}
+        
+        if usuario not in dados["recuperacao_senha"]:
+            dados["recuperacao_senha"][usuario] = {"email": "", "codigo": None}
+        
+        dados["recuperacao_senha"][usuario]["codigo"] = codigo
+        DatabaseManager.salvar_dados(dados)
+        
+        return codigo
+    
+    @staticmethod
+    def verificar_codigo(usuario: str, codigo: str, dados: Dict) -> bool:
+        """Verifica se o código de recuperação está correto"""
+        if "recuperacao_senha" not in dados:
+            return False
+        if usuario not in dados["recuperacao_senha"]:
+            return False
+        return dados["recuperacao_senha"][usuario].get("codigo") == codigo
+    
+    @staticmethod
+    def redefinir_senha(usuario: str, nova_senha: str, dados: Dict) -> tuple[bool, str]:
+        """Redefine a senha sem precisar da senha antiga"""
+        if len(nova_senha) < 6:
+            return False, "Nova senha deve ter pelo menos 6 caracteres"
+        
+        dados["usuarios"][usuario] = DatabaseManager._hash_senha(nova_senha)
+        
+        # Limpar código de recuperação
+        if "recuperacao_senha" in dados and usuario in dados["recuperacao_senha"]:
+            dados["recuperacao_senha"][usuario]["codigo"] = None
+        
+        return True, "Senha redefinida com sucesso!"
 
 
 class OSManager:
     """Gerencia operações de Ordem de Serviço"""
     
     @staticmethod
-    def gerar_os(categoria: str, material: str, quantidade: int, destino: str, 
-                  responsavel: str, data_retorno: str, dados: Dict) -> Optional[Dict]:
-        if categoria not in dados["materiais"]:
-            return None
+    def gerar_os(itens: List[Dict], destino: str, responsavel: str, data_retorno: str, dados: Dict) -> Optional[Dict]:
+        """Gera nova Ordem de Serviço com múltiplos itens"""
         
-        if material not in dados["materiais"][categoria]:
-            return None
+        # Validar todos os itens
+        for item in itens:
+            categoria = item["categoria"]
+            material = item["material"]
+            quantidade = item["quantidade"]
+            
+            if categoria not in dados["materiais"]:
+                return None
+            if material not in dados["materiais"][categoria]:
+                return None
+            if quantidade > dados["materiais"][categoria][material]:
+                return None
         
-        estoque_atual = dados["materiais"][categoria][material]
-        if quantidade > estoque_atual:
-            return None
-        
+        # Criar OS
         nova_os = {
             "id": dados["contador_os"],
-            "categoria": categoria,
-            "material": material,
-            "quantidade": quantidade,
+            "itens": itens,
             "destino": destino.upper(),
             "responsavel": responsavel.upper(),
             "data_retorno": data_retorno,
@@ -187,12 +240,18 @@ class OSManager:
             "data_emissao": datetime.now().strftime("%d/%m/%Y %H:%M")
         }
         
-        dados["materiais"][categoria][material] -= quantidade
-        
-        if dados["materiais"][categoria][material] == 0:
-            del dados["materiais"][categoria][material]
-            if not dados["materiais"][categoria]:
-                del dados["materiais"][categoria]
+        # Atualizar estoque
+        for item in itens:
+            categoria = item["categoria"]
+            material = item["material"]
+            quantidade = item["quantidade"]
+            
+            dados["materiais"][categoria][material] -= quantidade
+            
+            if dados["materiais"][categoria][material] == 0:
+                del dados["materiais"][categoria][material]
+                if not dados["materiais"][categoria]:
+                    del dados["materiais"][categoria]
         
         dados["ordens_servico"].append(nova_os)
         dados["contador_os"] += 1
@@ -201,16 +260,21 @@ class OSManager:
     
     @staticmethod
     def dar_baixa(id_os: int, dados: Dict) -> tuple[bool, str]:
+        """Registra retorno de material"""
         for os_item in dados["ordens_servico"]:
             if os_item["id"] == id_os and os_item["status"] == "Pendente":
-                categoria = os_item["categoria"]
-                material = os_item["material"]
                 
-                if categoria not in dados["materiais"]:
-                    dados["materiais"][categoria] = {}
-                
-                dados["materiais"][categoria][material] = \
-                    dados["materiais"][categoria].get(material, 0) + os_item["quantidade"]
+                # Devolver todos os itens ao estoque
+                for item in os_item["itens"]:
+                    categoria = item["categoria"]
+                    material = item["material"]
+                    quantidade = item["quantidade"]
+                    
+                    if categoria not in dados["materiais"]:
+                        dados["materiais"][categoria] = {}
+                    
+                    dados["materiais"][categoria][material] = \
+                        dados["materiais"][categoria].get(material, 0) + quantidade
                 
                 os_item["status"] = "Finalizada"
                 os_item["data_baixa"] = datetime.now().strftime("%d/%m/%Y %H:%M")
@@ -220,11 +284,34 @@ class OSManager:
         return False, "OS não encontrada ou já finalizada"
 
 
-# --- CSS PERSONALIZADO ---
+# --- CSS PERSONALIZADO (RESPONSIVO) ---
 def aplicar_css():
-    """Aplica estilos CSS personalizados"""
+    """Aplica estilos CSS personalizados e responsivos"""
     p10_styles = """
     <style>
+    /* Responsivo para mobile */
+    @media only screen and (max-width: 768px) {
+        .stApp {
+            padding: 10px;
+        }
+        .stColumns {
+            flex-direction: column;
+        }
+        div[data-testid="column"] {
+            width: 100% !important;
+            margin-bottom: 10px;
+        }
+        .stButton button {
+            width: 100%;
+        }
+        h1 {
+            font-size: 24px !important;
+        }
+        [data-testid="stMetricValue"] {
+            font-size: 1.5rem !important;
+        }
+    }
+    
     @media print {
         header, .stSidebar, .stButton, .stInfo, .stSuccess, 
         .stWarning, .stError, [data-testid="stHeader"] {
@@ -289,70 +376,208 @@ def aplicar_css():
 
 # --- FUNÇÕES DE UI ---
 def exibir_recibo(os_info: Dict):
-    """Exibe recibo formatado"""
+    """Exibe recibo IDÊNTICO ao PDF com organização correta das tabelas"""
+    
+    # Construir as linhas da tabela de itens
+    itens_html = ""
+    for i, item in enumerate(os_info["itens"], 1):
+        itens_html += f"""
+        <tr>
+            <td class="item-cell">{i}</td>
+            <td class="desc-cell">{item['categoria'].upper()}</td>
+            <td class="desc-cell">{item['material'].upper()}</td>
+            <td class="qtd-cell">{item['quantidade']}</td>
+            <td class="observation-cell">-</td>
+        </tr>
+        """
+    
     html_recibo = f"""
     <!DOCTYPE html>
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>P10 Soluções - OS #{os_info['id']:04d}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>P10 Soluções - Ordem de Serviço #{os_info['id']:04d}</title>
         <style>
-            * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-            @media print {{
-                body {{ margin: 0; padding: 0; background: white; }}
-                .recibo-paper {{ padding: 10mm; box-shadow: none; }}
-                @page {{ size: A4; margin: 0; }}
-                .no-print {{ display: none; }}
+            * {{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
             }}
+            
+            @media print {{
+                body {{
+                    margin: 0;
+                    padding: 0;
+                    background: white;
+                }}
+                .recibo-paper {{
+                    width: 210mm;
+                    min-height: 297mm;
+                    margin: 0;
+                    padding: 8mm;
+                    box-shadow: none;
+                }}
+                @page {{
+                    size: A4;
+                    margin: 0;
+                }}
+                .no-print {{
+                    display: none;
+                }}
+            }}
+            
+            /* Responsivo */
+            @media screen and (max-width: 768px) {{
+                body {{
+                    padding: 10px;
+                }}
+                .recibo-paper {{
+                    width: 100%;
+                    padding: 5mm;
+                }}
+                .category-table th, .category-table td {{
+                    font-size: 8px;
+                    padding: 3px;
+                }}
+                .header h1 {{
+                    font-size: 18px;
+                }}
+                .header h2 {{
+                    font-size: 14px;
+                }}
+            }}
+            
             body {{
-                background: #e0e0e0;
+                background-color: #e0e0e0;
                 padding: 20px;
-                font-family: Arial, sans-serif;
+                font-family: 'Arial', sans-serif;
                 display: flex;
                 justify-content: center;
+                align-items: center;
             }}
+            
             .recibo-paper {{
                 width: 210mm;
                 background: white;
-                padding: 10mm;
+                padding: 8mm;
                 box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                font-family: 'Arial', sans-serif;
             }}
-            .header {{ text-align: center; margin-bottom: 15px; }}
-            .header h1 {{ font-size: 24px; }}
-            .header h2 {{ font-size: 18px; }}
-            .os-info {{ margin: 15px 0; padding: 10px; border: 1px solid #333; }}
-            .equipment-table {{
+            
+            .header {{
+                text-align: center;
+                margin-bottom: 10px;
+            }}
+            
+            .header h1 {{
+                font-size: 22px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }}
+            
+            .header h2 {{
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 3px;
+            }}
+            
+            .os-number {{
+                text-align: right;
+                font-size: 12px;
+                margin: 8px 0;
+                font-weight: bold;
+            }}
+            
+            .event-info {{
+                margin: 10px 0;
+                font-size: 11px;
+            }}
+            
+            .event-info p {{
+                margin: 2px 0;
+            }}
+            
+            .event-info strong {{
+                font-weight: bold;
+            }}
+            
+            .category-table {{
                 width: 100%;
                 border-collapse: collapse;
-                margin: 15px 0;
+                margin-bottom: 15px;
+                font-size: 10px;
             }}
-            .equipment-table th, .equipment-table td {{
+            
+            .category-table th {{
                 border: 1px solid #000;
-                padding: 8px;
-                text-align: left;
+                padding: 5px;
+                background: #f0f0f0;
+                text-align: center;
+                font-weight: bold;
             }}
-            .equipment-table th {{ background: #f0f0f0; }}
+            
+            .category-table td {{
+                border: 1px solid #000;
+                padding: 4px;
+                vertical-align: top;
+            }}
+            
+            .category-title {{
+                background: #e0e0e0;
+                font-weight: bold;
+                text-align: center;
+            }}
+            
+            .observation-cell {{
+                width: 20%;
+            }}
+            
+            .item-cell {{
+                width: 8%;
+                text-align: center;
+            }}
+            
+            .desc-cell {{
+                width: 30%;
+            }}
+            
+            .qtd-cell {{
+                width: 10%;
+                text-align: center;
+            }}
+            
             .signatures {{
                 display: flex;
                 justify-content: space-between;
-                margin: 30px 0;
+                margin: 20px 0 15px 0;
+                flex-wrap: wrap;
             }}
-            .signature-box {{ width: 45%; text-align: center; }}
+            
+            .signature-box {{
+                width: 45%;
+                text-align: center;
+            }}
+            
             .signature-line {{
                 border-top: 1px solid #000;
-                margin-top: 40px;
+                margin-top: 30px;
                 padding-top: 5px;
+                font-size: 10px;
             }}
+            
             .footer {{
                 text-align: center;
-                font-size: 10px;
+                font-size: 9px;
                 color: #666;
-                margin-top: 20px;
+                margin-top: 15px;
             }}
+            
             .print-button {{
                 text-align: center;
                 margin-bottom: 20px;
             }}
+            
             .print-button button {{
                 background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
                 color: white;
@@ -363,43 +588,92 @@ def exibir_recibo(os_info: Dict):
                 cursor: pointer;
                 font-weight: bold;
             }}
+            
+            .highlight {{
+                background-color: #ffffcc;
+                font-weight: bold;
+            }}
         </style>
     </head>
     <body>
         <div class="print-button no-print">
             <button onclick="window.print()">🖨️ Imprimir OS</button>
         </div>
+        
         <div class="recibo-paper">
             <div class="header">
-                <h1>P10 SOLUÇÕES EM EVENTOS</h1>
+                <h1>10 SOLUCOES EM EVENTOS</h1>
                 <h2>ORDEM DE SERVIÇO (OS)</h2>
             </div>
-            <div class="os-info">
-                <p><strong>Nº OS:</strong> {os_info['id']:04d}</p>
-                <p><strong>Data de Emissão:</strong> {datetime.now().strftime('%d/%m/%Y')}</p>
-                <p><strong>Evento/Cliente:</strong> {os_info['destino']}</p>
-                <p><strong>Responsável:</strong> {os_info['responsavel']}</p>
-                <p><strong>Previsão de Retorno:</strong> {os_info['data_retorno']}</p>
+            
+            <div class="os-number">
+                <strong>Nº OS:</strong> {os_info['id']:04d} &nbsp;&nbsp; <strong>Data:</strong> {datetime.now().strftime('%d/%m/%Y')}
             </div>
-            <table class="equipment-table">
-                <thead><tr><th>CATEGORIA</th><th>DESCRIÇÃO</th><th>QTD</th><th>OBS</th></tr></thead>
-                <tbody><tr><td style="font-weight:bold">{os_info['categoria'].upper()}</td><td style="font-weight:bold">{os_info['material'].upper()}</td><td style="text-align:center; font-weight:bold">{os_info['quantidade']}</td><td style="text-align:center">-</td></tr>
+            
+            <div class="event-info">
+                <p><strong>DADOS DO EVENTO</strong></p>
+                <p><strong>Evento:</strong> {os_info['destino']}</p>
+                <p><strong>Responsável Técnico:</strong> {os_info['responsavel']}</p>
+                <p><strong>Data de Retorno:</strong> {os_info['data_retorno']}</p>
+            </div>
+            
+            <!-- TABELA DE ITENS RETIRADOS -->
+            <table class="category-table">
+                <thead>
+                    <tr class="category-title">
+                        <th class="item-cell">ITEM</th>
+                        <th class="desc-cell">CATEGORIA</th>
+                        <th class="desc-cell">DESCRIÇÃO DO EQUIPAMENTO</th>
+                        <th class="qtd-cell">QTD</th>
+                        <th class="observation-cell">OBSERVAÇÃO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {itens_html}
                 </tbody>
             </table>
-            <div class="signatures">
-                <div class="signature-box"><div class="signature-line">Assinatura do Responsável</div><div><strong>Nome:</strong> {os_info['responsavel']}</div></div>
-                <div class="signature-box"><div class="signature-line">Assinatura P10 Soluções</div><div><strong>Autorizado por:</strong> Administração</div></div>
+            
+            <div style="margin: 10px 0; padding: 8px; border: 1px solid #ddd; background: #fafafa;">
+                <strong>📋 OBSERVAÇÕES GERAIS:</strong><br>
+                <span style="font-size: 9px;">• Os equipamentos devem ser devolvidos nas mesmas condições de retirada<br>
+                • Em caso de danos ou perdas, o responsável será notificado<br>
+                • A não devolução no prazo implicará em multa conforme contrato</span>
             </div>
-            <div class="footer"><p>Documento gerado eletronicamente em {datetime.now().strftime('%d/%m/%Y %H:%M')}</p></div>
+            
+            <div class="signatures">
+                <div class="signature-box">
+                    <div class="signature-line">
+                        ___________________________________<br>
+                        Assinatura do Responsável pela Retirada
+                    </div>
+                    <div style="font-size: 10px; margin-top: 5px;">
+                        <strong>Nome:</strong> {os_info['responsavel']}
+                    </div>
+                </div>
+                <div class="signature-box">
+                    <div class="signature-line">
+                        ___________________________________<br>
+                        Assinatura P10 Soluções
+                    </div>
+                    <div style="font-size: 10px; margin-top: 5px;">
+                        <strong>Autorizado por:</strong> Administração
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>P10 Soluções em Eventos - Porto Alegre/RS</p>
+                <p>Documento gerado eletronicamente em {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
+            </div>
         </div>
     </body>
     </html>
     """
-    components.html(html_recibo, height=600, scrolling=True)
+    components.html(html_recibo, height=700, scrolling=True)
 
 
 def tela_login():
-    """Interface de login"""
+    """Interface de login com recuperação de senha"""
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown("""
@@ -415,7 +689,7 @@ def tela_login():
         
         st.markdown("<br>", unsafe_allow_html=True)
         
-        tabs = st.tabs(["🔒 Entrar", "👤 Criar Usuário", "🔑 Alterar Senha"])
+        tabs = st.tabs(["🔒 Entrar", "👤 Criar Usuário", "🔑 Alterar Senha", "🆘 Recuperar Senha"])
         
         with tabs[0]:
             with st.form("login_form"):
@@ -435,10 +709,11 @@ def tela_login():
                 st.info("📝 Cadastre um novo operador")
                 novo_usuario = st.text_input("Nome de Usuário (mínimo 3 caracteres)")
                 nova_senha = st.text_input("Senha (mínimo 6 caracteres)", type="password")
+                email_recuperacao = st.text_input("Email para recuperação de senha")
                 
                 if st.form_submit_button("Criar Conta", use_container_width=True):
                     sucesso, mensagem = AuthSystem.criar_usuario(
-                        novo_usuario, nova_senha, st.session_state.dados
+                        novo_usuario, nova_senha, email_recuperacao, st.session_state.dados
                     )
                     if sucesso:
                         DatabaseManager.salvar_dados(st.session_state.dados)
@@ -448,7 +723,7 @@ def tela_login():
         
         with tabs[2]:
             with st.form("alterar_senha_form"):
-                st.info("🔐 Altere sua senha")
+                st.info("🔐 Altere sua senha (você precisa saber a senha atual)")
                 usuario_alt = st.text_input("Usuário")
                 senha_atual = st.text_input("Senha Atual", type="password")
                 nova_senha1 = st.text_input("Nova Senha", type="password")
@@ -466,6 +741,40 @@ def tela_login():
                             st.success(f"✅ {mensagem}")
                         else:
                             st.error(f"❌ {mensagem}")
+        
+        with tabs[3]:
+            st.info("🆘 Esqueceu sua senha? Recupere aqui!")
+            
+            with st.form("recuperar_senha_form"):
+                usuario_rec = st.text_input("Usuário")
+                
+                if st.form_submit_button("Enviar Código de Recuperação", use_container_width=True):
+                    if usuario_rec in st.session_state.dados["usuarios"]:
+                        codigo = AuthSystem.gerar_codigo_recuperacao(usuario_rec, st.session_state.dados)
+                        st.success(f"✅ Código de recuperação gerado: **{codigo}**")
+                        st.info("💡 Anote este código e use no próximo passo!")
+                    else:
+                        st.error("❌ Usuário não encontrado")
+            
+            with st.form("redefinir_senha_form"):
+                st.markdown("---")
+                usuario_red = st.text_input("Usuário")
+                codigo_red = st.text_input("Código de Recuperação")
+                nova_senha_red = st.text_input("Nova Senha", type="password")
+                confirmar_senha_red = st.text_input("Confirmar Nova Senha", type="password")
+                
+                if st.form_submit_button("Redefinir Senha", use_container_width=True):
+                    if nova_senha_red != confirmar_senha_red:
+                        st.error("❌ As senhas não coincidem")
+                    elif AuthSystem.verificar_codigo(usuario_red, codigo_red, st.session_state.dados):
+                        sucesso, mensagem = AuthSystem.redefinir_senha(usuario_red, nova_senha_red, st.session_state.dados)
+                        if sucesso:
+                            DatabaseManager.salvar_dados(st.session_state.dados)
+                            st.success(f"✅ {mensagem}")
+                        else:
+                            st.error(f"❌ {mensagem}")
+                    else:
+                        st.error("❌ Código inválido")
 
 
 def painel_geral(dados: Dict):
@@ -527,9 +836,18 @@ def painel_geral(dados: Dict):
     st.subheader("⚠️ Materiais em Eventos")
     pendentes = [os for os in dados["ordens_servico"] if os["status"] == "Pendente"]
     if pendentes:
-        df_pendentes = pd.DataFrame(pendentes)
-        st.dataframe(df_pendentes[["id", "destino", "material", "quantidade", "data_retorno"]], 
-                    use_container_width=True, hide_index=True)
+        dados_pendentes = []
+        for os_item in pendentes:
+            for item in os_item["itens"]:
+                dados_pendentes.append({
+                    "OS": os_item["id"],
+                    "Evento": os_item["destino"],
+                    "Material": item["material"].upper(),
+                    "Quantidade": item["quantidade"],
+                    "Retorno": os_item["data_retorno"]
+                })
+        df_pendentes = pd.DataFrame(dados_pendentes)
+        st.dataframe(df_pendentes, use_container_width=True, hide_index=True)
     else:
         st.success("✅ Todos os materiais estão em estoque!")
 
@@ -604,7 +922,7 @@ def tela_estoque(dados: Dict):
 
 
 def tela_nova_os(dados: Dict):
-    """Gerar nova Ordem de Serviço"""
+    """Gerar nova Ordem de Serviço com múltiplos itens"""
     st.header("📝 Gerar Nova Ordem de Serviço")
     
     with st.expander("🔍 Ver estoque completo"):
@@ -622,69 +940,55 @@ def tela_nova_os(dados: Dict):
             st.rerun()
         return
     
-    if 'categoria_atual' not in st.session_state:
+    # Inicializar lista de itens na sessão
+    if 'lista_itens_os' not in st.session_state:
+        st.session_state.lista_itens_os = []
+    
+    # Seleção de itens
+    st.subheader("➕ Adicionar Itens à OS")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        # Selecionar categoria
         categorias_com_estoque = [cat for cat, itens in dados["materiais"].items() if itens]
-        st.session_state.categoria_atual = categorias_com_estoque[0] if categorias_com_estoque else None
-    if 'equipamento_key' not in st.session_state:
-        st.session_state.equipamento_key = 0
-    
-    categorias_com_estoque = [cat for cat, itens in dados["materiais"].items() if itens]
-    
-    categoria = st.selectbox(
-        "Selecione a Categoria", 
-        categorias_com_estoque,
-        index=categorias_com_estoque.index(st.session_state.categoria_atual) if st.session_state.categoria_atual in categorias_com_estoque else 0,
-        key="categoria_selector"
-    )
-    
-    if categoria != st.session_state.categoria_atual:
-        st.session_state.categoria_atual = categoria
-        st.session_state.equipamento_key += 1
-        st.rerun()
-    
-    if categoria in dados["materiais"]:
-        itens_disponiveis = list(dados["materiais"][categoria].keys())
+        categoria = st.selectbox("Categoria", categorias_com_estoque, key="cat_selector")
         
-        if itens_disponiveis:
-            opcoes_equipamentos = ["(Selecione um equipamento)"] + [item.upper() for item in itens_disponiveis]
-            
-            equipamento_display = st.selectbox(
-                "Selecione o Equipamento",
-                opcoes_equipamentos,
-                key=f"equipamento_selector_{st.session_state.equipamento_key}",
-                index=0
-            )
-            
-            if equipamento_display != "(Selecione um equipamento)":
-                material = None
-                for item in itens_disponiveis:
-                    if item.upper() == equipamento_display:
-                        material = item
-                        break
-                
+        if categoria in dados["materiais"]:
+            itens_disponiveis = list(dados["materiais"][categoria].keys())
+            if itens_disponiveis:
+                material = st.selectbox("Equipamento", itens_disponiveis, key="mat_selector")
                 if material:
                     qtd_max = dados["materiais"][categoria][material]
-                    quantidade = st.number_input(
-                        f"Quantidade (Disponível: {qtd_max})",
-                        min_value=1,
-                        max_value=qtd_max,
-                        value=1,
-                        key="quantidade_selector"
-                    )
-                else:
-                    material = None
-                    quantidade = 0
-            else:
-                material = None
-                quantidade = 0
-                st.info("👆 Selecione um equipamento para continuar")
-        else:
-            st.warning(f"⚠️ Nenhum equipamento na categoria {categoria}")
-            material = None
-            quantidade = 0
-    else:
-        material = None
-        quantidade = 0
+                    quantidade = st.number_input("Quantidade", min_value=1, max_value=qtd_max, value=1, key="qtd_selector")
+    
+    with col2:
+        if st.button("➕ Adicionar Item à Lista", use_container_width=True):
+            if material and quantidade > 0:
+                st.session_state.lista_itens_os.append({
+                    "categoria": categoria,
+                    "material": material,
+                    "quantidade": quantidade
+                })
+                st.success(f"✅ Item adicionado: {material.upper()} - {quantidade}x")
+                st.rerun()
+    
+    # Exibir lista de itens
+    if st.session_state.lista_itens_os:
+        st.subheader("📋 Itens da OS")
+        
+        # Criar dataframe para exibir
+        df_itens = pd.DataFrame(st.session_state.lista_itens_os)
+        df_itens.columns = ["Categoria", "Material", "Quantidade"]
+        st.dataframe(df_itens, use_container_width=True, hide_index=True)
+        
+        # Botão para limpar lista
+        if st.button("🗑️ Limpar Lista", use_container_width=True):
+            st.session_state.lista_itens_os = []
+            st.rerun()
+    
+    # Dados da OS
+    st.subheader("📋 Dados da OS")
     
     with st.form("dados_os_form"):
         col1, col2 = st.columns(2)
@@ -696,28 +1000,27 @@ def tela_nova_os(dados: Dict):
             evento = st.text_input("Evento / Cliente")
             responsavel = st.text_input("Técnico Responsável")
         
-        botao_disabled = material is None
+        botao_disabled = len(st.session_state.lista_itens_os) == 0
         
         submitted = st.form_submit_button("✅ Gerar OS", use_container_width=True, disabled=botao_disabled)
         
         if submitted:
-            if not all([evento, responsavel, material]):
+            if not all([evento, responsavel]):
                 st.error("❌ Preencha todos os campos")
-            elif quantidade <= 0:
-                st.error("❌ Quantidade inválida")
             else:
                 data_br = data_retorno.strftime("%d/%m/%Y")
                 nova_os = OSManager.gerar_os(
-                    categoria, material, quantidade, evento, responsavel, data_br, dados
+                    st.session_state.lista_itens_os.copy(), evento, responsavel, data_br, dados
                 )
                 if nova_os and DatabaseManager.salvar_dados(dados):
                     st.success(f"✅ OS #{nova_os['id']} gerada com sucesso!")
                     st.session_state.ultima_os = nova_os
-                    st.session_state.equipamento_key += 1
+                    st.session_state.lista_itens_os = []  # Limpar lista
                     st.rerun()
                 else:
                     st.error("❌ Erro ao gerar OS - Estoque insuficiente")
     
+    # Exibir recibo
     if 'ultima_os' in st.session_state:
         st.markdown("---")
         st.subheader("📄 Visualização da OS")
@@ -743,8 +1046,11 @@ def tela_baixa(dados: Dict):
     
     st.subheader("Selecionar OS para baixa")
     
-    opcoes_os = {f"OS #{os['id']} - {os['destino']} - {os['material']}": os['id'] 
-                 for os in os_ativas}
+    opcoes_os = {}
+    for os_item in os_ativas:
+        # Mostrar resumo dos itens
+        itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+        opcoes_os[f"OS #{os_item['id']} - {os_item['destino']} - {itens_resumo}"] = os_item['id']
     
     os_selecionada = st.selectbox("Ordem de Serviço", list(opcoes_os.keys()))
     id_os = opcoes_os[os_selecionada]
@@ -752,12 +1058,12 @@ def tela_baixa(dados: Dict):
     os_info = next(os for os in os_ativas if os['id'] == id_os)
     
     with st.expander("📋 Detalhes da OS"):
-        col1, col2 = st.columns(2)
-        col1.write(f"**Material:** {os_info['material'].upper()}")
-        col1.write(f"**Quantidade:** {os_info['quantidade']}")
-        col2.write(f"**Evento:** {os_info['destino']}")
-        col2.write(f"**Responsável:** {os_info['responsavel']}")
-        col2.write(f"**Retorno previsto:** {os_info['data_retorno']}")
+        st.write(f"**Evento:** {os_info['destino']}")
+        st.write(f"**Responsável:** {os_info['responsavel']}")
+        st.write(f"**Retorno previsto:** {os_info['data_retorno']}")
+        st.write("**Itens retirados:**")
+        for item in os_info["itens"]:
+            st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
     
     if st.button("✅ Confirmar Retorno do Material", type="primary", use_container_width=True):
         sucesso, mensagem = OSManager.dar_baixa(id_os, dados)
@@ -790,16 +1096,18 @@ def tela_historico_os(dados: Dict):
     with tab1:
         if os_abertas:
             for i, os_item in enumerate(os_abertas):
-                with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']}"):
+                itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']} - {itens_resumo}"):
                     col_info1, col_info2 = st.columns(2)
                     with col_info1:
-                        st.write(f"**Material:** {os_item['material'].upper()}")
-                        st.write(f"**Quantidade:** {os_item['quantidade']}")
-                        st.write(f"**Categoria:** {os_item['categoria']}")
-                    with col_info2:
                         st.write(f"**Responsável:** {os_item['responsavel']}")
                         st.write(f"**Retorno:** {os_item['data_retorno']}")
+                    with col_info2:
                         st.write(f"**Emissão:** {os_item['data_emissao']}")
+                    
+                    st.write("**Itens:**")
+                    for item in os_item["itens"]:
+                        st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
                     
                     c1, c2, c3 = st.columns(3)
                     with c1:
@@ -813,11 +1121,14 @@ def tela_historico_os(dados: Dict):
                                 st.rerun()
                     with c3:
                         if st.button("🗑️ Cancelar", key=f"cancel_{i}_{os_item['id']}"):
-                            cat = os_item["categoria"]
-                            mat = os_item["material"]
-                            if cat not in dados["materiais"]:
-                                dados["materiais"][cat] = {}
-                            dados["materiais"][cat][mat] = dados["materiais"][cat].get(mat, 0) + os_item["quantidade"]
+                            # Devolver todos os itens ao estoque
+                            for item in os_item["itens"]:
+                                cat = item["categoria"]
+                                mat = item["material"]
+                                qtd = item["quantidade"]
+                                if cat not in dados["materiais"]:
+                                    dados["materiais"][cat] = {}
+                                dados["materiais"][cat][mat] = dados["materiais"][cat].get(mat, 0) + qtd
                             dados["ordens_servico"].remove(os_item)
                             DatabaseManager.salvar_dados(dados)
                             st.success(f"OS #{os_item['id']} cancelada!")
@@ -828,13 +1139,12 @@ def tela_historico_os(dados: Dict):
     with tab2:
         if os_fechadas:
             for i, os_item in enumerate(os_fechadas):
-                with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']}"):
+                itens_resumo = ", ".join([f"{item['material']}({item['quantidade']})" for item in os_item["itens"]])
+                with st.expander(f"OS #{os_item['id']:04d} - {os_item['destino']} - {itens_resumo}"):
                     col_f1, col_f2 = st.columns(2)
                     with col_f1:
-                        st.write(f"**Material:** {os_item['material'].upper()}")
-                        st.write(f"**Quantidade:** {os_item['quantidade']}")
-                    with col_f2:
                         st.write(f"**Responsável:** {os_item['responsavel']}")
+                    with col_f2:
                         st.write(f"**Finalizada em:** {os_item.get('data_baixa', 'N/A')}")
                     
                     if st.button("🖨️ Reimprimir", key=f"reprint_{i}_{os_item['id']}", use_container_width=True):
