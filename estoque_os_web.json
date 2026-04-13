@@ -14,7 +14,8 @@
             "multivia": 30
         },
         "Som": {
-            "jbl": 999999999
+            "jbl": 999999999,
+            "caixa jbl": 1
         }
     },
     "ordens_servico": [
@@ -158,8 +159,9 @@
             "destino": "IGREJA",
             "responsavel": "ESTER",
             "data_retorno": "10/04/2026",
-            "status": "Pendente",
-            "data_emissao": "10/04/2026 21:11"
+            "status": "Finalizada",
+            "data_emissao": "10/04/2026 21:11",
+            "data_baixa": "13/04/2026 20:29"
         },
         {
             "id": 13,
