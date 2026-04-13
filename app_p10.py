@@ -234,14 +234,43 @@ def aplicar_css():
         }
     }
     
+    /* Garantir que o texto fique visível em ambos os temas */
     .stApp {
         background: linear-gradient(135deg, rgba(255, 69, 0, 0.05) 0%, 
                     rgba(50, 205, 50, 0.05) 50%, rgba(0, 191, 255, 0.05) 100%);
     }
     
+    /* Forçar cor do texto para escuro (visível no tema claro) */
+    .stMarkdown, .stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3,
+    .stText, .stText p, div[data-testid="stMarkdownContainer"] p {
+        color: #333333 !important;
+    }
+    
+    /* Títulos com gradiente */
+    h1, h2, h3 {
+        background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    /* Sidebar com texto escuro */
+    [data-testid="stSidebar"] {
+        background-color: #f8f9fa;
+        border-right: 1px solid #e9ecef;
+    }
+    
+    [data-testid="stSidebar"] .stMarkdown, 
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] h2 {
+        color: #333333 !important;
+        -webkit-text-fill-color: #333333 !important;
+    }
+    
+    /* Botões */
     div.stButton > button:first-child {
         background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
-        color: white;
+        color: white !important;
         border: none;
         border-radius: 8px;
         font-weight: bold;
@@ -254,33 +283,33 @@ def aplicar_css():
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     
-    [data-testid="stSidebar"] {
-        background-color: #f8f9fa;
-        border-right: 1px solid #e9ecef;
+    /* Métricas */
+    [data-testid="stMetricValue"] {
+        color: #333333 !important;
     }
     
-    .success-card {
-        padding: 15px;
-        border-radius: 10px;
-        background-color: #d4edda;
-        border-left: 5px solid #28a745;
-        margin-bottom: 20px;
+    [data-testid="stMetricLabel"] {
+        color: #666666 !important;
     }
     
-    .info-card {
-        padding: 15px;
-        border-radius: 10px;
-        background-color: #d1ecf1;
-        border-left: 5px solid #17a2b8;
-        margin-bottom: 20px;
+    /* Dataframes */
+    .stDataFrame, .dataframe {
+        color: #333333 !important;
     }
     
-    .warning-card {
-        padding: 15px;
-        border-radius: 10px;
-        background-color: #fff3cd;
-        border-left: 5px solid #ffc107;
-        margin-bottom: 20px;
+    /* Expanders */
+    .streamlit-expanderHeader {
+        color: #333333 !important;
+    }
+    
+    /* Inputs */
+    .stTextInput input, .stSelectbox select, .stNumberInput input {
+        color: #333333 !important;
+    }
+    
+    /* Info/Warning/Success boxes */
+    .stInfo, .stSuccess, .stWarning, .stError {
+        color: #333333 !important;
     }
     </style>
     """
