@@ -18,7 +18,7 @@ CATEGORIAS = ["Som", "Luz", "Painel de LED", "Sistema de AC", "Cabos", "Estrutur
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="P10 Soluções - Gestão OS",
-    page_icon="logo.ico",
+    page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -136,14 +136,14 @@ class AuthSystem:
     
     @staticmethod
     def gerar_codigo_recuperacao(usuario: str, dados: Dict) -> str:
-        """Gera código de recuperação de 6 dígitos"""
+        """Gera código de recuperação de 6 dígitos e pergunta dados de verificação"""
         codigo = str(random.randint(100000, 999999))
         
         if "recuperacao_senha" not in dados:
             dados["recuperacao_senha"] = {}
         
         if usuario not in dados["recuperacao_senha"]:
-            dados["recuperacao_senha"][usuario] = {"codigo": None}
+            dados["recuperacao_senha"][usuario] = {"codigo": None, "pergunta_seguranca": "Data de nascimento do responsável", "resposta": None}
         
         dados["recuperacao_senha"][usuario]["codigo"] = codigo
         DatabaseManager.salvar_dados(dados)
@@ -158,6 +158,26 @@ class AuthSystem:
         if usuario not in dados["recuperacao_senha"]:
             return False
         return dados["recuperacao_senha"][usuario].get("codigo") == codigo
+    
+    @staticmethod
+    def verificar_resposta_seguranca(usuario: str, resposta: str, dados: Dict) -> bool:
+        """Verifica a resposta de segurança para recuperação de senha"""
+        if "recuperacao_senha" not in dados:
+            return False
+        if usuario not in dados["recuperacao_senha"]:
+            return False
+        resposta_correta = dados["recuperacao_senha"][usuario].get("resposta")
+        return resposta_correta is not None and resposta_correta.lower() == resposta.lower()
+    
+    @staticmethod
+    def definir_resposta_seguranca(usuario: str, resposta: str, dados: Dict) -> None:
+        """Define a resposta de segurança para o usuário (deve ser feito no primeiro login)"""
+        if "recuperacao_senha" not in dados:
+            dados["recuperacao_senha"] = {}
+        if usuario not in dados["recuperacao_senha"]:
+            dados["recuperacao_senha"][usuario] = {}
+        dados["recuperacao_senha"][usuario]["resposta"] = resposta
+        DatabaseManager.salvar_dados(dados)
     
     @staticmethod
     def redefinir_senha(usuario: str, nova_senha: str, dados: Dict) -> tuple[bool, str]:
@@ -300,13 +320,19 @@ def exibir_recibo(os_info: Dict):
     
     itens_html = ""
     for i, item in enumerate(os_info["itens"], 1):
+        observacao = item.get("observacao", "")
+        if observacao:
+            observacao_display = observacao
+        else:
+            observacao_display = "-"
+        
         itens_html += f"""
         <tr>
             <td class="item-cell">{i}</td>
             <td class="desc-cell">{item['categoria'].upper()}</td>
             <td class="desc-cell">{item['material'].upper()}</td>
             <td class="qtd-cell">{item['quantidade']}</td>
-            <td class="observation-cell">-</td>
+            <td class="observation-cell">{observacao_display}</td>
         </tr>
         """
     
@@ -371,9 +397,9 @@ def exibir_recibo(os_info: Dict):
             </div>
             
             <table class="category-table">
-                <thead><tr class="category-title"><th class="item-cell">ITEM</th><th class="desc-cell">CATEGORIA</th><th class="desc-cell">DESCRIÇÃO</th><th class="qtd-cell">QTD</th><th class="observation-cell">OBS</th></tr></thead>
+                <thead><tr class="category-title"><th class="item-cell">ITEM</th><th class="desc-cell">CATEGORIA</th><th class="desc-cell">DESCRIÇÃO</th><th class="qtd-cell">QTD</th><th class="observation-cell">OBSERVAÇÃO</th></tr></thead>
                 <tbody>{itens_html}</tbody>
-             </table>
+            追赶
             
             <div style="margin: 10px 0; padding: 8px; border: 1px solid #ddd; background: #fafafa;">
                 <strong>📋 OBSERVAÇÕES GERAIS:</strong><br>
@@ -394,7 +420,7 @@ def exibir_recibo(os_info: Dict):
 
 
 def tela_login():
-    """Interface de login com recuperação de senha"""
+    """Interface de login com recuperação de senha segura"""
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown("""
@@ -410,7 +436,7 @@ def tela_login():
         
         st.markdown("<br>", unsafe_allow_html=True)
         
-        tabs = st.tabs(["🔒 Entrar", "🆘 Recuperar Senha"])
+        tabs = st.tabs(["🔒 Entrar", "🆘 Recuperar Senha", "🔐 Configurar Segurança"])
         
         with tabs[0]:
             with st.form("login_form"):
@@ -419,6 +445,10 @@ def tela_login():
                 
                 if st.form_submit_button("Acessar Painel", use_container_width=True):
                     if AuthSystem.verificar_login(usuario, senha, st.session_state.dados):
+                        # Verificar se tem resposta de segurança configurada
+                        if "recuperacao_senha" not in st.session_state.dados or usuario not in st.session_state.dados["recuperacao_senha"] or not st.session_state.dados["recuperacao_senha"][usuario].get("resposta"):
+                            st.session_state.configurar_seguranca = usuario
+                            st.warning("⚠️ Por favor, configure sua resposta de segurança no próximo acesso!")
                         st.session_state.logado = True
                         st.session_state.usuario_atual = usuario
                         st.rerun()
@@ -426,16 +456,20 @@ def tela_login():
                         st.error("❌ Usuário ou senha incorretos")
         
         with tabs[1]:
-            st.info("🆘 Esqueceu sua senha? Recupere aqui!")
+            st.info("🆘 Recuperação de Senha - Você precisará da resposta de segurança cadastrada")
             
             with st.form("recuperar_senha_form"):
                 usuario_rec = st.text_input("Usuário")
+                resposta_seguranca = st.text_input("Resposta de segurança (Data de nascimento do responsável)", type="password")
                 
-                if st.form_submit_button("Enviar Código de Recuperação", use_container_width=True):
+                if st.form_submit_button("Verificar Resposta e Enviar Código", use_container_width=True):
                     if usuario_rec in st.session_state.dados["usuarios"]:
-                        codigo = AuthSystem.gerar_codigo_recuperacao(usuario_rec, st.session_state.dados)
-                        st.success(f"✅ Código de recuperação gerado: **{codigo}**")
-                        st.info("💡 Anote este código e use no próximo passo!")
+                        if AuthSystem.verificar_resposta_seguranca(usuario_rec, resposta_seguranca, st.session_state.dados):
+                            codigo = AuthSystem.gerar_codigo_recuperacao(usuario_rec, st.session_state.dados)
+                            st.success(f"✅ Código de recuperação gerado: **{codigo}**")
+                            st.info("💡 Anote este código e use no próximo passo! Ele expira após uso.")
+                        else:
+                            st.error("❌ Resposta de segurança incorreta! Contate o administrador.")
                     else:
                         st.error("❌ Usuário não encontrado")
             
@@ -454,10 +488,33 @@ def tela_login():
                         if sucesso:
                             DatabaseManager.salvar_dados(st.session_state.dados)
                             st.success(f"✅ {mensagem}")
+                            st.info("🔑 Use sua nova senha para fazer login!")
                         else:
                             st.error(f"❌ {mensagem}")
                     else:
                         st.error("❌ Código inválido")
+        
+        with tabs[2]:
+            st.info("🔐 Configure sua resposta de segurança (necessário para recuperar senha)")
+            
+            with st.form("configurar_seguranca_form"):
+                usuario_conf = st.text_input("Usuário")
+                senha_conf = st.text_input("Senha para confirmar identidade", type="password")
+                resposta_conf = st.text_input("Resposta de segurança (Ex: 01/01/1990 ou nome do responsável)", type="password")
+                confirmar_resposta = st.text_input("Confirmar resposta de segurança", type="password")
+                
+                if st.form_submit_button("Configurar Resposta de Segurança", use_container_width=True):
+                    if not AuthSystem.verificar_login(usuario_conf, senha_conf, st.session_state.dados):
+                        st.error("❌ Usuário ou senha incorretos")
+                    elif resposta_conf != confirmar_resposta:
+                        st.error("❌ As respostas de segurança não coincidem")
+                    elif len(resposta_conf) < 3:
+                        st.error("❌ Resposta de segurança deve ter pelo menos 3 caracteres")
+                    else:
+                        AuthSystem.definir_resposta_seguranca(usuario_conf, resposta_conf, st.session_state.dados)
+                        DatabaseManager.salvar_dados(st.session_state.dados)
+                        st.success("✅ Resposta de segurança configurada com sucesso!")
+                        st.info("Agora você pode recuperar sua senha usando esta resposta.")
 
 
 def painel_geral(dados: Dict):
@@ -605,7 +662,7 @@ def tela_estoque(dados: Dict):
 
 
 def tela_nova_os(dados: Dict):
-    """Gerar nova Ordem de Serviço com múltiplos itens"""
+    """Gerar nova Ordem de Serviço com múltiplos itens e observação"""
     st.header("📝 Gerar Nova Ordem de Serviço")
     
     with st.expander("🔍 Ver estoque completo"):
@@ -643,12 +700,15 @@ def tela_nova_os(dados: Dict):
                     quantidade = st.number_input("Quantidade", min_value=1, max_value=qtd_max, value=1, key="qtd_selector")
     
     with col2:
+        observacao = st.text_area("Observação (opcional)", placeholder="Digite uma observação para este item...", key="obs_selector", height=100)
+        
         if st.button("➕ Adicionar Item à Lista", use_container_width=True):
             if material and quantidade > 0:
                 st.session_state.lista_itens_os.append({
                     "categoria": categoria,
                     "material": material,
-                    "quantidade": quantidade
+                    "quantidade": quantidade,
+                    "observacao": observacao if observacao else ""
                 })
                 st.success(f"✅ Item adicionado: {material.upper()} - {quantidade}x")
                 st.rerun()
@@ -656,7 +716,7 @@ def tela_nova_os(dados: Dict):
     if st.session_state.lista_itens_os:
         st.subheader("📋 Itens da OS")
         df_itens = pd.DataFrame(st.session_state.lista_itens_os)
-        df_itens.columns = ["Categoria", "Material", "Quantidade"]
+        df_itens.columns = ["Categoria", "Material", "Quantidade", "Observação"]
         st.dataframe(df_itens, use_container_width=True, hide_index=True)
         
         if st.button("🗑️ Limpar Lista", use_container_width=True):
@@ -736,7 +796,8 @@ def tela_baixa(dados: Dict):
         st.write(f"**Retorno previsto:** {os_info['data_retorno']}")
         st.write("**Itens retirados:**")
         for item in os_info["itens"]:
-            st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
+            obs = f" - Obs: {item['observacao']}" if item.get("observacao") else ""
+            st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x{obs}")
     
     if st.button("✅ Confirmar Retorno do Material", type="primary", use_container_width=True):
         sucesso, mensagem = OSManager.dar_baixa(id_os, dados)
@@ -780,7 +841,8 @@ def tela_historico_os(dados: Dict):
                     
                     st.write("**Itens:**")
                     for item in os_item["itens"]:
-                        st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x")
+                        obs = f" - Obs: {item['observacao']}" if item.get("observacao") else ""
+                        st.write(f"  - {item['categoria']} / {item['material'].upper()}: {item['quantidade']}x{obs}")
                     
                     c1, c2, c3 = st.columns(3)
                     with c1:
@@ -885,6 +947,24 @@ def main():
     if not st.session_state.logado:
         tela_login()
         return
+    
+    # Verificar se precisa configurar segurança
+    if hasattr(st.session_state, 'configurar_seguranca'):
+        usuario = st.session_state.configurar_seguranca
+        st.warning(f"⚠️ Usuário {usuario}, por favor configure sua resposta de segurança!")
+        with st.form("config_seguranca_obrigatoria"):
+            resposta = st.text_input("Resposta de segurança (Data de nascimento do responsável ou palavra-chave)", type="password")
+            confirmar = st.text_input("Confirmar resposta de segurança", type="password")
+            if st.form_submit_button("Salvar Resposta de Segurança"):
+                if resposta and confirmar and resposta == confirmar:
+                    AuthSystem.definir_resposta_seguranca(usuario, resposta, st.session_state.dados)
+                    DatabaseManager.salvar_dados(st.session_state.dados)
+                    del st.session_state.configurar_seguranca
+                    st.success("✅ Resposta de segurança configurada!")
+                    st.rerun()
+                else:
+                    st.error("❌ As respostas não coincidem ou estão vazias")
+        st.stop()
     
     menu = barra_lateral()
     
