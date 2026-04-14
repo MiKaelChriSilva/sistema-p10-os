@@ -319,123 +319,163 @@ def aplicar_css():
 
 # --- FUNÇÕES DE UI ---
 def exibir_recibo(os_info: Dict):
-    """Exibe recibo IDÊNTICO ao PDF com todas as tabelas organizadas por categoria"""
-    
-    # Organizar os itens por categoria para preencher as tabelas corretas
-    itens_por_categoria = {}
-    for item in os_info["itens"]:
-        cat = item['categoria'].upper()
-        if cat not in itens_por_categoria:
-            itens_por_categoria[cat] = []
-        itens_por_categoria[cat].append(item)
-    
-    # Função para gerar linhas de uma tabela
-    def gerar_linhas_tabela(itens_categoria, tem_observacao=True):
-        linhas = ""
-        for i, item in enumerate(itens_categoria, 1):
-            obs = item.get('observacao', '') if tem_observacao else ''
-            if not obs:
-                obs = "-"
-            linhas += f"""
-            <tr>
-                <td class="item-cell">{i}</td>
-                <td class="desc-cell">{item['material'].upper()}</td>
-                <td class="qtd-cell">{item['quantidade']}</td>
-                <td class="observation-cell">{obs}</td>
-            </tr>
-        """
-        return linhas
-    
+    """Exibe recibo simplificado"""
     html_recibo = f"""
     <!DOCTYPE html>
     <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>P10 Soluções - Ordem de Serviço #{os_info['id']:04d}</title>
         <style>
-            * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+            * {{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }}
             
             @media print {{
-                body {{ margin: 0; padding: 0; background: white; }}
-                .recibo-paper {{ width: 210mm; min-height: 297mm; margin: 0; padding: 5mm; box-shadow: none; }}
-                @page {{ size: A4; margin: 0; }}
-                .no-print {{ display: none; }}
+                body {{
+                    margin: 0;
+                    padding: 0;
+                    background: white;
+                }}
+                .recibo-paper {{
+                    width: 210mm;
+                    min-height: 297mm;
+                    margin: 0;
+                    padding: 10mm;
+                    box-shadow: none;
+                }}
+                @page {{
+                    size: A4;
+                    margin: 0;
+                }}
+                .no-print {{
+                    display: none;
+                }}
             }}
             
-            @media screen and (max-width: 768px) {{
-                body {{ padding: 10px; }}
-                .recibo-paper {{ width: 100%; padding: 5mm; }}
-                .category-table th, .category-table td {{ font-size: 7px; padding: 2px; }}
-                .header h1 {{ font-size: 16px; }}
-                .header h2 {{ font-size: 12px; }}
+            body {{
+                background-color: #e0e0e0;
+                padding: 20px;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }}
             
-            body {{ background-color: #e0e0e0; padding: 20px; font-family: 'Arial', sans-serif; display: flex; justify-content: center; align-items: center; }}
-            .recibo-paper {{ width: 210mm; background: white; padding: 5mm; box-shadow: 0 0 10px rgba(0,0,0,0.3); }}
-            .header {{ text-align: center; margin-bottom: 5px; }}
-            .header h1 {{ font-size: 18px; font-weight: bold; letter-spacing: 2px; }}
-            .header h2 {{ font-size: 14px; font-weight: bold; margin-top: 2px; }}
-            .os-number {{ text-align: right; font-size: 10px; margin: 5px 0; font-weight: bold; }}
-            .event-info {{ margin: 8px 0; font-size: 10px; }}
-            .event-info p {{ margin: 2px 0; }}
+            .recibo-paper {{
+                width: 210mm;
+                background: white;
+                padding: 10mm;
+                box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                font-family: 'Arial', sans-serif;
+            }}
             
-            /* Layout de duas colunas */
-            .two-columns {{ display: flex; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }}
-            .column {{ flex: 1; min-width: 48%; }}
+            .header {{
+                text-align: center;
+                margin-bottom: 15px;
+            }}
             
-            /* Tabelas */
-            .category-table {{
+            .header h1 {{
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }}
+            
+            .header h2 {{
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 5px;
+            }}
+            
+            .os-number {{
+                text-align: right;
+                font-size: 12px;
+                margin: 10px 0;
+                font-weight: bold;
+            }}
+            
+            .event-info {{
+                margin: 15px 0;
+                font-size: 12px;
+            }}
+            
+            .event-info p {{
+                margin: 3px 0;
+            }}
+            
+            .equipment-table {{
                 width: 100%;
                 border-collapse: collapse;
-                margin-bottom: 10px;
-                font-size: 8px;
+                margin: 15px 0;
+                font-size: 11px;
             }}
             
-            .category-table th {{
+            .equipment-table th {{
                 border: 1px solid #000;
-                padding: 4px;
-                background: #e0e0e0;
+                padding: 8px;
+                background: #f0f0f0;
                 text-align: center;
                 font-weight: bold;
             }}
             
-            .category-table td {{
+            .equipment-table td {{
                 border: 1px solid #000;
-                padding: 3px;
+                padding: 8px;
                 vertical-align: top;
             }}
             
-            .category-title {{
-                background: #d0d0d0;
-                font-weight: bold;
+            .signatures {{
+                display: flex;
+                justify-content: space-between;
+                margin: 30px 0 20px 0;
+            }}
+            
+            .signature-box {{
+                width: 45%;
                 text-align: center;
             }}
             
-            .subcategory {{
-                background: #e8e8e8;
-                font-weight: bold;
-                text-align: center;
+            .signature-line {{
+                border-top: 1px solid #000;
+                margin-top: 40px;
+                padding-top: 8px;
+                font-size: 10px;
             }}
             
-            .observation-cell {{ width: 25%; }}
-            .item-cell {{ width: 10%; text-align: center; }}
-            .desc-cell {{ width: 45%; }}
-            .qtd-cell {{ width: 20%; text-align: center; }}
+            .footer {{
+                text-align: center;
+                font-size: 9px;
+                color: #666;
+                margin-top: 20px;
+            }}
             
-            .signatures {{ display: flex; justify-content: space-between; margin: 15px 0 10px 0; flex-wrap: wrap; }}
-            .signature-box {{ width: 45%; text-align: center; }}
-            .signature-line {{ border-top: 1px solid #000; margin-top: 25px; padding-top: 5px; font-size: 9px; }}
-            .footer {{ text-align: center; font-size: 8px; color: #666; margin-top: 10px; }}
-            .print-button {{ text-align: center; margin-bottom: 15px; }}
-            .print-button button {{ background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%); color: white; border: none; padding: 8px 25px; font-size: 12px; border-radius: 5px; cursor: pointer; font-weight: bold; }}
+            .print-button {{
+                text-align: center;
+                margin-bottom: 20px;
+            }}
+            
+            .print-button button {{
+                background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
+                color: white;
+                border: none;
+                padding: 10px 30px;
+                font-size: 14px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+            }}
         </style>
     </head>
     <body>
-        <div class="print-button no-print"><button onclick="window.print()">🖨️ Imprimir OS</button></div>
+        <div class="print-button no-print">
+            <button onclick="window.print()">🖨️ Imprimir OS</button>
+        </div>
+        
         <div class="recibo-paper">
             <div class="header">
-                <h1>P10 SOLUCOES EM EVENTOS</h1>
+                <h1>P10 SOLUÇÕES EM EVENTOS</h1>
                 <h2>ORDEM DE SERVIÇO (OS)</h2>
             </div>
             
@@ -445,131 +485,75 @@ def exibir_recibo(os_info: Dict):
             
             <div class="event-info">
                 <p><strong>DADOS DO EVENTO</strong></p>
-                <p><strong>Evento:</strong> {os_info['destino']}</p>
-                <p><strong>Assinatura:</strong> ____________________</p>
-                <p><strong>Local:</strong> _________________________</p>
-                <p><strong>Data:</strong> {os_info['data_retorno']}</p>
+                <p><strong>Evento/Cliente:</strong> {os_info['destino']}</p>
+                <p><strong>Responsável Técnico:</strong> {os_info['responsavel']}</p>
+                <p><strong>Previsão de Retorno:</strong> {os_info['data_retorno']}</p>
             </div>
             
-            <!-- PAINEL DE LED + CABO (primeira linha) -->
-            <div class="two-columns">
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">PAINEL DE LED</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Tipo de Painel</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('PAINEL DE LED', [{'material': '', 'quantidade': '', 'observacao': ''}]), True) if itens_por_categoria.get('PAINEL DE LED') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr>'}
-                        <tr><td colspan="4"><strong>Pitch:</strong> ___________</td></tr>
-                    </table>
-                </div>
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">CABO</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Item</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('CABO', [{'material': '', 'quantidade': '', 'observacao': ''}]), True) if itens_por_categoria.get('CABO') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-            </div>
-            
-            <!-- CABOS E ENERGIA + CABOS DIVERSOS -->
-            <div class="two-columns">
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">CABOS E ENERGIA</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Descrição</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('CABOS E ENERGIA', []), True) if itens_por_categoria.get('CABOS E ENERGIA') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">CABOS DIVERSOS</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Item</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('CABOS DIVERSOS', []), True) if itens_por_categoria.get('CABOS DIVERSOS') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-            </div>
-            
-            <!-- PROCESSAMENTO E CONTROLE + VÍDEO/TV -->
-            <div class="two-columns">
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">PROCESSAMENTO E CONTROLE</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Equipamento</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('PROCESSAMENTO E CONTROLE', []), True) if itens_por_categoria.get('PROCESSAMENTO E CONTROLE') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">VÍDEO / TV</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Equipamento</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('VÍDEO / TV', []), True) if itens_por_categoria.get('VÍDEO / TV') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-            </div>
-            
-            <!-- SOM + CABOS E MATERIAL DE AC -->
-            <div class="two-columns">
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">SOM</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Equipamento</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('SOM', []), True) if itens_por_categoria.get('SOM') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">CABOS E MATERIAL DE AC</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Item</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('CABOS E MATERIAL DE AC', []), True) if itens_por_categoria.get('CABOS E MATERIAL DE AC') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-            </div>
-            
-            <!-- ILUMINAÇÃO -->
-            <div class="two-columns">
-                <div class="column">
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">ILUMINAÇÃO</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Equipamento</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('ILUMINAÇÃO', []), True) if itens_por_categoria.get('ILUMINAÇÃO') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">5</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">6</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-                <div class="column">
-                    <!-- MATERIAIS GERAIS -->
-                    <table class="category-table">
-                        <tr class="category-title"><th colspan="4">MATERIAIS GERAIS</th></tr>
-                        <tr><th class="item-cell">ITEM</th><th class="desc-cell">Material</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                        {gerar_linhas_tabela(itens_por_categoria.get('MATERIAIS GERAIS', []), True) if itens_por_categoria.get('MATERIAIS GERAIS') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">5</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">6</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">7</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">8</td><td>-</td><td>-</td><td>-</td></tr>'}
-                    </table>
-                </div>
-            </div>
-            
-            <!-- TRELIÇAS Q25 -->
-            <table class="category-table">
-                <tr class="category-title"><th colspan="4">TRELIÇAS Q25</th></tr>
-                <tr><th class="item-cell">ITEM</th><th class="desc-cell">Material</th><th class="qtd-cell">Quantidade</th><th class="observation-cell">Observação</th></tr>
-                {gerar_linhas_tabela(itens_por_categoria.get('TRELIÇAS Q25', []), True) if itens_por_categoria.get('TRELIÇAS Q25') else '<tr><td class="item-cell">1</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">2</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">3</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">4</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">5</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">6</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">7</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">8</td><td>-</td><td>-</td><td>-</td></tr><tr><td class="item-cell">9</td><td>-</td><td>-</td><td>-</td></tr>'}
+            <table class="equipment-table">
+                <thead>
+                    <tr>
+                        <th style="width: 15%;">ITEM</th>
+                        <th style="width: 35%;">CATEGORIA</th>
+                        <th style="width: 35%;">DESCRIÇÃO DO EQUIPAMENTO</th>
+                        <th style="width: 15%;">QTD</th>
+                    </tr>
+                </thead>
+                <tbody>
+        """
+    
+    # Adicionar cada item da OS
+    for i, item in enumerate(os_info["itens"], 1):
+        html_recibo += f"""
+                    <tr>
+                        <td style="text-align: center;">{i}</td>
+                        <td>{item['categoria'].upper()}</td>
+                        <td>{item['material'].upper()}</td>
+                        <td style="text-align: center;">{item['quantidade']}</td>
+                    </tr>
+        """
+    
+    html_recibo += f"""
+                </tbody>
             </table>
+            
+            <div style="margin: 15px 0; padding: 10px; border: 1px solid #ddd; background: #fafafa;">
+                <strong>📋 OBSERVAÇÕES GERAIS:</strong><br>
+                <span style="font-size: 10px;">• Os equipamentos devem ser devolvidos nas mesmas condições de retirada<br>
+                • Em caso de danos ou perdas, o responsável será notificado<br>
+                • A não devolução no prazo implicará em multa conforme contrato</span>
+            </div>
             
             <div class="signatures">
                 <div class="signature-box">
-                    <div class="signature-line">___________________________________<br>Assinatura do Responsável</div>
-                    <div style="font-size: 9px; margin-top: 5px;"><strong>Nome:</strong> {os_info['responsavel']}</div>
+                    <div class="signature-line">
+                        ___________________________________<br>
+                        Assinatura do Responsável pela Retirada
+                    </div>
+                    <div style="font-size: 11px; margin-top: 8px;">
+                        <strong>Nome:</strong> {os_info['responsavel']}
+                    </div>
                 </div>
                 <div class="signature-box">
-                    <div class="signature-line">___________________________________<br>Assinatura P10 Soluções</div>
-                    <div style="font-size: 9px; margin-top: 5px;"><strong>Autorizado por:</strong> Administração</div>
+                    <div class="signature-line">
+                        ___________________________________<br>
+                        Assinatura P10 Soluções
+                    </div>
+                    <div style="font-size: 11px; margin-top: 8px;">
+                        <strong>Autorizado por:</strong> Administração
+                    </div>
                 </div>
             </div>
             
             <div class="footer">
-                <p>10 SOLUCOES EM EVENTOS</p>
+                <p>P10 Soluções em Eventos - Porto Alegre/RS</p>
                 <p>Documento gerado eletronicamente em {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
             </div>
         </div>
     </body>
     </html>
     """
-    components.html(html_recibo, height=800, scrolling=True)
+    components.html(html_recibo, height=700, scrolling=True)
 
 
 def tela_login():
