@@ -319,7 +319,27 @@ def aplicar_css():
 
 # --- FUNÇÕES DE UI ---
 def exibir_recibo(os_info: Dict):
-    """Exibe recibo simplificado"""
+    """Exibe recibo simplificado com ajuste automático de fonte"""
+    
+    # Calcular tamanho da fonte baseado no número de itens
+    num_itens = len(os_info["itens"])
+    if num_itens <= 5:
+        fonte_tabela = "11px"
+        fonte_header = "24px"
+        fonte_subheader = "18px"
+    elif num_itens <= 10:
+        fonte_tabela = "9px"
+        fonte_header = "20px"
+        fonte_subheader = "16px"
+    elif num_itens <= 15:
+        fonte_tabela = "8px"
+        fonte_header = "18px"
+        fonte_subheader = "14px"
+    else:
+        fonte_tabela = "7px"
+        fonte_header = "16px"
+        fonte_subheader = "12px"
+    
     html_recibo = f"""
     <!DOCTYPE html>
     <html>
@@ -343,7 +363,7 @@ def exibir_recibo(os_info: Dict):
                     width: 210mm;
                     min-height: 297mm;
                     margin: 0;
-                    padding: 10mm;
+                    padding: 8mm;
                     box-shadow: none;
                 }}
                 @page {{
@@ -367,54 +387,57 @@ def exibir_recibo(os_info: Dict):
             .recibo-paper {{
                 width: 210mm;
                 background: white;
-                padding: 10mm;
+                padding: 8mm;
                 box-shadow: 0 0 10px rgba(0,0,0,0.3);
                 font-family: 'Arial', sans-serif;
             }}
             
             .header {{
                 text-align: center;
-                margin-bottom: 15px;
+                margin-bottom: 10px;
             }}
             
             .header h1 {{
-                font-size: 24px;
+                font-size: {fonte_header};
                 font-weight: bold;
                 letter-spacing: 2px;
             }}
             
             .header h2 {{
-                font-size: 18px;
+                font-size: {fonte_subheader};
                 font-weight: bold;
-                margin-top: 5px;
+                margin-top: 3px;
             }}
             
             .os-number {{
                 text-align: right;
-                font-size: 12px;
-                margin: 10px 0;
+                font-size: 10px;
+                margin: 8px 0;
                 font-weight: bold;
             }}
             
             .event-info {{
-                margin: 15px 0;
-                font-size: 12px;
+                margin: 10px 0;
+                font-size: 10px;
+                border: 1px solid #333;
+                padding: 8px;
+                background: #f9f9f9;
             }}
             
             .event-info p {{
-                margin: 3px 0;
+                margin: 2px 0;
             }}
             
             .equipment-table {{
                 width: 100%;
                 border-collapse: collapse;
-                margin: 15px 0;
-                font-size: 11px;
+                margin: 10px 0;
+                font-size: {fonte_tabela};
             }}
             
             .equipment-table th {{
                 border: 1px solid #000;
-                padding: 8px;
+                padding: 6px;
                 background: #f0f0f0;
                 text-align: center;
                 font-weight: bold;
@@ -422,14 +445,14 @@ def exibir_recibo(os_info: Dict):
             
             .equipment-table td {{
                 border: 1px solid #000;
-                padding: 8px;
+                padding: 4px;
                 vertical-align: top;
             }}
             
             .signatures {{
                 display: flex;
                 justify-content: space-between;
-                margin: 30px 0 20px 0;
+                margin: 25px 0 15px 0;
             }}
             
             .signature-box {{
@@ -439,29 +462,29 @@ def exibir_recibo(os_info: Dict):
             
             .signature-line {{
                 border-top: 1px solid #000;
-                margin-top: 40px;
-                padding-top: 8px;
-                font-size: 10px;
+                margin-top: 30px;
+                padding-top: 5px;
+                font-size: 9px;
             }}
             
             .footer {{
                 text-align: center;
-                font-size: 9px;
+                font-size: 8px;
                 color: #666;
-                margin-top: 20px;
+                margin-top: 15px;
             }}
             
             .print-button {{
                 text-align: center;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
             }}
             
             .print-button button {{
                 background: linear-gradient(90deg, #FF4500 0%, #32CD32 50%, #00BFFF 100%);
                 color: white;
                 border: none;
-                padding: 10px 30px;
-                font-size: 14px;
+                padding: 8px 25px;
+                font-size: 12px;
                 border-radius: 5px;
                 cursor: pointer;
                 font-weight: bold;
@@ -493,9 +516,9 @@ def exibir_recibo(os_info: Dict):
             <table class="equipment-table">
                 <thead>
                     <tr>
-                        <th style="width: 15%;">ITEM</th>
-                        <th style="width: 35%;">CATEGORIA</th>
-                        <th style="width: 35%;">DESCRIÇÃO DO EQUIPAMENTO</th>
+                        <th style="width: 8%;">ITEM</th>
+                        <th style="width: 30%;">CATEGORIA</th>
+                        <th style="width: 47%;">DESCRIÇÃO DO EQUIPAMENTO</th>
                         <th style="width: 15%;">QTD</th>
                     </tr>
                 </thead>
@@ -517,20 +540,13 @@ def exibir_recibo(os_info: Dict):
                 </tbody>
             </table>
             
-            <div style="margin: 15px 0; padding: 10px; border: 1px solid #ddd; background: #fafafa;">
-                <strong>📋 OBSERVAÇÕES GERAIS:</strong><br>
-                <span style="font-size: 10px;">• Os equipamentos devem ser devolvidos nas mesmas condições de retirada<br>
-                • Em caso de danos ou perdas, o responsável será notificado<br>
-                • A não devolução no prazo implicará em multa conforme contrato</span>
-            </div>
-            
             <div class="signatures">
                 <div class="signature-box">
                     <div class="signature-line">
                         ___________________________________<br>
-                        Assinatura do Responsável pela Retirada
+                        Assinatura do Responsável
                     </div>
-                    <div style="font-size: 11px; margin-top: 8px;">
+                    <div style="font-size: 9px; margin-top: 5px;">
                         <strong>Nome:</strong> {os_info['responsavel']}
                     </div>
                 </div>
@@ -539,7 +555,7 @@ def exibir_recibo(os_info: Dict):
                         ___________________________________<br>
                         Assinatura P10 Soluções
                     </div>
-                    <div style="font-size: 11px; margin-top: 8px;">
+                    <div style="font-size: 9px; margin-top: 5px;">
                         <strong>Autorizado por:</strong> Administração
                     </div>
                 </div>
