@@ -39,7 +39,7 @@ class DatabaseManager:
     
     @staticmethod
     def carregar_dados() -> Dict:
-        """Carrega dados do GitHub"""
+        """Carrega dados do GitHub - NUNCA perde dados existentes"""
         try:
             g = DatabaseManager._get_github()
             if g is None:
@@ -50,8 +50,23 @@ class DatabaseManager:
             try:
                 contents = repo.get_contents("estoque_os_web.json")
                 dados_json = base64.b64decode(contents.content).decode('utf-8')
-                return json.loads(dados_json)
+                dados_existentes = json.loads(dados_json)
+                
+                # Garantir que todos os campos necessários existem
+                if "usuarios" not in dados_existentes:
+                    dados_existentes["usuarios"] = DatabaseManager._get_default_data()["usuarios"]
+                if "recuperacao_senha" not in dados_existentes:
+                    dados_existentes["recuperacao_senha"] = {}
+                if "materiais" not in dados_existentes or not dados_existentes["materiais"]:
+                    dados_existentes["materiais"] = DatabaseManager._get_example_materiais()
+                if "ordens_servico" not in dados_existentes:
+                    dados_existentes["ordens_servico"] = []
+                if "contador_os" not in dados_existentes:
+                    dados_existentes["contador_os"] = 1
+                    
+                return dados_existentes
             except:
+                # Arquivo não existe, criar padrão
                 dados = DatabaseManager._get_default_data()
                 DatabaseManager.salvar_dados(dados)
                 return dados
@@ -60,7 +75,7 @@ class DatabaseManager:
     
     @staticmethod
     def salvar_dados(data: Dict) -> bool:
-        """Salva dados no GitHub"""
+        """Salva dados no GitHub preservando tudo"""
         try:
             g = DatabaseManager._get_github()
             if g is None:
@@ -89,7 +104,7 @@ class DatabaseManager:
     
     @staticmethod
     def _get_default_data() -> Dict:
-        """Retorna estrutura de dados padrão com exemplos e estoque ILIMITADO"""
+        """Retorna estrutura de dados padrão - NÃO SOBRESCREVE dados existentes"""
         return {
             "usuarios": {
                 "admin": DatabaseManager._hash_senha("admin123"),
@@ -104,7 +119,7 @@ class DatabaseManager:
     
     @staticmethod
     def _get_example_materiais() -> Dict:
-        """Retorna materiais de exemplo com ESTOQUE ILIMITADO (valores altos)"""
+        """Retorna materiais de exemplo com ESTOQUE ILIMITADO"""
         return {
             "Som": {"caixa jbl": 999999, "mesa de som yamaha": 999999, "microfone shure": 999999, "cabo xlr": 999999, "amplificador": 999999},
             "Luz": {"refletor led": 999999, "moving head": 999999, "maquina de fumaça": 999999, "dimmer": 999999},
@@ -319,7 +334,7 @@ def aplicar_css():
 
 # --- FUNÇÕES DE UI ---
 def exibir_recibo(os_info: Dict):
-    """Exibe recibo simplificado com ajuste automático de fonte"""
+    """Exibe recibo simplificado com marca d'água"""
     
     # Calcular tamanho da fonte baseado no número de itens
     num_itens = len(os_info["itens"])
@@ -358,6 +373,7 @@ def exibir_recibo(os_info: Dict):
                     margin: 0;
                     padding: 0;
                     background: white;
+                    position: relative;
                 }}
                 .recibo-paper {{
                     width: 210mm;
@@ -365,6 +381,7 @@ def exibir_recibo(os_info: Dict):
                     margin: 0;
                     padding: 8mm;
                     box-shadow: none;
+                    position: relative;
                 }}
                 @page {{
                     size: A4;
@@ -372,6 +389,31 @@ def exibir_recibo(os_info: Dict):
                 }}
                 .no-print {{
                     display: none;
+                }}
+                /* Marca d'água na impressão */
+                .watermark {{
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    opacity: 0.1;
+                    z-index: 999;
+                    pointer-events: none;
+                }}
+                .watermark img {{
+                    width: 300px;
+                    height: auto;
+                }}
+            }}
+            
+            /* Marca d'água na tela (visível apenas na impressão) */
+            .watermark {{
+                display: none;
+            }}
+            
+            @media print {{
+                .watermark {{
+                    display: block;
                 }}
             }}
             
@@ -382,6 +424,7 @@ def exibir_recibo(os_info: Dict):
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
             }}
             
             .recibo-paper {{
@@ -390,6 +433,7 @@ def exibir_recibo(os_info: Dict):
                 padding: 8mm;
                 box-shadow: 0 0 10px rgba(0,0,0,0.3);
                 font-family: 'Arial', sans-serif;
+                position: relative;
             }}
             
             .header {{
@@ -492,6 +536,12 @@ def exibir_recibo(os_info: Dict):
         </style>
     </head>
     <body>
+        <div class="watermark">
+            <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+                <text x="50%" y="50%" text-anchor="middle" font-size="40" fill="gray" opacity="0.3" transform="rotate(-45, 150, 150)">P10 SOLUÇÕES</text>
+            </svg>
+        </div>
+        
         <div class="print-button no-print">
             <button onclick="window.print()">🖨️ Imprimir OS</button>
         </div>
