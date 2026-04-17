@@ -18,8 +18,7 @@
             "notebook": 3
         },
         "Som": {
-            "sistema slin markpro": 8,
-            "sistema slin db": 4
+            "sistema slin markpro": 8
         },
         "Materiais Diversos": {
             "parafuso 17": 700,
@@ -499,9 +498,25 @@
             "data_retorno": "20/04/2026",
             "status": "Pendente",
             "data_emissao": "17/04/2026 11:39"
+        },
+        {
+            "id": 18,
+            "itens": [
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin db",
+                    "quantidade": 4,
+                    "observacao": ""
+                }
+            ],
+            "destino": "POWER SOUND",
+            "responsavel": ".",
+            "data_retorno": "20/04/2026",
+            "status": "Pendente",
+            "data_emissao": "17/04/2026 11:41"
         }
     ],
-    "contador_os": 18,
+    "contador_os": 19,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
