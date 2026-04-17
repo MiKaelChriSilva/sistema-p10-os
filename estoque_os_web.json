@@ -24,7 +24,8 @@
             "parafuso 17": 1000
         },
         "Cabos": {
-            "ponte de ac oneligth": 300
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300
         }
     },
     "ordens_servico": [
