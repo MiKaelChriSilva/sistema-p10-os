@@ -53,6 +53,9 @@
             "cubo": 18,
             "slevee": 6,
             "pau de carga": 6
+        },
+        "Sistema de AC": {
+            "rack mpl": 2
         }
     },
     "ordens_servico": [
