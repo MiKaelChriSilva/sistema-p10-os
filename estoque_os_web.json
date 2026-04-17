@@ -55,7 +55,8 @@
             "pau de carga": 6
         },
         "Sistema de AC": {
-            "rack mpl": 2
+            "rack mpl": 2,
+            "pentacustica stek": 2
         }
     },
     "ordens_servico": [
