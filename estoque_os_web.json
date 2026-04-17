@@ -22,6 +22,9 @@
         "Materiais Diversos": {
             "chapinha american led": 1001,
             "parafuso 17": 1000
+        },
+        "Cabos": {
+            "ponte de ac oneligth": 6
         }
     },
     "ordens_servico": [
