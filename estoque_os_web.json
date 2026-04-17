@@ -13,7 +13,8 @@
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 40,
-            "indoor p2.97m2": 36
+            "indoor p2.97m2": 36,
+            "processadora v960": 6
         },
         "Som": {
             "sistema slin markpro": 8
@@ -206,5 +207,6 @@
         }
     ],
     "contador_os": 16,
-    "backup_restaurado": false
+    "backup_restaurado": false,
+    "recuperacao_senha": {}
 }
