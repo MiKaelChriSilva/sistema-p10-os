@@ -25,7 +25,8 @@
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
-            "ponte de sinal rj45 oneligth": 300
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 90
         }
     },
     "ordens_servico": [
