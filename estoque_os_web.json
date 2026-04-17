@@ -44,7 +44,8 @@
             "cabo cabo configuração usb": 5
         },
         "Estruturas": {
-            "treliça 3m": 8
+            "treliça 3m": 8,
+            "treliça 2,5m": 5
         }
     },
     "ordens_servico": [
