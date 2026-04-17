@@ -56,7 +56,8 @@
         },
         "Sistema de AC": {
             "rack mpl": 2,
-            "pentacustica stek": 2
+            "pentacustica stek": 2,
+            "cabo ponta pelada-stek 63a": 2
         }
     },
     "ordens_servico": [
