@@ -8,54 +8,53 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 94,
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 29,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 40,
             "indoor p2.97m2": 36,
-            "processadora v960": 6,
-            "notebook": 5
+            "processadora v960": 5,
+            "notebook": 4
         },
         "Som": {
             "sistema slin markpro": 8
         },
         "Materiais Diversos": {
-            "parafuso 17": 1000,
-            "chapinha": 1000,
-            "cinta lacoste": 1000,
-            "maquina de impacto": 5,
-            "cachimbo 22": 5,
+            "parafuso 17": 800,
+            "chapinha": 940,
+            "cinta lacoste": 940,
+            "maquina de impacto": 4,
+            "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000
+            "parafuso para treliça 22": 940
         },
         "Cabos": {
-            "ponte de ac oneligth": 300,
-            "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 90,
-            "cabo powercon pial": 90,
+            "ponte de ac oneligth": 250,
+            "ponte de sinal rj45 oneligth": 250,
+            "cabo rj45 principal": 83,
+            "cabo powercon pial": 80,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
-            "hdmi": 5,
-            "cabo ac": 5,
-            "cabo cabo configuração usb": 5,
-            "linha de 10m": 30,
-            "regua": 30,
+            "hdmi": 4,
+            "cabo ac": 4,
+            "cabo cabo configuração usb": 4,
+            "linha de 10m": 20,
+            "regua": 29,
             "regua stek": 6,
-            "multivia ac": 22,
-            "cabo rj45 ponte azul": 100
+            "multivia ac": 20,
+            "cabo rj45 ponte azul": 80
         },
         "Estruturas": {
             "treliça 3m": 8,
-            "treliça 2,5m": 5,
-            "treliça 2m": 12,
+            "treliça 2m": 10,
             "treliça 1,5m": 6,
-            "treliça 1m": 13,
-            "treliça 0,50m": 7,
-            "cubo": 18,
+            "treliça 1m": 10,
+            "treliça 0,50m": 1,
+            "cubo": 11,
             "slevee": 6,
             "pau de carga": 6
         },
@@ -245,9 +244,169 @@
             "status": "Finalizada",
             "data_emissao": "13/04/2026 21:02",
             "data_baixa": "13/04/2026 21:03"
+        },
+        {
+            "id": 16,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo cabo configuração usb",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 ponte azul",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "HACIENA GRAMADO/ POWER SOUND",
+            "responsavel": ".",
+            "data_retorno": "20/04/2026",
+            "status": "Pendente",
+            "data_emissao": "17/04/2026 11:33"
         }
     ],
-    "contador_os": 16,
+    "contador_os": 17,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
