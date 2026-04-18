@@ -33,8 +33,8 @@
             "praticável 2 x 0,60": 3,
             "pés de 0,80 cm": 4,
             "contrapeso": 12,
-            "praticável 2 x 1": 10,
-            "pés praticavel 0,40cm": 39
+            "praticável 2 x 1": 20,
+            "pés praticavel 0,40cm": 80
         },
         "Cabos": {
             "ponte de ac oneligth": 120,
@@ -69,7 +69,7 @@
             "cabo ponta pelada-stek 63a": 1
         },
         "Luz": {
-            "parled": 4
+            "parled": 24
         }
     },
     "ordens_servico": [
@@ -722,34 +722,6 @@
             "data_retorno": "20/04/2026",
             "status": "Pendente",
             "data_emissao": "17/04/2026 11:56"
-        },
-        {
-            "id": 21,
-            "itens": [
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "praticável 2 x 1",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Luz",
-                    "material": "parled",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "pés praticavel 0,40cm",
-                    "quantidade": 41,
-                    "observacao": ""
-                }
-            ],
-            "destino": "GIROTO EVENTOS ",
-            "responsavel": "FELIPE GIROTTO",
-            "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "18/04/2026 13:37"
         }
     ],
     "contador_os": 22,
