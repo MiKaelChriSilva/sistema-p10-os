@@ -66,6 +66,9 @@
             "rack mpl": 2,
             "pentacustica stek": 1,
             "cabo ponta pelada-stek 63a": 1
+        },
+        "Luz": {
+            "parled": 24
         }
     },
     "ordens_servico": [
