@@ -34,8 +34,8 @@
             "praticável 2 x 0,60": 3,
             "pés de 0,80 cm": 4,
             "contrapeso": 20,
-            "praticável 2 x 1": 10,
-            "pés praticavel 0,40cm": 40
+            "praticável 2 x 1": 9,
+            "pés praticavel 0,40cm": 36
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -752,9 +752,31 @@
             "data_retorno": "20/04/2026",
             "status": "Pendente",
             "data_emissao": "18/04/2026 13:40"
+        },
+        {
+            "id": 23,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés praticavel 0,40cm",
+                    "quantidade": 4,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GIROTTO EVENTOS",
+            "responsavel": "FELIPE GIROTTO",
+            "data_retorno": "22/04/2026",
+            "status": "Pendente",
+            "data_emissao": "20/04/2026 19:42"
         }
     ],
-    "contador_os": 23,
+    "contador_os": 24,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
