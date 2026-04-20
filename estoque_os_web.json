@@ -8,22 +8,23 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 94,
-            "p3.91 oneligth": 27,
+            "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 39,
             "indoor p2.97m2": 36,
             "processadora v960": 5,
-            "notebook": 5
+            "notebook": 5,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8
         },
         "Materiais Diversos": {
-            "parafuso 17": 800,
-            "chapinha": 950,
-            "cinta lacoste": 940,
+            "parafuso 17": 1000,
+            "chapinha": 1000,
+            "cinta lacoste": 990,
             "maquina de impacto": 5,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
@@ -32,24 +33,24 @@
             "parafuso para treliça 22": 1000,
             "praticável 2 x 0,60": 3,
             "pés de 0,80 cm": 4,
-            "contrapeso": 12,
+            "contrapeso": 20,
             "praticável 2 x 1": 10,
             "pés praticavel 0,40cm": 40
         },
         "Cabos": {
-            "ponte de ac oneligth": 230,
-            "ponte de sinal rj45 oneligth": 230,
-            "cabo rj45 principal": 81,
-            "cabo powercon pial": 80,
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 88,
+            "cabo powercon pial": 90,
             "cabo powercon pial 2.97": 89,
             "ponte de ac 2.97": 619,
             "ponte de sinal  2.97": 334,
-            "hdmi": 3,
-            "cabo ac": 3,
-            "cabo cabo configuração usb": 3,
-            "linha de 10m": 20,
-            "regua": 28,
-            "regua stek": 2,
+            "hdmi": 4,
+            "cabo ac": 4,
+            "cabo cabo configuração usb": 4,
+            "linha de 10m": 30,
+            "regua": 30,
+            "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100
         },
@@ -66,8 +67,8 @@
         },
         "Sistema de AC": {
             "rack mpl": 2,
-            "pentacustica stek": 1,
-            "cabo ponta pelada-stek 63a": 1
+            "pentacustica stek": 2,
+            "cabo ponta pelada-stek 63a": 2
         }
     },
     "ordens_servico": [
@@ -720,8 +721,9 @@
             "destino": "ARGENTA / POWER SOUND",
             "responsavel": ".",
             "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "17/04/2026 11:56"
+            "status": "Finalizada",
+            "data_emissao": "17/04/2026 11:56",
+            "data_baixa": "20/04/2026 18:20"
         },
         {
             "id": 22,
