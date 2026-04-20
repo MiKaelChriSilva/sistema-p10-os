@@ -8,28 +8,28 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 94,
-            "p3.91 oneligth": 20,
+            "p3.91 oneligth": 27,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 39,
             "indoor p2.97m2": 36,
-            "processadora v960": 4,
-            "notebook": 4
+            "processadora v960": 5,
+            "notebook": 5
         },
         "Som": {
             "sistema slin markpro": 8
         },
         "Materiais Diversos": {
-            "parafuso 17": 600,
-            "chapinha": 890,
-            "cinta lacoste": 880,
-            "maquina de impacto": 4,
-            "cachimbo 22": 4,
+            "parafuso 17": 800,
+            "chapinha": 950,
+            "cinta lacoste": 940,
+            "maquina de impacto": 5,
+            "cachimbo 22": 5,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 940,
+            "parafuso para treliça 22": 1000,
             "praticável 2 x 0,60": 3,
             "pés de 0,80 cm": 4,
             "contrapeso": 12,
@@ -37,31 +37,32 @@
             "pés praticavel 0,40cm": 40
         },
         "Cabos": {
-            "ponte de ac oneligth": 180,
-            "ponte de sinal rj45 oneligth": 180,
-            "cabo rj45 principal": 74,
-            "cabo powercon pial": 70,
+            "ponte de ac oneligth": 230,
+            "ponte de sinal rj45 oneligth": 230,
+            "cabo rj45 principal": 81,
+            "cabo powercon pial": 80,
             "cabo powercon pial 2.97": 89,
             "ponte de ac 2.97": 619,
             "ponte de sinal  2.97": 334,
-            "hdmi": 2,
-            "cabo ac": 2,
-            "cabo cabo configuração usb": 2,
-            "linha de 10m": 10,
-            "regua": 27,
+            "hdmi": 3,
+            "cabo ac": 3,
+            "cabo cabo configuração usb": 3,
+            "linha de 10m": 20,
+            "regua": 28,
             "regua stek": 2,
-            "multivia ac": 20,
-            "cabo rj45 ponte azul": 80
+            "multivia ac": 22,
+            "cabo rj45 ponte azul": 100
         },
         "Estruturas": {
             "treliça 3m": 8,
-            "treliça 2m": 10,
+            "treliça 2m": 12,
             "treliça 1,5m": 6,
-            "treliça 1m": 10,
-            "treliça 0,50m": 1,
-            "cubo": 11,
+            "treliça 1m": 13,
+            "treliça 0,50m": 7,
+            "cubo": 18,
             "slevee": 6,
-            "pau de carga": 6
+            "pau de carga": 6,
+            "treliça 2,5m": 5
         },
         "Sistema de AC": {
             "rack mpl": 2,
@@ -407,8 +408,9 @@
             "destino": "HACIENA GRAMADO/ POWER SOUND",
             "responsavel": ".",
             "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "17/04/2026 11:33"
+            "status": "Finalizada",
+            "data_emissao": "17/04/2026 11:33",
+            "data_baixa": "20/04/2026 18:20"
         },
         {
             "id": 17,
