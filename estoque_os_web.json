@@ -8,22 +8,22 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 94,
-            "p3.91 oneligth": 11,
+            "p3.91 oneligth": 20,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 39,
             "indoor p2.97m2": 36,
-            "processadora v960": 3,
-            "notebook": 3
+            "processadora v960": 4,
+            "notebook": 4
         },
         "Som": {
             "sistema slin markpro": 8
         },
         "Materiais Diversos": {
-            "parafuso 17": 500,
-            "chapinha": 840,
-            "cinta lacoste": 820,
+            "parafuso 17": 600,
+            "chapinha": 890,
+            "cinta lacoste": 880,
             "maquina de impacto": 4,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -37,20 +37,20 @@
             "pés praticavel 0,40cm": 40
         },
         "Cabos": {
-            "ponte de ac oneligth": 120,
-            "ponte de sinal rj45 oneligth": 120,
-            "cabo rj45 principal": 64,
-            "cabo powercon pial": 55,
+            "ponte de ac oneligth": 180,
+            "ponte de sinal rj45 oneligth": 180,
+            "cabo rj45 principal": 74,
+            "cabo powercon pial": 70,
             "cabo powercon pial 2.97": 89,
             "ponte de ac 2.97": 619,
             "ponte de sinal  2.97": 334,
-            "hdmi": 1,
-            "cabo ac": 1,
-            "cabo cabo configuração usb": 1,
+            "hdmi": 2,
+            "cabo ac": 2,
+            "cabo cabo configuração usb": 2,
             "linha de 10m": 10,
             "regua": 27,
             "regua stek": 2,
-            "multivia ac": 16,
+            "multivia ac": 20,
             "cabo rj45 ponte azul": 80
         },
         "Estruturas": {
@@ -501,8 +501,9 @@
             "destino": "ALAMEDA DA FIGUEIRA/POWERSOUND",
             "responsavel": "RONALDO",
             "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "17/04/2026 11:39"
+            "status": "Finalizada",
+            "data_emissao": "17/04/2026 11:39",
+            "data_baixa": "20/04/2026 12:24"
         },
         {
             "id": 18,
