@@ -20,9 +20,8 @@
         },
         "Som": {
             "sistema slin markpro": 8,
-            "kit microfones sem fio kaze": 1,
-            "antenas/mic": 4,
-            "pedestal": 10
+            "antenas/mic": 2,
+            "pedestal": 8
         },
         "Materiais Diversos": {
             "parafuso 17": 1000,
@@ -56,8 +55,8 @@
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
-            "fibra hdmi": 10,
-            "cabos xlr": 50
+            "fibra hdmi": 9,
+            "cabos xlr": 46
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -779,9 +778,49 @@
             "data_retorno": "22/04/2026",
             "status": "Pendente",
             "data_emissao": "20/04/2026 19:42"
+        },
+        {
+            "id": 24,
+            "itens": [
+                {
+                    "categoria": "Som",
+                    "material": "kit microfones sem fio kaze",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "antenas/mic",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 4,
+                    "observacao": ""
+                }
+            ],
+            "destino": "TELEHOUSE",
+            "responsavel": "EDUARDO",
+            "data_retorno": "27/04/2026",
+            "status": "Pendente",
+            "data_emissao": "21/04/2026 18:41"
         }
     ],
-    "contador_os": 24,
+    "contador_os": 25,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
