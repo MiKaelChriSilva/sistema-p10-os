@@ -15,9 +15,8 @@
             "indoor p2.97m1": 40,
             "indoor p2.97m2": 36,
             "processadora v960": 6,
-            "notebook": 5,
-            "processadora vc6": 1,
-            "tv 98": 1
+            "notebook": 4,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -39,8 +38,7 @@
             "pés de 0,80 cm": 8,
             "contrapeso": 20,
             "praticável 2 x 1": 20,
-            "pés praticavel 0,40cm": 80,
-            "estrutura tv 98": 1
+            "pés praticavel 0,40cm": 80
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -58,7 +56,7 @@
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
-            "fibra hdmi": 9,
+            "fibra hdmi": 8,
             "cabos xlr": 46
         },
         "Estruturas": {
@@ -828,9 +826,43 @@
             "data_retorno": "27/04/2026",
             "status": "Pendente",
             "data_emissao": "21/04/2026 18:41"
+        },
+        {
+            "id": 25,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 98",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "estrutura tv 98",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "PARQUE HARMONIA GRAN3",
+            "responsavel": "EDUARDO",
+            "data_retorno": "27/04/2026",
+            "status": "Pendente",
+            "data_emissao": "23/04/2026 15:28"
         }
     ],
-    "contador_os": 25,
+    "contador_os": 26,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
