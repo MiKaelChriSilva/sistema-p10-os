@@ -37,8 +37,8 @@
             "praticável 2 x 0,60": 4,
             "pés de 0,80 cm": 8,
             "contrapeso": 20,
-            "praticável 2 x 1": 9,
-            "pés praticavel 0,40cm": 36
+            "praticável 2 x 1": 19,
+            "pés praticavel 0,40cm": 76
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -74,6 +74,9 @@
             "rack mpl": 2,
             "pentacustica stek": 2,
             "cabo ponta pelada-stek 63a": 2
+        },
+        "Luz": {
+            "parled": 24
         }
     },
     "ordens_servico": [
@@ -757,8 +760,9 @@
             "destino": "GIROTTO EVENTOS ",
             "responsavel": "FELIPE GIROTTO",
             "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "18/04/2026 13:40"
+            "status": "Finalizada",
+            "data_emissao": "18/04/2026 13:40",
+            "data_baixa": "23/04/2026 15:26"
         },
         {
             "id": 23,
