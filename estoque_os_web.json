@@ -37,8 +37,8 @@
             "praticável 2 x 0,60": 4,
             "pés de 0,80 cm": 8,
             "contrapeso": 20,
-            "praticável 2 x 1": 19,
-            "pés praticavel 0,40cm": 76
+            "praticável 2 x 1": 20,
+            "pés praticavel 0,40cm": 80
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -783,8 +783,9 @@
             "destino": "GIROTTO EVENTOS",
             "responsavel": "FELIPE GIROTTO",
             "data_retorno": "22/04/2026",
-            "status": "Pendente",
-            "data_emissao": "20/04/2026 19:42"
+            "status": "Finalizada",
+            "data_emissao": "20/04/2026 19:42",
+            "data_baixa": "23/04/2026 15:26"
         },
         {
             "id": 24,
