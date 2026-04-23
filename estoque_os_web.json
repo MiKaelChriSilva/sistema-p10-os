@@ -21,7 +21,8 @@
         "Som": {
             "sistema slin markpro": 8,
             "antenas/mic": 2,
-            "pedestal": 8
+            "pedestal": 8,
+            "sistema slin db": 4
         },
         "Materiais Diversos": {
             "parafuso 17": 1000,
@@ -525,8 +526,9 @@
             "destino": "POWER SOUND",
             "responsavel": ".",
             "data_retorno": "20/04/2026",
-            "status": "Pendente",
-            "data_emissao": "17/04/2026 11:41"
+            "status": "Finalizada",
+            "data_emissao": "17/04/2026 11:41",
+            "data_baixa": "23/04/2026 15:26"
         },
         {
             "id": 19,
