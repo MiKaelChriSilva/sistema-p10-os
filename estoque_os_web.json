@@ -12,12 +12,12 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 40,
+            "indoor p2.97m1": 29,
             "indoor p2.97m2": 36,
-            "processadora v960": 6,
-            "notebook": 4,
+            "processadora v960": 5,
+            "notebook": 3,
             "processadora vc6": 1,
-            "processadora vx1000 pro": 2
+            "processadora vx1000 pro": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -26,9 +26,9 @@
             "sistema slin db": 4
         },
         "Materiais Diversos": {
-            "parafuso 17": 1000,
-            "chapinha": 1000,
-            "cinta lacoste": 1000,
+            "parafuso 17": 800,
+            "chapinha": 950,
+            "cinta lacoste": 930,
             "maquina de impacto": 5,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
@@ -44,22 +44,22 @@
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 90,
+            "cabo rj45 principal": 75,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 90,
-            "ponte de ac 2.97": 632,
-            "ponte de sinal  2.97": 344,
-            "hdmi": 5,
-            "cabo ac": 5,
-            "cabo cabo configuração usb": 5,
-            "linha de 10m": 30,
-            "regua": 30,
+            "cabo powercon pial 2.97": 75,
+            "ponte de ac 2.97": 542,
+            "ponte de sinal  2.97": 254,
+            "hdmi": 3,
+            "cabo ac": 3,
+            "cabo cabo configuração usb": 3,
+            "linha de 10m": 26,
+            "regua": 27,
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 8,
             "cabos xlr": 46,
-            "linha 5m": 30
+            "linha 5m": 26
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -862,9 +862,121 @@
             "data_retorno": "27/04/2026",
             "status": "Pendente",
             "data_emissao": "23/04/2026 15:28"
+        },
+        {
+            "id": 27,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo cabo configuração usb",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 70,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SÃO PAULO/FEIRA",
+            "responsavel": "PABLO PIRES",
+            "data_retorno": "24/04/2026",
+            "status": "Pendente",
+            "data_emissao": "24/04/2026 11:20"
         }
     ],
-    "contador_os": 27,
+    "contador_os": 28,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
