@@ -60,7 +60,8 @@
             "fibra hdmi": 8,
             "cabos xlr": 46,
             "linha 5m": 26,
-            "ac ponte p5": 300
+            "ac ponte p5": 300,
+            "ponte sinal p5": 300
         },
         "Estruturas": {
             "treliça 3m": 8,
