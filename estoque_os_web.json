@@ -9,16 +9,16 @@
         "Painel de LED": {
             "p3.91 americanled": 94,
             "p3.91 oneligth": 36,
-            "outdoor p.5 m1": 24,
+            "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 40,
             "indoor p2.97m2": 36,
             "processadora v960": 6,
-            "notebook": 3,
+            "notebook": 4,
             "processadora vc6": 1,
             "processadora vx1000 pro": 2,
-            "tb 40": 1
+            "tb 40": 2
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -29,51 +29,51 @@
         "Materiais Diversos": {
             "parafuso 17": 1000,
             "chapinha": 1000,
-            "cinta lacoste": 980,
-            "maquina de impacto": 4,
-            "cachimbo 22": 4,
+            "cinta lacoste": 1000,
+            "maquina de impacto": 5,
+            "cachimbo 22": 5,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 940,
+            "parafuso para treliça 22": 1000,
             "praticável 2 x 0,60": 4,
             "pés de 0,80 cm": 8,
             "contrapeso": 20,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
-            "ponta de eixo": 4,
-            "marreta": 1,
-            "cinta catraca": 96
+            "ponta de eixo": 8,
+            "marreta": 2,
+            "cinta catraca": 100
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 88,
-            "cabo powercon pial": 87,
+            "cabo rj45 principal": 90,
+            "cabo powercon pial": 90,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
             "hdmi": 5,
             "cabo ac": 5,
             "cabo cabo configuração usb": 5,
-            "linha de 10m": 26,
-            "regua": 29,
+            "linha de 10m": 30,
+            "regua": 30,
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 8,
             "cabos xlr": 46,
             "linha 5m": 30,
-            "ac ponte p5": 285,
-            "ponte sinal p5": 285
+            "ac ponte p5": 300,
+            "ponte sinal p5": 300
         },
         "Estruturas": {
             "treliça 3m": 8,
             "treliça 2m": 12,
-            "treliça 1,5m": 4,
-            "treliça 1m": 10,
-            "treliça 0,50m": 5,
-            "cubo": 14,
+            "treliça 1,5m": 6,
+            "treliça 1m": 13,
+            "treliça 0,50m": 7,
+            "cubo": 18,
             "slevee": 6,
             "pau de carga": 6,
             "treliça 2,5m": 5
@@ -868,136 +868,6 @@
             "data_retorno": "27/04/2026",
             "status": "Pendente",
             "data_emissao": "23/04/2026 15:28"
-        },
-        {
-            "id": 30,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "outdoor p.5 m1",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "tb 40",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "notebook",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ac ponte p5",
-                    "quantidade": 15,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte sinal p5",
-                    "quantidade": 15,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo rj45 principal",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo powercon pial",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "regua",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "linha de 10m",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Estruturas",
-                    "material": "treliça 1,5m",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Estruturas",
-                    "material": "cubo",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Estruturas",
-                    "material": "treliça 1m",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Estruturas",
-                    "material": "treliça 0,50m",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso para treliça 22",
-                    "quantidade": 60,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cachimbo 22",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "maquina de impacto",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "ponta de eixo",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "marreta",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta catraca",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta lacoste",
-                    "quantidade": 20,
-                    "observacao": ""
-                }
-            ],
-            "destino": "PAINEL 2X2",
-            "responsavel": "EDUARDO",
-            "data_retorno": "29/04/2026",
-            "status": "Pendente",
-            "data_emissao": "24/04/2026 13:21"
         }
     ],
     "contador_os": 31,
