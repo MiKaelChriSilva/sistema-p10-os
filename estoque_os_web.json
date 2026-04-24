@@ -51,9 +51,7 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 80,
             "mão françesa": 4,
-            "talha 15m": 6,
-            "talha 10m": 6,
-            "cinta/anilha": 50
+            "cinta/anilha": 26
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -1332,9 +1330,37 @@
             "data_retorno": "30/04/2026",
             "status": "Pendente",
             "data_emissao": "24/04/2026 15:55"
+        },
+        {
+            "id": 37,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 15m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 10m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 24,
+                    "observacao": ""
+                }
+            ],
+            "destino": ".",
+            "responsavel": "EDUARDO",
+            "data_retorno": "30/04/2026",
+            "status": "Pendente",
+            "data_emissao": "24/04/2026 17:29"
         }
     ],
-    "contador_os": 37,
+    "contador_os": 38,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
