@@ -12,11 +12,12 @@
             "outdoor p.5 m1": 24,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 23,
+            "indoor p2.97m1": 29,
             "indoor p2.97m2": 36,
             "processadora v960": 5,
             "notebook": 2,
-            "processadora vx1000 pro": 1
+            "processadora vx1000 pro": 1,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -26,42 +27,43 @@
         },
         "Materiais Diversos": {
             "parafuso 17": 760,
-            "chapinha": 890,
-            "cinta lacoste": 890,
-            "maquina de impacto": 2,
+            "chapinha": 940,
+            "cinta lacoste": 910,
+            "maquina de impacto": 3,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 940,
-            "praticável 2 x 0,60": 3,
+            "praticável 2 x 0,60": 4,
             "pés de 0,80 cm": 8,
-            "contrapeso": 18,
+            "contrapeso": 20,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 4,
             "marreta": 1,
             "cinta catraca": 96,
-            "parafuso cestavado": 81,
+            "parafuso cestavado": 90,
             "parafuso filips": 85,
             "chapinha l": 80,
             "adaptador parafusadeira": 99,
             "bit filips": 1,
             "bateria black tools": 2,
             "carregador 21v": 1,
-            "parafuso alongado 17": 50
+            "parafuso alongado 17": 100,
+            "bit cestavado 11": 1
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 65,
+            "cabo rj45 principal": 70,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 70,
-            "ponte de ac 2.97": 492,
-            "ponte de sinal  2.97": 204,
-            "hdmi": 2,
-            "cabo ac": 2,
-            "cabo cabo configuração usb": 2,
+            "cabo powercon pial 2.97": 75,
+            "ponte de ac 2.97": 542,
+            "ponte de sinal  2.97": 254,
+            "hdmi": 3,
+            "cabo ac": 3,
+            "cabo cabo configuração usb": 3,
             "linha de 10m": 22,
             "regua": 26,
             "regua stek": 6,
@@ -1198,118 +1200,6 @@
             "data_retorno": "30/04/2026",
             "status": "Pendente",
             "data_emissao": "24/04/2026 14:19"
-        },
-        {
-            "id": 35,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "indoor p2.97m1",
-                    "quantidade": 6,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora vc6",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "hdmi",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo ac",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo cabo configuração usb",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de ac 2.97",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de sinal  2.97",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo powercon pial 2.97",
-                    "quantidade": 5,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo rj45 principal",
-                    "quantidade": 5,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso alongado 17",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "chapinha",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta lacoste",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso cestavado",
-                    "quantidade": 9,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "praticável 2 x 0,60",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "bit cestavado 11",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "maquina de impacto",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "contrapeso",
-                    "quantidade": 2,
-                    "observacao": ""
-                }
-            ],
-            "destino": "IESTA / TED AUDIO",
-            "responsavel": "TIAGO",
-            "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "24/04/2026 15:47"
         }
     ],
     "contador_os": 36,
