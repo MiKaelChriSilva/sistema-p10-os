@@ -17,8 +17,7 @@
             "processadora v960": 5,
             "notebook": 2,
             "processadora vc6": 1,
-            "processadora vx1000 pro": 1,
-            "tb 40": 1
+            "processadora vx1000 pro": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -1184,9 +1183,25 @@
             "data_retorno": "30/04/2026",
             "status": "Pendente",
             "data_emissao": "24/04/2026 14:09"
+        },
+        {
+            "id": 34,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb 40",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SÃO PAULO/FEIRA ",
+            "responsavel": "PABLO",
+            "data_retorno": "30/04/2026",
+            "status": "Pendente",
+            "data_emissao": "24/04/2026 14:19"
         }
     ],
-    "contador_os": 34,
+    "contador_os": 35,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
