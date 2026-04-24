@@ -12,12 +12,12 @@
             "outdoor p.5 m1": 24,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 29,
+            "indoor p2.97m1": 40,
             "indoor p2.97m2": 36,
-            "processadora v960": 5,
-            "notebook": 2,
+            "processadora v960": 6,
+            "notebook": 3,
             "processadora vc6": 1,
-            "processadora vx1000 pro": 1,
+            "processadora vx1000 pro": 2,
             "tb 40": 1
         },
         "Som": {
@@ -27,9 +27,9 @@
             "sistema slin db": 4
         },
         "Materiais Diversos": {
-            "parafuso 17": 760,
-            "chapinha": 940,
-            "cinta lacoste": 910,
+            "parafuso 17": 960,
+            "chapinha": 990,
+            "cinta lacoste": 980,
             "maquina de impacto": 4,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -44,34 +44,34 @@
             "ponta de eixo": 4,
             "marreta": 1,
             "cinta catraca": 96,
-            "parafuso cestavado": 90,
-            "parafuso filips": 85,
-            "chapinha l": 80,
-            "adaptador parafusadeira": 99,
-            "bit filips": 1,
-            "bit cestavado 11": 1,
-            "bateria black tools": 2,
-            "carregador 21v": 1
+            "parafuso cestavado": 100,
+            "parafuso filips": 100,
+            "chapinha l": 100,
+            "adaptador parafusadeira": 100,
+            "bit filips": 2,
+            "bit cestavado 11": 2,
+            "bateria black tools": 4,
+            "carregador 21v": 2
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 70,
+            "cabo rj45 principal": 85,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 75,
-            "ponte de ac 2.97": 542,
-            "ponte de sinal  2.97": 254,
-            "hdmi": 3,
-            "cabo ac": 3,
-            "cabo cabo configuração usb": 3,
-            "linha de 10m": 22,
-            "regua": 26,
+            "cabo powercon pial 2.97": 90,
+            "ponte de ac 2.97": 632,
+            "ponte de sinal  2.97": 344,
+            "hdmi": 5,
+            "cabo ac": 5,
+            "cabo cabo configuração usb": 5,
+            "linha de 10m": 26,
+            "regua": 29,
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 8,
             "cabos xlr": 46,
-            "linha 5m": 26,
+            "linha 5m": 30,
             "ac ponte p5": 285,
             "ponte sinal p5": 285
         },
@@ -876,166 +876,6 @@
             "data_retorno": "27/04/2026",
             "status": "Pendente",
             "data_emissao": "23/04/2026 15:28"
-        },
-        {
-            "id": 31,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "indoor p2.97m1",
-                    "quantidade": 11,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora v960",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora vx1000 pro",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "notebook",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "hdmi",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo ac",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo cabo configuração usb",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de ac 2.97",
-                    "quantidade": 90,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de sinal  2.97",
-                    "quantidade": 90,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo powercon pial 2.97",
-                    "quantidade": 15,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo rj45 principal",
-                    "quantidade": 15,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "linha 5m",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "linha de 10m",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "regua",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso 17",
-                    "quantidade": 200,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "chapinha",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta lacoste",
-                    "quantidade": 70,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso cestavado",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso filips",
-                    "quantidade": 15,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "chapinha l",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "adaptador parafusadeira",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "bit filips",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "bit cestavado 11",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "bateria black tools",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "carregador 21v",
-                    "quantidade": 1,
-                    "observacao": ""
-                }
-            ],
-            "destino": "SÃO PAULO/FEIRA",
-            "responsavel": "PABLO PIRES",
-            "data_retorno": "29/04/2026",
-            "status": "Pendente",
-            "data_emissao": "24/04/2026 13:55"
         },
         {
             "id": 32,
