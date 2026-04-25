@@ -15,8 +15,9 @@
             "indoor p2.97m1": 23,
             "indoor p2.97m2": 36,
             "processadora v960": 5,
-            "notebook": 2,
-            "processadora vx1000 pro": 1
+            "notebook": 3,
+            "processadora vx1000 pro": 1,
+            "tv 98": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -51,7 +52,8 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 80,
             "mão françesa": 4,
-            "cinta/anilha": 26
+            "cinta/anilha": 26,
+            "estrutura tv 98": 1
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -69,7 +71,7 @@
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
-            "fibra hdmi": 8,
+            "fibra hdmi": 9,
             "cabos xlr": 46,
             "linha 5m": 26,
             "ac ponte p5": 285,
@@ -874,8 +876,9 @@
             "destino": "PARQUE HARMONIA GRAN3",
             "responsavel": "EDUARDO",
             "data_retorno": "27/04/2026",
-            "status": "Pendente",
-            "data_emissao": "23/04/2026 15:28"
+            "status": "Finalizada",
+            "data_emissao": "23/04/2026 15:28",
+            "data_baixa": "25/04/2026 11:17"
         },
         {
             "id": 32,
