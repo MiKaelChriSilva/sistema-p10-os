@@ -7,14 +7,14 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 americanled": 89,
+            "p3.91 americanled": 94,
             "p3.91 oneligth": 36,
             "outdoor p.5 m1": 24,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 23,
-            "indoor p2.97m2": 31,
-            "processadora v960": 3,
+            "indoor p2.97m2": 36,
+            "processadora v960": 5,
             "notebook": 3,
             "processadora vx1000 pro": 1,
             "tv 98": 1
@@ -26,9 +26,9 @@
             "sistema slin db": 4
         },
         "Materiais Diversos": {
-            "parafuso 17": 740,
+            "parafuso 17": 760,
             "chapinha": 920,
-            "cinta lacoste": 860,
+            "cinta lacoste": 880,
             "maquina de impacto": 2,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -57,19 +57,19 @@
             "talha 15m": 6,
             "talha 10m": 6,
             "cinta catraca prquena": 498,
-            "garra u": 180,
-            "bumper 3.9 al": 42
+            "garra u": 200,
+            "bumper 3.9 al": 50
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 55,
-            "cabo powercon pial": 84,
-            "cabo powercon pial 2.97": 64,
-            "ponte de ac 2.97": 442,
+            "cabo rj45 principal": 65,
+            "cabo powercon pial": 90,
+            "cabo powercon pial 2.97": 70,
+            "ponte de ac 2.97": 492,
             "ponte de sinal  2.97": 204,
-            "linha de 10m": 17,
-            "regua": 25,
+            "linha de 10m": 22,
+            "regua": 26,
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
@@ -78,8 +78,11 @@
             "linha 5m": 26,
             "ac ponte p5": 285,
             "ponte sinal p5": 285,
-            "ponte ac amarelo": 582,
-            "ponte sinal amarelo": 532
+            "ponte ac amarelo": 632,
+            "ponte sinal amarelo": 632,
+            "hdmi": 2,
+            "cabo ac": 2,
+            "cabo cabo configuração usb": 2
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -1510,8 +1513,9 @@
             "destino": "DJ FELIPE ",
             "responsavel": ".",
             "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "25/04/2026 11:30"
+            "status": "Finalizada",
+            "data_emissao": "25/04/2026 11:30",
+            "data_baixa": "25/04/2026 11:31"
         }
     ],
     "contador_os": 40,
