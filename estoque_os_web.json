@@ -28,7 +28,7 @@
         "Materiais Diversos": {
             "parafuso 17": 760,
             "chapinha": 920,
-            "cinta lacoste": 890,
+            "cinta lacoste": 880,
             "maquina de impacto": 2,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -56,7 +56,7 @@
             "estrutura tv 98": 1,
             "talha 15m": 6,
             "talha 10m": 6,
-            "cinta catraca prquena": 500
+            "cinta catraca prquena": 498
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -1365,9 +1365,31 @@
             "status": "Finalizada",
             "data_emissao": "24/04/2026 17:29",
             "data_baixa": "25/04/2026 11:17"
+        },
+        {
+            "id": 38,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "PAINEL 2X2",
+            "responsavel": "EDUARDO",
+            "data_retorno": "27/04/2026",
+            "status": "Pendente",
+            "data_emissao": "25/04/2026 11:19"
         }
     ],
-    "contador_os": 38,
+    "contador_os": 39,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
