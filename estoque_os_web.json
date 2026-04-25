@@ -52,8 +52,10 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 80,
             "mão françesa": 4,
-            "cinta/anilha": 26,
-            "estrutura tv 98": 1
+            "cinta/anilha": 50,
+            "estrutura tv 98": 1,
+            "talha 15m": 6,
+            "talha 10m": 6
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
@@ -1359,8 +1361,9 @@
             "destino": ".",
             "responsavel": "EDUARDO",
             "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "24/04/2026 17:29"
+            "status": "Finalizada",
+            "data_emissao": "24/04/2026 17:29",
+            "data_baixa": "25/04/2026 11:17"
         }
     ],
     "contador_os": 38,
