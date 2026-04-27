@@ -55,10 +55,8 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 100,
             "mão françesa": 6,
-            "cinta/anilha": 50,
+            "cinta/anilha": 26,
             "estrutura tv 98": 1,
-            "talha 15m": 6,
-            "talha 10m": 6,
             "cinta catraca prquena": 500,
             "garra u": 200,
             "bumper 3.9 al": 50,
@@ -1398,9 +1396,37 @@
             "status": "Finalizada",
             "data_emissao": "25/04/2026 11:38",
             "data_baixa": "27/04/2026 14:29"
+        },
+        {
+            "id": 41,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 15m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 10m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 24,
+                    "observacao": ""
+                }
+            ],
+            "destino": "IMAGINE / SÃO PAULO",
+            "responsavel": "EDUARDO",
+            "data_retorno": "30/04/2026",
+            "status": "Pendente",
+            "data_emissao": "27/04/2026 14:33"
         }
     ],
-    "contador_os": 41,
+    "contador_os": 42,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
