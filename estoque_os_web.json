@@ -37,9 +37,8 @@
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000,
+            "parafuso para treliça 22": 976,
             "praticável 2 x 0,60": 4,
-            "pés de 0,80 cm": 8,
             "contrapeso": 20,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
@@ -96,10 +95,10 @@
             "slevee": 6,
             "pau de carga": 6,
             "treliça 2,5m": 5,
-            "p15 3m": 5,
-            "p15 2m": 5,
-            "p15 0,5m": 5,
-            "p15 cubo": 5
+            "p15 3m": 2,
+            "p15 2m": 3,
+            "p15 0,5m": 1,
+            "p15 cubo": 1
         },
         "Sistema de AC": {
             "rack mpl": 2,
@@ -1528,9 +1527,55 @@
             "data_retorno": "08/05/2026",
             "status": "Pendente",
             "data_emissao": "27/04/2026 17:09"
+        },
+        {
+            "id": 43,
+            "itens": [
+                {
+                    "categoria": "Estruturas",
+                    "material": "p15 3m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "p15 2m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "p15 0,5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "p15 cubo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 24,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés de 0,80 cm",
+                    "quantidade": 8,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GIROTTO EVENTOS ",
+            "responsavel": "FELIPE GIROTTO",
+            "data_retorno": "30/04/2026",
+            "status": "Pendente",
+            "data_emissao": "27/04/2026 17:18"
         }
     ],
-    "contador_os": 43,
+    "contador_os": 44,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
