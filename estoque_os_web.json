@@ -23,9 +23,10 @@
         },
         "Som": {
             "sistema slin markpro": 8,
-            "antenas/mic": 2,
-            "pedestal": 8,
-            "sistema slin db": 4
+            "antenas/mic": 4,
+            "pedestal": 10,
+            "sistema slin db": 4,
+            "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
             "parafuso 17": 800,
@@ -76,8 +77,8 @@
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
-            "fibra hdmi": 9,
-            "cabos xlr": 46,
+            "fibra hdmi": 10,
+            "cabos xlr": 50,
             "linha 5m": 26,
             "ac ponte p5": 300,
             "ponte sinal p5": 300,
@@ -852,8 +853,9 @@
             "destino": "TELEHOUSE",
             "responsavel": "EDUARDO",
             "data_retorno": "27/04/2026",
-            "status": "Pendente",
-            "data_emissao": "21/04/2026 18:41"
+            "status": "Finalizada",
+            "data_emissao": "21/04/2026 18:41",
+            "data_baixa": "27/04/2026 14:29"
         },
         {
             "id": 25,
