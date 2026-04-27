@@ -19,7 +19,7 @@
             "processadora vx1000 pro": 1,
             "tv 98": 1,
             "processadora vc6": 1,
-            "tb 40": 1
+            "tb 40": 2
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -1058,22 +1058,6 @@
             "data_retorno": "30/04/2026",
             "status": "Pendente",
             "data_emissao": "24/04/2026 14:09"
-        },
-        {
-            "id": 34,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "tb 40",
-                    "quantidade": 1,
-                    "observacao": ""
-                }
-            ],
-            "destino": "SÃO PAULO/FEIRA ",
-            "responsavel": "PABLO",
-            "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "24/04/2026 14:19"
         },
         {
             "id": 36,
