@@ -7,14 +7,14 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 89,
             "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 29,
+            "indoor p2.97m1": 25,
             "indoor p2.97m2": 36,
-            "processadora v960": 5,
+            "processadora v960": 3,
             "notebook": 4,
             "processadora vx1000 pro": 1,
             "tv 98": 1,
@@ -29,9 +29,9 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 800,
+            "parafuso 17": 794,
             "chapinha": 950,
-            "cinta lacoste": 930,
+            "cinta lacoste": 926,
             "maquina de impacto": 4,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
@@ -58,17 +58,17 @@
             "cinta/anilha": 26,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
-            "garra u": 200,
+            "garra u": 194,
             "bumper 3.9 al": 50,
             "bit cestavado 11": 1
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 75,
-            "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 75,
-            "ponte de ac 2.97": 542,
+            "cabo rj45 principal": 71,
+            "cabo powercon pial": 86,
+            "cabo powercon pial 2.97": 71,
+            "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
             "linha de 10m": 26,
             "regua": 27,
@@ -80,11 +80,11 @@
             "linha 5m": 26,
             "ac ponte p5": 300,
             "ponte sinal p5": 300,
-            "ponte ac amarelo": 632,
+            "ponte ac amarelo": 502,
             "ponte sinal amarelo": 632,
-            "hdmi": 3,
-            "cabo ac": 3,
-            "cabo cabo configuração usb": 3
+            "hdmi": 1,
+            "cabo ac": 1,
+            "cabo cabo configuração usb": 1
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -1424,9 +1424,109 @@
             "data_retorno": "30/04/2026",
             "status": "Pendente",
             "data_emissao": "27/04/2026 14:33"
+        },
+        {
+            "id": 42,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo cabo configuração usb",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 4,
+                    "observacao": ""
+                }
+            ],
+            "destino": "DJ FELIPE / SANTA CRUZ",
+            "responsavel": ".",
+            "data_retorno": "08/05/2026",
+            "status": "Pendente",
+            "data_emissao": "27/04/2026 17:09"
         }
     ],
-    "contador_os": 42,
+    "contador_os": 43,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
