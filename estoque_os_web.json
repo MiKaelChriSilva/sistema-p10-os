@@ -28,7 +28,7 @@
         "Materiais Diversos": {
             "parafuso 17": 760,
             "chapinha": 920,
-            "cinta lacoste": 880,
+            "cinta lacoste": 890,
             "maquina de impacto": 2,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -56,7 +56,7 @@
             "estrutura tv 98": 1,
             "talha 15m": 6,
             "talha 10m": 6,
-            "cinta catraca prquena": 498,
+            "cinta catraca prquena": 500,
             "garra u": 200,
             "bumper 3.9 al": 50
         },
@@ -1389,8 +1389,9 @@
             "destino": "PAINEL 2X2",
             "responsavel": "EDUARDO",
             "data_retorno": "27/04/2026",
-            "status": "Pendente",
-            "data_emissao": "25/04/2026 11:19"
+            "status": "Finalizada",
+            "data_emissao": "25/04/2026 11:19",
+            "data_baixa": "27/04/2026 14:28"
         },
         {
             "id": 39,
