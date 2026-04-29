@@ -19,8 +19,7 @@
             "processadora vx1000 pro": 1,
             "tv 98": 1,
             "processadora vc6": 1,
-            "tb 40": 1,
-            "toten de led pro ligth": 1
+            "tb 40": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -1754,9 +1753,25 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "29/04/2026 19:52"
+        },
+        {
+            "id": 48,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "toten de led pro ligth",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SANTA ROSA / FEIRA ",
+            "responsavel": "FELIPE GIROTTO",
+            "data_retorno": "14/05/2026",
+            "status": "Pendente",
+            "data_emissao": "29/04/2026 20:48"
         }
     ],
-    "contador_os": 48,
+    "contador_os": 49,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
