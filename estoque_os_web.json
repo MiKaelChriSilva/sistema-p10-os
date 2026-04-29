@@ -104,7 +104,7 @@
             "cabo ponta pelada-stek 63a": 1
         },
         "Luz": {
-            "parled": 24
+            "parled": 8
         }
     },
     "ordens_servico": [
@@ -1737,9 +1737,25 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "29/04/2026 12:12"
+        },
+        {
+            "id": 47,
+            "itens": [
+                {
+                    "categoria": "Luz",
+                    "material": "parled",
+                    "quantidade": 16,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GIROTTO EVENTOS ",
+            "responsavel": "FLIPE GIROTTO",
+            "data_retorno": "04/05/2026",
+            "status": "Pendente",
+            "data_emissao": "29/04/2026 19:52"
         }
     ],
-    "contador_os": 47,
+    "contador_os": 48,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
