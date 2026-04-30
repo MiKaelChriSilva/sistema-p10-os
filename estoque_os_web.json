@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 89,
-            "p3.91 oneligth": 31,
+            "p3.91 oneligth": 29,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
@@ -29,8 +29,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 754,
-            "chapinha": 940,
+            "parafuso 17": 714,
+            "chapinha": 930,
             "cinta lacoste": 846,
             "maquina de impacto": 3,
             "cachimbo 22": 5,
@@ -39,7 +39,7 @@
             "cachimbo 14": 5,
             "parafuso para treliça 22": 976,
             "praticável 2 x 0,60": 2,
-            "contrapeso": 20,
+            "contrapeso": 12,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 72,
             "ponta de eixo": 8,
@@ -62,14 +62,14 @@
             "saia de palco com 0,40cm x6m": 5
         },
         "Cabos": {
-            "ponte de ac oneligth": 270,
-            "ponte de sinal rj45 oneligth": 270,
-            "cabo rj45 principal": 58,
+            "ponte de ac oneligth": 250,
+            "ponte de sinal rj45 oneligth": 250,
+            "cabo rj45 principal": 48,
             "cabo powercon pial": 81,
             "cabo powercon pial 2.97": 63,
             "ponte de ac 2.97": 442,
             "ponte de sinal  2.97": 194,
-            "linha de 10m": 21,
+            "linha de 10m": 16,
             "regua": 24,
             "regua stek": 2,
             "multivia ac": 22,
@@ -1833,9 +1833,67 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "30/04/2026 17:46"
+        },
+        {
+            "id": 50,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 2,
+                    "observacao": "serão o total de 7 cases porem ja estão carregados 5 cases no caminhao do Alto da Capela"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 20,
+                    "observacao": "Serão o total de 7 cases porem 5 estão ja carregados do alto da capela"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 20,
+                    "observacao": "Serão o total de 7 cases porem 5 estão ja carregados do alto da capela"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 10,
+                    "observacao": "Serão o total de 7 cases porem 5 estão ja carregados do alto da capela"
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 8,
+                    "observacao": "Serão o total de 7 cases porem 5 estão ja carregados do alto da capela"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 5,
+                    "observacao": "Serão o total de 7 cases porem 5 estão ja carregados do alto da capela"
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 40,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LA HACIENDA/POWERSOUND",
+            "responsavel": "RONALDO",
+            "data_retorno": "04/05/2026",
+            "status": "Pendente",
+            "data_emissao": "30/04/2026 18:00"
         }
     ],
-    "contador_os": 50,
+    "contador_os": 51,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
