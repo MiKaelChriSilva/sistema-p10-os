@@ -8,14 +8,14 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 89,
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 31,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 19,
             "indoor p2.97m2": 36,
-            "processadora v960": 2,
-            "notebook": 3,
+            "processadora v960": 1,
+            "notebook": 2,
             "processadora vx1000 pro": 1,
             "tv 98": 1,
             "processadora vc6": 1,
@@ -31,7 +31,7 @@
         "Materiais Diversos": {
             "parafuso 17": 754,
             "chapinha": 940,
-            "cinta lacoste": 866,
+            "cinta lacoste": 846,
             "maquina de impacto": 3,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
@@ -62,15 +62,15 @@
             "saia de palco com 0,40cm x6m": 5
         },
         "Cabos": {
-            "ponte de ac oneligth": 300,
-            "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 63,
-            "cabo powercon pial": 86,
+            "ponte de ac oneligth": 270,
+            "ponte de sinal rj45 oneligth": 270,
+            "cabo rj45 principal": 58,
+            "cabo powercon pial": 81,
             "cabo powercon pial 2.97": 63,
             "ponte de ac 2.97": 442,
             "ponte de sinal  2.97": 194,
             "linha de 10m": 21,
-            "regua": 26,
+            "regua": 24,
             "regua stek": 2,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
@@ -1769,9 +1769,73 @@
             "data_retorno": "14/05/2026",
             "status": "Pendente",
             "data_emissao": "29/04/2026 20:48"
+        },
+        {
+            "id": 49,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": "cabos ac, USB x AB, HDMI inclusos no case"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": "asus vermelho"
+                }
+            ],
+            "destino": "ALTO DA CAPELA/POWERSOUND",
+            "responsavel": "RONALDO",
+            "data_retorno": "04/05/2026",
+            "status": "Pendente",
+            "data_emissao": "30/04/2026 17:46"
         }
     ],
-    "contador_os": 49,
+    "contador_os": 50,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
