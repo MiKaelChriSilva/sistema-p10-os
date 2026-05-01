@@ -37,7 +37,7 @@
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 976,
+            "parafuso para treliça 22": 1000,
             "praticável 2 x 0,60": 4,
             "contrapeso": 12,
             "praticável 2 x 1": 20,
@@ -60,7 +60,8 @@
             "garra u": 194,
             "bumper 3.9 al": 50,
             "saia de palco com 0,40cm x6m": 6,
-            "bit cestavado 11": 1
+            "bit cestavado 11": 1,
+            "pés de 0,80 cm": 8
         },
         "Cabos": {
             "ponte de ac oneligth": 250,
@@ -97,10 +98,10 @@
             "slevee": 6,
             "pau de carga": 6,
             "treliça 2,5m": 5,
-            "p15 3m": 2,
-            "p15 2m": 3,
-            "p15 0,5m": 1,
-            "p15 cubo": 1
+            "p15 3m": 5,
+            "p15 2m": 5,
+            "p15 0,5m": 5,
+            "p15 cubo": 5
         },
         "Sistema de AC": {
             "rack mpl": 2,
@@ -1557,8 +1558,9 @@
             "destino": "GIROTTO EVENTOS ",
             "responsavel": "FELIPE GIROTTO",
             "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "27/04/2026 17:18"
+            "status": "Finalizada",
+            "data_emissao": "27/04/2026 17:18",
+            "data_baixa": "01/05/2026 13:50"
         },
         {
             "id": 44,
