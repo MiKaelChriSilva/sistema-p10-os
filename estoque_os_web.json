@@ -22,7 +22,7 @@
             "tb 40": 1
         },
         "Som": {
-            "sistema slin markpro": 4,
+            "sistema slin markpro": 8,
             "antenas/mic": 4,
             "pedestal": 10,
             "sistema slin db": 4,
@@ -31,7 +31,7 @@
         "Materiais Diversos": {
             "parafuso 17": 714,
             "chapinha": 930,
-            "cinta lacoste": 796,
+            "cinta lacoste": 846,
             "maquina de impacto": 3,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
@@ -1891,28 +1891,6 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "30/04/2026 18:00"
-        },
-        {
-            "id": 51,
-            "itens": [
-                {
-                    "categoria": "Som",
-                    "material": "sistema slin markpro",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta lacoste",
-                    "quantidade": 50,
-                    "observacao": ""
-                }
-            ],
-            "destino": "DERROTA",
-            "responsavel": "TIAGO",
-            "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "01/05/2026 13:48"
         }
     ],
     "contador_os": 52,
