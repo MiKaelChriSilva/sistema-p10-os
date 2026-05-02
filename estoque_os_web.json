@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 89,
-            "p3.91 oneligth": 29,
+            "p3.91 oneligth": 27,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
@@ -39,7 +39,7 @@
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
             "praticável 2 x 0,60": 4,
-            "contrapeso": 12,
+            "contrapeso": 10,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -64,15 +64,15 @@
             "pés de 0,80 cm": 8
         },
         "Cabos": {
-            "ponte de ac oneligth": 250,
-            "ponte de sinal rj45 oneligth": 250,
-            "cabo rj45 principal": 56,
-            "cabo powercon pial": 81,
+            "ponte de ac oneligth": 230,
+            "ponte de sinal rj45 oneligth": 230,
+            "cabo rj45 principal": 54,
+            "cabo powercon pial": 79,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
             "linha de 10m": 21,
-            "regua": 25,
+            "regua": 24,
             "regua stek": 6,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
@@ -1898,9 +1898,61 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "30/04/2026 18:00"
+        },
+        {
+            "id": 52,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GRAMADO",
+            "responsavel": ".",
+            "data_retorno": "04/05/2026",
+            "status": "Pendente",
+            "data_emissao": "02/05/2026 11:57"
         }
     ],
-    "contador_os": 52,
+    "contador_os": 53,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
