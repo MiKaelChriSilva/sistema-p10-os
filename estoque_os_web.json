@@ -110,7 +110,8 @@
             "cabo ponta pelada-stek 63a": 1
         },
         "Luz": {
-            "parled": 8
+            "parled": 8,
+            "maquína de fumaça": 5
         }
     },
     "ordens_servico": [
