@@ -36,7 +36,7 @@
             "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 992,
+            "parafuso para treliça 22": 986,
             "praticável 2 x 0,60": 4,
             "contrapeso": 8,
             "praticável 2 x 1": 20,
@@ -88,13 +88,13 @@
             "fonte 12v": 1,
             "ponte ac quina": 60,
             "ponte sinal- quina": 60,
-            "cabo ac": 20
+            "cabo ac": 19
         },
         "Estruturas": {
             "treliça 3m": 8,
             "treliça 2m": 10,
             "treliça 1,5m": 6,
-            "treliça 1m": 13,
+            "treliça 1m": 11,
             "treliça 0,50m": 5,
             "cubo": 16,
             "slevee": 6,
@@ -104,7 +104,7 @@
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
-            "base grande": 10
+            "base grande": 9
         },
         "Sistema de AC": {
             "rack mpl": 2,
@@ -113,7 +113,7 @@
         },
         "Luz": {
             "parled": 8,
-            "maquína de fumaça": 5
+            "maquína de fumaça": 4
         }
     },
     "ordens_servico": [
@@ -2138,9 +2138,49 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "02/05/2026 17:56"
+        },
+        {
+            "id": 55,
+            "itens": [
+                {
+                    "categoria": "Luz",
+                    "material": "maquína de fumaça",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "base grande",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 6,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GIROTTO EVENTOS",
+            "responsavel": "FELIPE GIROTTO",
+            "data_retorno": "04/05/2026",
+            "status": "Pendente",
+            "data_emissao": "02/05/2026 19:49"
         }
     ],
-    "contador_os": 55,
+    "contador_os": 56,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
