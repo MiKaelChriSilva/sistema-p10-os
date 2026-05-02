@@ -15,12 +15,10 @@
             "indoor p2.97m1": 25,
             "indoor p2.97m2": 36,
             "processadora v960": 2,
-            "notebook": 3,
+            "notebook": 2,
             "tv 98": 1,
             "tb 40": 1,
-            "painel 2.6 quina": 30,
-            "processadora vc6": 1,
-            "processadora vx1000 pro": 1
+            "painel 2.6 quina": 16
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -30,17 +28,17 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 754,
+            "parafuso 17": 674,
             "chapinha": 940,
-            "cinta lacoste": 906,
-            "maquina de impacto": 4,
-            "cachimbo 22": 5,
-            "cachimbo 17": 5,
+            "cinta lacoste": 886,
+            "maquina de impacto": 3,
+            "cachimbo 22": 4,
+            "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000,
+            "parafuso para treliça 22": 992,
             "praticável 2 x 0,60": 4,
-            "contrapeso": 10,
+            "contrapeso": 8,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -63,21 +61,21 @@
             "saia de palco com 0,40cm x6m": 6,
             "bit cestavado 11": 1,
             "pés de 0,80 cm": 8,
-            "maleta de ferramenta": 5,
-            "kit angulos painel quina": 138,
-            "chapinha quina": 138
+            "maleta de ferramenta": 4,
+            "kit angulos painel quina": 8,
+            "chapinha quina": 98
         },
         "Cabos": {
             "ponte de ac oneligth": 230,
             "ponte de sinal rj45 oneligth": 230,
-            "cabo rj45 principal": 54,
-            "cabo powercon pial": 79,
+            "cabo rj45 principal": 44,
+            "cabo powercon pial": 64,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 21,
-            "regua": 24,
-            "regua stek": 6,
+            "linha de 10m": 16,
+            "regua": 22,
+            "regua stek": 4,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -88,19 +86,16 @@
             "ponte ac amarelo": 502,
             "ponte sinal amarelo": 632,
             "fonte 12v": 1,
-            "ponte ac quina": 150,
-            "ponte sinal- quina": 150,
-            "hdmi": 1,
-            "cabo ac": 1,
-            "cabo cabo configuração usb": 1
+            "ponte ac quina": 60,
+            "ponte sinal- quina": 60
         },
         "Estruturas": {
             "treliça 3m": 8,
-            "treliça 2m": 12,
+            "treliça 2m": 10,
             "treliça 1,5m": 6,
             "treliça 1m": 13,
-            "treliça 0,50m": 7,
-            "cubo": 18,
+            "treliça 0,50m": 5,
+            "cubo": 16,
             "slevee": 6,
             "pau de carga": 6,
             "treliça 2,5m": 5,
@@ -111,8 +106,8 @@
         },
         "Sistema de AC": {
             "rack mpl": 2,
-            "pentacustica stek": 2,
-            "cabo ponta pelada-stek 63a": 2
+            "pentacustica stek": 1,
+            "cabo ponta pelada-stek 63a": 1
         },
         "Luz": {
             "parled": 8
@@ -1956,9 +1951,193 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "02/05/2026 11:57"
+        },
+        {
+            "id": 54,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel 2.6 quina",
+                    "quantidade": 14,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo cabo configuração usb",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac quina",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal- quina",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua stek",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo ponta pelada-stek 63a",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maleta de ferramenta",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "kit angulos painel quina",
+                    "quantidade": 130,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha quina",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "FEIRA / GRAMADO",
+            "responsavel": ".",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "02/05/2026 17:56"
         }
     ],
-    "contador_os": 54,
+    "contador_os": 55,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
