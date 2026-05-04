@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 89,
-            "p3.91 oneligth": 34,
+            "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
@@ -28,8 +28,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 674,
-            "chapinha": 940,
+            "parafuso 17": 714,
+            "chapinha": 950,
             "cinta lacoste": 906,
             "maquina de impacto": 3,
             "cachimbo 22": 4,
@@ -38,7 +38,7 @@
             "cachimbo 14": 5,
             "parafuso para treliça 22": 986,
             "praticável 2 x 0,60": 4,
-            "contrapeso": 10,
+            "contrapeso": 18,
             "praticável 2 x 1": 20,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -66,14 +66,14 @@
             "chapinha quina": 98
         },
         "Cabos": {
-            "ponte de ac oneligth": 280,
-            "ponte de sinal rj45 oneligth": 280,
-            "cabo rj45 principal": 51,
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 61,
             "cabo powercon pial": 71,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 16,
+            "linha de 10m": 21,
             "regua": 25,
             "regua stek": 4,
             "multivia ac": 22,
@@ -1901,8 +1901,9 @@
             "destino": "LA HACIENDA/POWERSOUND",
             "responsavel": "RONALDO",
             "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "30/04/2026 18:00"
+            "status": "Finalizada",
+            "data_emissao": "30/04/2026 18:00",
+            "data_baixa": "04/05/2026 18:46"
         },
         {
             "id": 52,
