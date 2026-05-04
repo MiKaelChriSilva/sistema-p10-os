@@ -8,14 +8,14 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 89,
-            "p3.91 oneligth": 29,
+            "p3.91 oneligth": 34,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 22,
             "indoor p2.6": 15,
             "indoor p2.97m1": 25,
             "indoor p2.97m2": 36,
-            "processadora v960": 2,
-            "notebook": 2,
+            "processadora v960": 3,
+            "notebook": 3,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 16
@@ -30,7 +30,7 @@
         "Materiais Diversos": {
             "parafuso 17": 674,
             "chapinha": 940,
-            "cinta lacoste": 886,
+            "cinta lacoste": 906,
             "maquina de impacto": 3,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
@@ -66,15 +66,15 @@
             "chapinha quina": 98
         },
         "Cabos": {
-            "ponte de ac oneligth": 250,
-            "ponte de sinal rj45 oneligth": 250,
-            "cabo rj45 principal": 46,
-            "cabo powercon pial": 66,
+            "ponte de ac oneligth": 280,
+            "ponte de sinal rj45 oneligth": 280,
+            "cabo rj45 principal": 51,
+            "cabo powercon pial": 71,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
             "linha de 10m": 16,
-            "regua": 23,
+            "regua": 25,
             "regua stek": 4,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
@@ -1842,8 +1842,9 @@
             "destino": "ALTO DA CAPELA/POWERSOUND",
             "responsavel": "RONALDO",
             "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "30/04/2026 17:46"
+            "status": "Finalizada",
+            "data_emissao": "30/04/2026 17:46",
+            "data_baixa": "04/05/2026 18:42"
         },
         {
             "id": 50,
