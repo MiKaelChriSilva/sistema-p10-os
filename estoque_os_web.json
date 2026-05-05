@@ -21,8 +21,7 @@
             "painel 2.6 quina": 16,
             "processadora": 1,
             "processadora=": 1,
-            "processadora+cabos": 1,
-            "processadora vx16s": 1
+            "processadora+cabos": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -2297,9 +2296,25 @@
             "data_retorno": "04/05/2026",
             "status": "Pendente",
             "data_emissao": "04/05/2026 19:53"
+        },
+        {
+            "id": 58,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx16s",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "VH",
+            "responsavel": "EDUARDO",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "05/05/2026 18:58"
         }
     ],
-    "contador_os": 58,
+    "contador_os": 59,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
