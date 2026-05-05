@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 americanled": 89,
+            "p3.91 americanled": 79,
             "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
@@ -15,14 +15,14 @@
             "indoor p2.97m1": 25,
             "indoor p2.97m2": 36,
             "processadora v960": 3,
-            "notebook": 3,
+            "notebook": 2,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 16,
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx1000 pro": 2
+            "processadora vx1000 pro": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -32,14 +32,14 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 714,
-            "chapinha": 950,
-            "cinta lacoste": 886,
-            "maquina de impacto": 2,
-            "cachimbo 22": 4,
-            "cachimbo 17": 4,
-            "cachimbo 19": 5,
-            "cachimbo 14": 5,
+            "parafuso 17": 514,
+            "chapinha": 900,
+            "cinta lacoste": 836,
+            "maquina de impacto": 1,
+            "cachimbo 22": 3,
+            "cachimbo 17": 3,
+            "cachimbo 19": 4,
+            "cachimbo 14": 4,
             "parafuso para treliça 22": 986,
             "praticável 2 x 0,60": 2,
             "contrapeso": 18,
@@ -60,7 +60,7 @@
             "cinta/anilha": 26,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
-            "garra u": 194,
+            "garra u": 144,
             "bumper 3.9 al": 50,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
@@ -68,18 +68,18 @@
             "kit angulos painel quina": 8,
             "chapinha quina": 98,
             "peça cantoneira": 1,
-            "bracinho/ fixar painel": 20
+            "bracinho/ fixar painel": 10
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 59,
-            "cabo powercon pial": 68,
+            "cabo rj45 principal": 52,
+            "cabo powercon pial": 58,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 18,
-            "regua": 24,
+            "linha de 10m": 11,
+            "regua": 23,
             "regua stek": 3,
             "multivia ac": 22,
             "cabo rj45 ponte azul": 100,
@@ -88,13 +88,13 @@
             "linha 5m": 26,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 502,
-            "ponte sinal amarelo": 632,
+            "ponte ac amarelo": 412,
+            "ponte sinal amarelo": 542,
             "fonte 12v": 1,
             "ponte ac quina": 60,
             "ponte sinal- quina": 60,
             "cabo ac": 19,
-            "kit cabo processadora": 6
+            "kit cabo processadora": 5
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -2315,9 +2315,139 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "05/05/2026 18:58"
+        },
+        {
+            "id": 59,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bracinho/ fixar painel",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 19",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 14",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": ".",
+            "responsavel": "EDUARDO",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "05/05/2026 19:07"
         }
     ],
-    "contador_os": 59,
+    "contador_os": 60,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
