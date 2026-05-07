@@ -118,7 +118,8 @@
         "Sistema de AC": {
             "rack mpl": 2,
             "pentacustica stek": 1,
-            "cabo ponta pelada-stek 63a": 1
+            "cabo ponta pelada-stek 63a": 1,
+            "rack pentacustica 1": 1
         },
         "Luz": {
             "parled": 8,
