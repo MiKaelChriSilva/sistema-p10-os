@@ -8,22 +8,21 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 79,
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 27,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 25,
             "indoor p2.97m2": 36,
             "processadora v960": 3,
-            "notebook": 2,
+            "notebook": 1,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 16,
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx1000 pro": 1,
-            "processadora vx16s": 1
+            "processadora vx1000 pro": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -33,9 +32,9 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 514,
-            "chapinha": 900,
-            "cinta lacoste": 836,
+            "parafuso 17": 314,
+            "chapinha": 850,
+            "cinta lacoste": 776,
             "maquina de impacto": 1,
             "cachimbo 22": 3,
             "cachimbo 17": 3,
@@ -70,21 +69,21 @@
             "chapinha quina": 98,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 10,
-            "fita isolante": 51,
-            "fita preta de acabamento": 50
+            "fita isolante": 50,
+            "fita preta de acabamento": 49
         },
         "Cabos": {
-            "ponte de ac oneligth": 300,
-            "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 52,
-            "cabo powercon pial": 58,
+            "ponte de ac oneligth": 240,
+            "ponte de sinal rj45 oneligth": 240,
+            "cabo rj45 principal": 45,
+            "cabo powercon pial": 48,
             "cabo powercon pial 2.97": 71,
             "ponte de ac 2.97": 502,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 11,
-            "regua": 23,
+            "linha de 10m": 6,
+            "regua": 22,
             "regua stek": 3,
-            "multivia ac": 22,
+            "multivia ac": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -97,7 +96,7 @@
             "ponte ac quina": 60,
             "ponte sinal- quina": 60,
             "cabo ac": 19,
-            "kit cabo processadora": 5
+            "kit cabo processadora": 4
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -119,8 +118,7 @@
             "rack mpl": 2,
             "pentacustica stek": 1,
             "cabo ponta pelada-stek 63a": 1,
-            "rack pentacustica 1": 1,
-            "cabo 64a - ponta pelada 4v": 4
+            "cabo 64a - ponta pelada 4v": 3
         },
         "Luz": {
             "parled": 8,
@@ -2450,9 +2448,127 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "05/05/2026 19:07"
+        },
+        {
+            "id": 60,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx16s",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita preta de acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "rack pentacustica 1",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo 64a - ponta pelada 4v",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA ",
+            "responsavel": ".",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "07/05/2026 18:04"
         }
     ],
-    "contador_os": 60,
+    "contador_os": 61,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
