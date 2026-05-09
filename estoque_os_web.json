@@ -22,7 +22,8 @@
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx1000 pro": 1
+            "processadora vx1000 pro": 1,
+            "processadora vx16s": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -2319,8 +2320,9 @@
             "destino": "VH",
             "responsavel": "EDUARDO",
             "data_retorno": "11/05/2026",
-            "status": "Pendente",
-            "data_emissao": "05/05/2026 18:58"
+            "status": "Finalizada",
+            "data_emissao": "05/05/2026 18:58",
+            "data_baixa": "09/05/2026 11:14"
         },
         {
             "id": 59,
