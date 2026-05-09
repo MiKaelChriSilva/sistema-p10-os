@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 84,
-            "p3.91 oneligth": 23,
+            "p3.91 oneligth": 15,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -23,8 +23,7 @@
             "processadora=": 1,
             "processadora+cabos": 1,
             "processadora vx1000 pro": 2,
-            "processadora vx16s": 1,
-            "processadora vc6": 1
+            "processadora vx16s": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -36,15 +35,15 @@
         "Materiais Diversos": {
             "parafuso 17": 400,
             "chapinha": 850,
-            "cinta lacoste": 780,
-            "maquina de impacto": 2,
-            "cachimbo 22": 4,
+            "cinta lacoste": 730,
+            "maquina de impacto": 1,
+            "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 994,
+            "parafuso para treliça 22": 934,
             "praticável 2 x 0,60": 2,
-            "contrapeso": 20,
+            "contrapeso": 12,
             "praticável 2 x 1": 18,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -75,16 +74,16 @@
             "fita preta de acabamento": 49
         },
         "Cabos": {
-            "ponte de ac oneligth": 210,
-            "ponte de sinal rj45 oneligth": 210,
-            "cabo rj45 principal": 56,
-            "cabo powercon pial": 65,
+            "ponte de ac oneligth": 160,
+            "ponte de sinal rj45 oneligth": 160,
+            "cabo rj45 principal": 46,
+            "cabo powercon pial": 57,
             "cabo powercon pial 2.97": 75,
             "ponte de ac 2.97": 542,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 11,
-            "regua": 24,
-            "regua stek": 5,
+            "linha de 10m": 8,
+            "regua": 23,
+            "regua stek": 1,
             "multivia ac": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -98,7 +97,7 @@
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
             "cabo ac": 22,
-            "kit cabo processadora": 3,
+            "kit cabo processadora": 2,
             "hdmi": 3,
             "cabo cabo configuração usb": 3
         },
@@ -106,12 +105,12 @@
             "treliça 3m": 8,
             "treliça 2m": 12,
             "treliça 1,5m": 6,
-            "treliça 1m": 11,
+            "treliça 1m": 7,
             "treliça 0,50m": 7,
-            "cubo": 18,
+            "cubo": 14,
             "slevee": 6,
             "pau de carga": 6,
-            "treliça 2,5m": 5,
+            "treliça 2,5m": 1,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
@@ -120,9 +119,9 @@
         },
         "Sistema de AC": {
             "rack mpl": 2,
-            "pentacustica stek": 2,
+            "pentacustica stek": 1,
             "cabo ponta pelada-stek 63a": 2,
-            "cabo 64a - ponta pelada 4v": 3
+            "cabo 64a - ponta pelada 4v": 2
         },
         "Luz": {
             "parled": 8,
@@ -2631,9 +2630,139 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "09/05/2026 11:09"
+        },
+        {
+            "id": 62,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua stek",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo 64a - ponta pelada 4v",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "ALAMEDA DA FIGUEIRA",
+            "responsavel": ".",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "09/05/2026 11:20"
         }
     ],
-    "contador_os": 62,
+    "contador_os": 63,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
