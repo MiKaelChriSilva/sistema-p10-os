@@ -8,13 +8,13 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 84,
-            "p3.91 oneligth": 27,
+            "p3.91 oneligth": 23,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 29,
             "indoor p2.97m2": 36,
-            "processadora v960": 5,
+            "processadora v960": 4,
             "notebook": 1,
             "tv 98": 1,
             "tb 40": 1,
@@ -34,7 +34,7 @@
         "Materiais Diversos": {
             "parafuso 17": 320,
             "chapinha": 850,
-            "cinta lacoste": 780,
+            "cinta lacoste": 760,
             "maquina de impacto": 1,
             "cachimbo 22": 3,
             "cachimbo 17": 3,
@@ -73,10 +73,10 @@
             "fita preta de acabamento": 49
         },
         "Cabos": {
-            "ponte de ac oneligth": 240,
-            "ponte de sinal rj45 oneligth": 240,
-            "cabo rj45 principal": 49,
-            "cabo powercon pial": 52,
+            "ponte de ac oneligth": 210,
+            "ponte de sinal rj45 oneligth": 210,
+            "cabo rj45 principal": 46,
+            "cabo powercon pial": 50,
             "cabo powercon pial 2.97": 75,
             "ponte de ac 2.97": 542,
             "ponte de sinal  2.97": 254,
@@ -96,7 +96,7 @@
             "ponte ac quina": 60,
             "ponte sinal- quina": 60,
             "cabo ac": 21,
-            "kit cabo processadora": 4,
+            "kit cabo processadora": 3,
             "hdmi": 2,
             "cabo cabo configuração usb": 2
         },
@@ -2569,9 +2569,67 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "07/05/2026 18:04"
+        },
+        {
+            "id": 61,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GRAVATAI",
+            "responsavel": ".",
+            "data_retorno": "11/05/2026",
+            "status": "Pendente",
+            "data_emissao": "09/05/2026 11:09"
         }
     ],
-    "contador_os": 61,
+    "contador_os": 62,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
