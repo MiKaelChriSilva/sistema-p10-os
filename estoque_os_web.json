@@ -13,20 +13,19 @@
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 29,
-            "indoor p2.97m2": 36,
+            "indoor p2.97m2": 4,
             "processadora v960": 4,
             "notebook": 2,
             "tv 98": 1,
             "tb 40": 1,
-            "painel 2.6 quina": 30,
+            "painel 2.6 quina": 28,
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx1000 pro": 2,
+            "processadora vx1000 pro": 1,
             "processadora vx16s": 1,
-            "tv 42": 2,
-            "tv 32": 6,
-            "dog house": 6
+            "tv 32": 5,
+            "dog house": 3
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -36,17 +35,16 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 400,
-            "chapinha": 850,
-            "cinta lacoste": 730,
-            "maquina de impacto": 1,
-            "cachimbo 22": 3,
+            "parafuso 17": 200,
+            "chapinha": 800,
+            "cinta lacoste": 650,
+            "cachimbo 22": 2,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 934,
+            "parafuso para treliça 22": 854,
             "praticável 2 x 0,60": 2,
-            "contrapeso": 12,
+            "contrapeso": 2,
             "praticável 2 x 1": 18,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -79,12 +77,11 @@
         "Cabos": {
             "ponte de ac oneligth": 160,
             "ponte de sinal rj45 oneligth": 160,
-            "cabo rj45 principal": 46,
+            "cabo rj45 principal": 16,
             "cabo powercon pial": 57,
-            "cabo powercon pial 2.97": 75,
-            "ponte de ac 2.97": 542,
+            "cabo powercon pial 2.97": 55,
+            "ponte de ac 2.97": 272,
             "ponte de sinal  2.97": 254,
-            "linha de 10m": 8,
             "regua": 23,
             "regua stek": 1,
             "multivia ac": 20,
@@ -95,22 +92,21 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 542,
-            "ponte sinal amarelo": 542,
+            "ponte sinal amarelo": 272,
             "fonte 12v": 1,
-            "ponte ac quina": 150,
-            "ponte sinal- quina": 150,
+            "ponte ac quina": 135,
+            "ponte sinal- quina": 135,
             "cabo ac": 22,
-            "kit cabo processadora": 2,
+            "kit cabo processadora": 1,
             "hdmi": 3,
             "cabo cabo configuração usb": 3
         },
         "Estruturas": {
-            "treliça 3m": 8,
+            "treliça 3m": 1,
             "treliça 2m": 12,
             "treliça 1,5m": 6,
-            "treliça 1m": 7,
             "treliça 0,50m": 7,
-            "cubo": 14,
+            "cubo": 7,
             "slevee": 6,
             "pau de carga": 6,
             "treliça 2,5m": 1,
@@ -2763,9 +2759,163 @@
             "data_retorno": "11/05/2026",
             "status": "Pendente",
             "data_emissao": "09/05/2026 11:20"
+        },
+        {
+            "id": 63,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m2",
+                    "quantidade": 32,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 270,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 270,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel 2.6 quina",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac quina",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal- quina",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 42",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 32",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "dog house",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 3m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 80,
+                    "observacao": ""
+                }
+            ],
+            "destino": "PUC/MARCIO",
+            "responsavel": ".",
+            "data_retorno": "18/05/2026",
+            "status": "Pendente",
+            "data_emissao": "12/05/2026 16:18"
         }
     ],
-    "contador_os": 63,
+    "contador_os": 64,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
