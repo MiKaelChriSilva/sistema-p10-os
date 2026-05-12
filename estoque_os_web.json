@@ -81,7 +81,6 @@
             "ponte de ac 2.97": 172,
             "ponte de sinal  2.97": 154,
             "regua": 22,
-            "regua stek": 1,
             "multivia ac": 18,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -115,9 +114,8 @@
         },
         "Sistema de AC": {
             "rack mpl": 2,
-            "pentacustica stek": 1,
             "cabo ponta pelada-stek 63a": 2,
-            "cabo 64a - ponta pelada 4v": 2
+            "cabo 64a - ponta pelada 4v": 1
         },
         "Luz": {
             "parled": 8,
@@ -2998,9 +2996,37 @@
             "data_retorno": "18/05/2026",
             "status": "Pendente",
             "data_emissao": "12/05/2026 16:36"
+        },
+        {
+            "id": 65,
+            "itens": [
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo 64a - ponta pelada 4v",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CATEDRAL",
+            "responsavel": ".",
+            "data_retorno": "18/05/2026",
+            "status": "Pendente",
+            "data_emissao": "12/05/2026 16:37"
         }
     ],
-    "contador_os": 65,
+    "contador_os": 66,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
