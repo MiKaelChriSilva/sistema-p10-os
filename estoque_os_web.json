@@ -12,17 +12,16 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 29,
+            "indoor p2.97m1": 16,
             "indoor p2.97m2": 4,
             "processadora v960": 4,
-            "notebook": 2,
+            "notebook": 1,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 28,
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx1000 pro": 1,
             "processadora vx16s": 1,
             "tv 32": 5,
             "dog house": 3
@@ -35,9 +34,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "parafuso 17": 200,
-            "chapinha": 800,
-            "cinta lacoste": 650,
+            "chapinha": 750,
+            "cinta lacoste": 600,
             "cachimbo 22": 2,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
@@ -77,14 +75,14 @@
         "Cabos": {
             "ponte de ac oneligth": 160,
             "ponte de sinal rj45 oneligth": 160,
-            "cabo rj45 principal": 16,
+            "cabo rj45 principal": 1,
             "cabo powercon pial": 57,
-            "cabo powercon pial 2.97": 55,
-            "ponte de ac 2.97": 272,
-            "ponte de sinal  2.97": 254,
-            "regua": 23,
+            "cabo powercon pial 2.97": 40,
+            "ponte de ac 2.97": 172,
+            "ponte de sinal  2.97": 154,
+            "regua": 22,
             "regua stek": 1,
-            "multivia ac": 20,
+            "multivia ac": 18,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -97,7 +95,6 @@
             "ponte ac quina": 135,
             "ponte sinal- quina": 135,
             "cabo ac": 22,
-            "kit cabo processadora": 1,
             "hdmi": 3,
             "cabo cabo configuração usb": 3
         },
@@ -2913,9 +2910,97 @@
             "data_retorno": "18/05/2026",
             "status": "Pendente",
             "data_emissao": "12/05/2026 16:18"
+        },
+        {
+            "id": 64,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 13,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "kit cabo processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CATEDRAL",
+            "responsavel": ".",
+            "data_retorno": "18/05/2026",
+            "status": "Pendente",
+            "data_emissao": "12/05/2026 16:36"
         }
     ],
-    "contador_os": 64,
+    "contador_os": 65,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
