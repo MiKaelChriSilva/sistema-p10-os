@@ -38,7 +38,8 @@
             "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
             "d.i": 4,
-            "ribalta": 10
+            "ribalta": 10,
+            "move": 6
         },
         "Materiais Diversos": {
             "chapinha": 700,
