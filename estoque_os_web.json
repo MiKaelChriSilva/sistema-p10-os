@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 84,
-            "p3.91 oneligth": 15,
+            "p3.91 oneligth": 23,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -26,7 +26,8 @@
             "tv 32": 5,
             "dog house": 3,
             "indor p2.9 m2": 2,
-            "processadora vx1000 pro": 1
+            "processadora vx1000 pro": 1,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -37,14 +38,14 @@
         },
         "Materiais Diversos": {
             "chapinha": 800,
-            "cinta lacoste": 670,
-            "cachimbo 22": 2,
+            "cinta lacoste": 720,
+            "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 854,
+            "parafuso para treliça 22": 914,
             "praticável 2 x 0,60": 2,
-            "contrapeso": 2,
+            "contrapeso": 10,
             "praticável 2 x 1": 18,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
@@ -75,17 +76,17 @@
             "fita preta de acabamento": 49,
             "parafuso 17": 200,
             "bit cestavado 11": 1,
-            "maquina de impacto": 1
+            "maquina de impacto": 2
         },
         "Cabos": {
-            "ponte de ac oneligth": 160,
-            "ponte de sinal rj45 oneligth": 160,
-            "cabo rj45 principal": 16,
-            "cabo powercon pial": 57,
+            "ponte de ac oneligth": 210,
+            "ponte de sinal rj45 oneligth": 210,
+            "cabo rj45 principal": 26,
+            "cabo powercon pial": 65,
             "cabo powercon pial 2.97": 55,
             "ponte de ac 2.97": 262,
             "ponte de sinal  2.97": 244,
-            "regua": 25,
+            "regua": 26,
             "multivia ac": 18,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -102,27 +103,31 @@
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
-            "linha de 10m": 4
+            "linha de 10m": 7,
+            "kit cabo processadora": 1,
+            "regua stek": 4
         },
         "Estruturas": {
             "treliça 3m": 1,
             "treliça 2m": 12,
             "treliça 1,5m": 6,
             "treliça 0,50m": 7,
-            "cubo": 7,
+            "cubo": 11,
             "slevee": 6,
             "pau de carga": 6,
-            "treliça 2,5m": 1,
+            "treliça 2,5m": 5,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
-            "base grande": 9
+            "base grande": 9,
+            "treliça 1m": 4
         },
         "Sistema de AC": {
             "rack mpl": 2,
             "cabo ponta pelada-stek 63a": 2,
-            "cabo 64a - ponta pelada 4v": 1
+            "cabo 64a - ponta pelada 4v": 2,
+            "pentacustica stek": 1
         },
         "Luz": {
             "parled": 8,
@@ -2760,8 +2765,9 @@
             "destino": "ALAMEDA DA FIGUEIRA",
             "responsavel": ".",
             "data_retorno": "11/05/2026",
-            "status": "Pendente",
-            "data_emissao": "09/05/2026 11:20"
+            "status": "Finalizada",
+            "data_emissao": "09/05/2026 11:20",
+            "data_baixa": "14/05/2026 10:26"
         },
         {
             "id": 63,
