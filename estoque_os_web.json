@@ -27,7 +27,8 @@
             "dog house": 3,
             "indor p2.9 m2": 2,
             "processadora vx1000 pro": 1,
-            "processadora vc6": 1
+            "processadora vc6": 1,
+            "toten de led pro ligth": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -1799,8 +1800,9 @@
             "destino": "SANTA ROSA / FEIRA ",
             "responsavel": "FELIPE GIROTTO",
             "data_retorno": "14/05/2026",
-            "status": "Pendente",
-            "data_emissao": "29/04/2026 20:48"
+            "status": "Finalizada",
+            "data_emissao": "29/04/2026 20:48",
+            "data_baixa": "14/05/2026 10:26"
         },
         {
             "id": 49,
