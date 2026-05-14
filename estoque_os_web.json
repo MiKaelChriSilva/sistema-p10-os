@@ -132,7 +132,7 @@
             "rack pentacustica 1": 1
         },
         "Luz": {
-            "parled": 8,
+            "parled": 24,
             "maquína de fumaça": 4
         }
     },
@@ -1784,8 +1784,9 @@
             "destino": "GIROTTO EVENTOS ",
             "responsavel": "FLIPE GIROTTO",
             "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "29/04/2026 19:52"
+            "status": "Finalizada",
+            "data_emissao": "29/04/2026 19:52",
+            "data_baixa": "14/05/2026 10:26"
         },
         {
             "id": 48,
