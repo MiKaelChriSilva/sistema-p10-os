@@ -44,7 +44,7 @@
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 914,
+            "parafuso para treliça 22": 920,
             "praticável 2 x 0,60": 2,
             "contrapeso": 10,
             "praticável 2 x 1": 18,
@@ -100,7 +100,7 @@
             "fonte 12v": 1,
             "ponte ac quina": 135,
             "ponte sinal- quina": 135,
-            "cabo ac": 24,
+            "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
@@ -121,8 +121,8 @@
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
-            "base grande": 9,
-            "treliça 1m": 4
+            "base grande": 10,
+            "treliça 1m": 6
         },
         "Sistema de AC": {
             "rack mpl": 2,
@@ -133,7 +133,7 @@
         },
         "Luz": {
             "parled": 24,
-            "maquína de fumaça": 4
+            "maquína de fumaça": 5
         }
     },
     "ordens_servico": [
@@ -2204,8 +2204,9 @@
             "destino": "GIROTTO EVENTOS",
             "responsavel": "FELIPE GIROTTO",
             "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "02/05/2026 19:49"
+            "status": "Finalizada",
+            "data_emissao": "02/05/2026 19:49",
+            "data_baixa": "14/05/2026 10:26"
         },
         {
             "id": 57,
