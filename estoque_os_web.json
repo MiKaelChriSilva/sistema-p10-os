@@ -12,9 +12,9 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 19,
-            "processadora v960": 3,
-            "notebook": 2,
+            "indoor p2.97m1": 15,
+            "processadora v960": 2,
+            "notebook": 1,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 28,
@@ -25,22 +25,17 @@
             "tv 32": 5,
             "dog house": 3,
             "processadora vx1000 pro": 1,
-            "toten de led pro ligth": 1,
-            "conversor digital+antena": 1
+            "toten de led pro ligth": 1
         },
         "Som": {
-            "sistema slin markpro": 8,
+            "sistema slin markpro": 6,
             "antenas/mic": 4,
-            "pedestal": 10,
             "sistema slin db": 4,
-            "kit microfones sem fio kaze": 1,
             "pedestal mic": 10,
-            "mic com fio": 10,
-            "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
-            "d.i": 4,
-            "ribalta": 10,
-            "move": 6
+            "d.i": 1,
+            "ribalta": 6,
+            "move": 4
         },
         "Materiais Diversos": {
             "chapinha": 700,
@@ -83,17 +78,17 @@
         "Cabos": {
             "ponte de ac oneligth": 240,
             "ponte de sinal rj45 oneligth": 240,
-            "cabo rj45 principal": 15,
+            "cabo rj45 principal": 11,
             "cabo powercon pial": 67,
-            "cabo powercon pial 2.97": 35,
-            "ponte de ac 2.97": 142,
-            "ponte de sinal  2.97": 174,
-            "regua": 24,
+            "cabo powercon pial 2.97": 33,
+            "ponte de ac 2.97": 102,
+            "ponte de sinal  2.97": 134,
+            "regua": 21,
             "multivia ac": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "cabos xlr": 50,
-            "linha 5m": 30,
+            "cabos xlr": 10,
+            "linha 5m": 15,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 542,
@@ -109,7 +104,7 @@
             "kit cabo processadora": 3,
             "regua stek": 1,
             "fonte 5v": 1,
-            "linha 10m": 20
+            "linha 10m": 5
         },
         "Estruturas": {
             "treliça 3m": 1,
@@ -134,7 +129,7 @@
             "pentacustica stek": 2
         },
         "Luz": {
-            "parled": 24,
+            "parled": 12,
             "maquína de fumaça": 5
         }
     },
@@ -3439,9 +3434,145 @@
             "data_retorno": "18/05/2026",
             "status": "Pendente",
             "data_emissao": "14/05/2026 16:57"
+        },
+        {
+            "id": 70,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "conversor digital+antena",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mic com fio",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa digital 20 canais",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "kit microfones sem fio kaze",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "d.i",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "ribalta",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "move",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "parled",
+                    "quantidade": 12,
+                    "observacao": ""
+                }
+            ],
+            "destino": ".",
+            "responsavel": ".",
+            "data_retorno": "14/05/2026",
+            "status": "Pendente",
+            "data_emissao": "14/05/2026 18:01"
         }
     ],
-    "contador_os": 70,
+    "contador_os": 71,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
