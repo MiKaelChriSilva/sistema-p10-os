@@ -13,9 +13,8 @@
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 27,
-            "indoor p2.97m2": 4,
-            "processadora v960": 6,
-            "notebook": 3,
+            "processadora v960": 5,
+            "notebook": 2,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 28,
@@ -25,7 +24,6 @@
             "processadora vx16s": 2,
             "tv 32": 5,
             "dog house": 3,
-            "indor p2.9 m2": 2,
             "processadora vx1000 pro": 1,
             "processadora vc6": 1,
             "toten de led pro ligth": 1
@@ -38,29 +36,28 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 850,
+            "chapinha": 800,
             "cinta lacoste": 800,
             "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
             "parafuso para treliça 22": 920,
-            "praticável 2 x 0,60": 2,
-            "contrapeso": 10,
+            "contrapeso": 8,
             "praticável 2 x 1": 18,
             "pés praticavel 0,40cm": 80,
             "ponta de eixo": 8,
             "marreta": 2,
             "cinta catraca": 100,
-            "parafuso cestavado": 94,
+            "parafuso cestavado": 88,
             "parafuso filips": 2100,
             "chapinha l": 100,
             "adaptador parafusadeira": 100,
             "bit filips": 2,
             "bateria black tools": 4,
             "carregador 21v": 2,
-            "parafuso alongado 17": 100,
-            "mão françesa": 4,
+            "parafuso alongado 17": 50,
+            "mão françesa": 2,
             "cinta/anilha": 26,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
@@ -76,16 +73,15 @@
             "fita isolante": 51,
             "fita preta de acabamento": 50,
             "parafuso 17": 400,
-            "bit cestavado 11": 1,
-            "maquina de impacto": 2
+            "maquina de impacto": 1
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 36,
+            "cabo rj45 principal": 35,
             "cabo powercon pial": 77,
-            "cabo powercon pial 2.97": 55,
-            "ponte de ac 2.97": 262,
+            "cabo powercon pial 2.97": 45,
+            "ponte de ac 2.97": 212,
             "ponte de sinal  2.97": 244,
             "regua": 27,
             "multivia ac": 20,
@@ -96,14 +92,14 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 542,
-            "ponte sinal amarelo": 272,
+            "ponte sinal amarelo": 222,
             "fonte 12v": 1,
             "ponte ac quina": 135,
             "ponte sinal- quina": 135,
-            "cabo ac": 25,
-            "hdmi": 5,
-            "cabo cabo configuração usb": 5,
-            "rj45 principal": 39,
+            "cabo ac": 24,
+            "hdmi": 4,
+            "cabo cabo configuração usb": 4,
+            "rj45 principal": 30,
             "linha de 10m": 12,
             "kit cabo processadora": 3,
             "regua stek": 4
@@ -3045,9 +3041,139 @@
             "data_retorno": "18/05/2026",
             "status": "Pendente",
             "data_emissao": "12/05/2026 16:37"
+        },
+        {
+            "id": 66,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m2",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indor p2.9 m2",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo ac",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo cabo configuração usb",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 0,60",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso alongado 17",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "mão françesa",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit cestavado 11",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": ".",
+            "responsavel": ".",
+            "data_retorno": "18/05/2026",
+            "status": "Pendente",
+            "data_emissao": "14/05/2026 10:27"
         }
     ],
-    "contador_os": 66,
+    "contador_os": 67,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
