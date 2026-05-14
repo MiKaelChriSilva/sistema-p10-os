@@ -8,21 +8,21 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 84,
-            "p3.91 oneligth": 27,
+            "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 27,
             "indoor p2.97m2": 4,
             "processadora v960": 6,
-            "notebook": 2,
+            "notebook": 3,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 28,
             "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
-            "processadora vx16s": 1,
+            "processadora vx16s": 2,
             "tv 32": 5,
             "dog house": 3,
             "indor p2.9 m2": 2,
@@ -37,8 +37,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 800,
-            "cinta lacoste": 740,
+            "chapinha": 850,
+            "cinta lacoste": 800,
             "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
@@ -72,22 +72,22 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 10,
-            "fita isolante": 50,
-            "fita preta de acabamento": 49,
-            "parafuso 17": 200,
+            "fita isolante": 51,
+            "fita preta de acabamento": 50,
+            "parafuso 17": 400,
             "bit cestavado 11": 1,
             "maquina de impacto": 2
         },
         "Cabos": {
-            "ponte de ac oneligth": 240,
-            "ponte de sinal rj45 oneligth": 240,
-            "cabo rj45 principal": 29,
-            "cabo powercon pial": 67,
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 36,
+            "cabo powercon pial": 77,
             "cabo powercon pial 2.97": 55,
             "ponte de ac 2.97": 262,
             "ponte de sinal  2.97": 244,
-            "regua": 26,
-            "multivia ac": 18,
+            "regua": 27,
+            "multivia ac": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -103,8 +103,8 @@
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
-            "linha de 10m": 7,
-            "kit cabo processadora": 2,
+            "linha de 10m": 12,
+            "kit cabo processadora": 3,
             "regua stek": 4
         },
         "Estruturas": {
@@ -126,8 +126,9 @@
         "Sistema de AC": {
             "rack mpl": 2,
             "cabo ponta pelada-stek 63a": 2,
-            "cabo 64a - ponta pelada 4v": 2,
-            "pentacustica stek": 1
+            "cabo 64a - ponta pelada 4v": 3,
+            "pentacustica stek": 1,
+            "rack pentacustica 1": 1
         },
         "Luz": {
             "parled": 8,
@@ -2577,8 +2578,9 @@
             "destino": "LEOPOLDINA ",
             "responsavel": ".",
             "data_retorno": "11/05/2026",
-            "status": "Pendente",
-            "data_emissao": "07/05/2026 18:04"
+            "status": "Finalizada",
+            "data_emissao": "07/05/2026 18:04",
+            "data_baixa": "14/05/2026 10:26"
         },
         {
             "id": 61,
