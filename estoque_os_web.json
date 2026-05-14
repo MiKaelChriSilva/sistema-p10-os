@@ -16,7 +16,7 @@
             "processadora v960": 5,
             "notebook": 2,
             "tv 98": 1,
-            "tb 40": 1,
+            "tb 40": 2,
             "painel 2.6 quina": 28,
             "processadora": 1,
             "processadora=": 1,
@@ -102,7 +102,8 @@
             "rj45 principal": 30,
             "linha de 10m": 12,
             "kit cabo processadora": 3,
-            "regua stek": 4
+            "regua stek": 4,
+            "fonte 5v": 1
         },
         "Estruturas": {
             "treliça 3m": 1,
@@ -1603,8 +1604,9 @@
             "destino": "SÃO PAULO / FEIRA",
             "responsavel": "PABLO",
             "data_retorno": "08/05/2026",
-            "status": "Pendente",
-            "data_emissao": "27/04/2026 17:24"
+            "status": "Finalizada",
+            "data_emissao": "27/04/2026 17:24",
+            "data_baixa": "14/05/2026 11:01"
         },
         {
             "id": 45,
