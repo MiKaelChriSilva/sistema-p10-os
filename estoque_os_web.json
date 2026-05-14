@@ -102,7 +102,7 @@
             "rj45 principal": 30,
             "linha de 10m": 12,
             "kit cabo processadora": 3,
-            "regua stek": 4,
+            "regua stek": 5,
             "fonte 5v": 1
         },
         "Estruturas": {
@@ -124,8 +124,8 @@
         "Sistema de AC": {
             "rack mpl": 2,
             "cabo ponta pelada-stek 63a": 2,
-            "cabo 64a - ponta pelada 4v": 3,
-            "pentacustica stek": 1,
+            "cabo 64a - ponta pelada 4v": 4,
+            "pentacustica stek": 2,
             "rack pentacustica 1": 1
         },
         "Luz": {
@@ -3041,8 +3041,9 @@
             "destino": "CATEDRAL",
             "responsavel": ".",
             "data_retorno": "18/05/2026",
-            "status": "Pendente",
-            "data_emissao": "12/05/2026 16:37"
+            "status": "Finalizada",
+            "data_emissao": "12/05/2026 16:37",
+            "data_baixa": "14/05/2026 11:02"
         },
         {
             "id": 66,
