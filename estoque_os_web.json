@@ -152,7 +152,8 @@
         },
         "Luz": {
             "parled": 24,
-            "maquína de fumaça": 5
+            "maquína de fumaça": 5,
+            "ribalta": 6
         }
     },
     "ordens_servico": [
