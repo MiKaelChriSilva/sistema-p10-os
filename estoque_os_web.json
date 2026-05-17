@@ -12,9 +12,9 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 15,
-            "processadora v960": 2,
-            "notebook": 1,
+            "indoor p2.97m1": 19,
+            "processadora v960": 3,
+            "notebook": 2,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 30,
@@ -27,17 +27,22 @@
             "processadora vx1000 pro": 2,
             "toten de led pro ligth": 1,
             "indoor p2.97m2": 32,
-            "tv 42": 2
+            "tv 42": 2,
+            "conversor digital+antena": 1
         },
         "Som": {
-            "sistema slin markpro": 6,
+            "sistema slin markpro": 8,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
             "mesa digital 12 canais": 1,
-            "d.i": 1,
-            "ribalta": 6,
-            "move": 4
+            "d.i": 4,
+            "ribalta": 10,
+            "move": 6,
+            "pedestal": 10,
+            "mic com fio": 10,
+            "mesa digital 20 canais": 1,
+            "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
             "chapinha": 750,
@@ -82,17 +87,17 @@
         "Cabos": {
             "ponte de ac oneligth": 240,
             "ponte de sinal rj45 oneligth": 240,
-            "cabo rj45 principal": 41,
+            "cabo rj45 principal": 45,
             "cabo powercon pial": 67,
-            "cabo powercon pial 2.97": 53,
-            "ponte de ac 2.97": 372,
-            "ponte de sinal  2.97": 134,
-            "regua": 21,
+            "cabo powercon pial 2.97": 55,
+            "ponte de ac 2.97": 412,
+            "ponte de sinal  2.97": 174,
+            "regua": 24,
             "multivia ac": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "cabos xlr": 10,
-            "linha 5m": 15,
+            "cabos xlr": 50,
+            "linha 5m": 30,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 542,
@@ -108,7 +113,7 @@
             "kit cabo processadora": 4,
             "regua stek": 1,
             "fonte 5v": 1,
-            "linha 10m": 5
+            "linha 10m": 20
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -133,7 +138,7 @@
             "pentacustica stek": 2
         },
         "Luz": {
-            "parled": 12,
+            "parled": 24,
             "maquína de fumaça": 5
         }
     },
@@ -3573,8 +3578,9 @@
             "destino": ".",
             "responsavel": ".",
             "data_retorno": "14/05/2026",
-            "status": "Pendente",
-            "data_emissao": "14/05/2026 18:01"
+            "status": "Finalizada",
+            "data_emissao": "14/05/2026 18:01",
+            "data_baixa": "17/05/2026 13:38"
         }
     ],
     "contador_os": 71,
