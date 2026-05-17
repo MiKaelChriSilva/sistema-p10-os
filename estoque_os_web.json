@@ -8,12 +8,12 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 84,
-            "p3.91 oneligth": 26,
+            "p3.91 oneligth": 4,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 19,
-            "processadora v960": 4,
+            "processadora v960": 1,
             "notebook": 3,
             "tv 98": 1,
             "tb 40": 1,
@@ -30,11 +30,8 @@
             "tv 42": 2,
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
-            "conversor digital + antena": 4,
-            "notebook azus": 2,
-            "notebook dell g15": 1,
-            "tv": 8,
-            "estrutura para tv": 8
+            "conversor digital + antena": 1,
+            "notebook azus": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -51,20 +48,19 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 800,
-            "cinta lacoste": 830,
-            "cachimbo 22": 4,
+            "chapinha": 740,
+            "cinta lacoste": 770,
+            "cachimbo 22": 3,
             "cachimbo 17": 3,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
             "parafuso para treliça 22": 1000,
             "contrapeso": 20,
-            "praticável 2 x 1": 18,
-            "pés praticavel 0,40cm": 80,
+            "pés praticavel 0,40cm": 32,
             "ponta de eixo": 8,
             "marreta": 2,
-            "cinta catraca": 100,
-            "parafuso cestavado": 94,
+            "cinta catraca": 70,
+            "parafuso cestavado": 54,
             "parafuso filips": 2060,
             "chapinha l": 90,
             "adaptador parafusadeira": 100,
@@ -72,10 +68,9 @@
             "bateria black tools": 3,
             "carregador 21v": 1,
             "parafuso alongado 17": 100,
-            "mão françesa": 4,
             "cinta/anilha": 26,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 500,
+            "cinta catraca prquena": 450,
             "garra u": 150,
             "bumper 3.9 al": 50,
             "saia de palco com 0,40cm x6m": 6,
@@ -87,26 +82,23 @@
             "bracinho/ fixar painel": 10,
             "fita isolante": 63,
             "fita preta de acabamento": 50,
-            "parafuso 17": 200,
-            "maquina de impacto": 2,
-            "praticavel 1x1": 2,
-            "pes 0,80cm": 28,
-            "carpete preto/palco": 12,
+            "maquina de impacto": 1,
+            "praticavel 1x1": 1,
+            "carpete preto/palco": 11,
             "fita dupla face": 12,
-            "fita acabamento": 12,
-            "praticável 2 x 0,60": 2,
-            "bit cestavado 11": 1
+            "fita acabamento": 10,
+            "praticável 2 x 0,60": 2
         },
         "Cabos": {
-            "ponte de ac oneligth": 240,
-            "ponte de sinal rj45 oneligth": 240,
-            "cabo rj45 principal": 46,
-            "cabo powercon pial": 67,
+            "ponte de ac oneligth": 110,
+            "ponte de sinal rj45 oneligth": 110,
+            "cabo rj45 principal": 26,
+            "cabo powercon pial": 52,
             "cabo powercon pial 2.97": 65,
             "ponte de ac 2.97": 462,
             "ponte de sinal  2.97": 174,
-            "regua": 24,
-            "multivia ac": 20,
+            "regua": 21,
+            "multivia ac": 10,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -124,9 +116,9 @@
             "rj45 principal": 39,
             "linha de 10m": 9,
             "kit cabo processadora": 4,
-            "regua stek": 9,
+            "regua stek": 5,
             "fonte 5v": 1,
-            "linha 10m": 20
+            "linha 10m": 10
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -145,17 +137,15 @@
             "treliça 1m": 13
         },
         "Sistema de AC": {
-            "rack mpl": 2,
-            "cabo ponta pelada-stek 63a": 2,
+            "rack mpl": 1,
             "cabo 64a - ponta pelada 4v": 3,
-            "pentacustica stek": 2,
-            "cabo camlok-camlok": 2,
-            "adaptador y camlok-granada": 7
+            "cabo camlok-camlok": 1,
+            "adaptador y camlok-granada": 2
         },
         "Luz": {
             "parled": 24,
             "maquína de fumaça": 5,
-            "ribalta": 6
+            "ribalta": -1
         }
     },
     "ordens_servico": [
@@ -3598,9 +3588,247 @@
             "status": "Finalizada",
             "data_emissao": "14/05/2026 18:01",
             "data_baixa": "17/05/2026 13:38"
+        },
+        {
+            "id": 71,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 22,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 130,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 130,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua stek",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "rack mpl",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo ponta pelada-stek 63a",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo camlok-camlok",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "adaptador y camlok-granada",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 18,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés praticavel 0,40cm",
+                    "quantidade": 48,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticavel 1x1",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pes 0,80cm",
+                    "quantidade": 28,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "carpete preto/palco",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "mão françesa",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit cestavado 11",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "conversor digital + antena",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook azus",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook dell g15",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "ribalta",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "ribalta",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "estrutura para tv",
+                    "quantidade": 8,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SÃO PAULO",
+            "responsavel": ".",
+            "data_retorno": "31/05/2026",
+            "status": "Pendente",
+            "data_emissao": "17/05/2026 14:28"
         }
     ],
-    "contador_os": 71,
+    "contador_os": 72,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
