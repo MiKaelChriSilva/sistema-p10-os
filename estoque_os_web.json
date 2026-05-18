@@ -26,7 +26,7 @@
             "dog house": 6,
             "processadora vx1000 pro": 3,
             "toten de led pro ligth": 1,
-            "indoor p2.97m2": 36,
+            "indoor p2.97m2": 18,
             "tv 42": 2,
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
@@ -48,8 +48,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 790,
-            "cinta lacoste": 820,
+            "chapinha": 710,
+            "cinta lacoste": 740,
             "cachimbo 22": 3,
             "cachimbo 17": 3,
             "cachimbo 19": 4,
@@ -88,15 +88,15 @@
             "fita dupla face": 12,
             "fita acabamento": 10,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 200
+            "parafuso 17": -80
         },
         "Cabos": {
             "ponte de ac oneligth": 110,
             "ponte de sinal rj45 oneligth": 110,
-            "cabo rj45 principal": 41,
+            "cabo rj45 principal": 26,
             "cabo powercon pial": 52,
-            "cabo powercon pial 2.97": 80,
-            "ponte de ac 2.97": 562,
+            "cabo powercon pial 2.97": 65,
+            "ponte de ac 2.97": 442,
             "ponte de sinal  2.97": 274,
             "regua": 22,
             "multivia ac": 12,
@@ -107,7 +107,7 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 542,
-            "ponte sinal amarelo": 542,
+            "ponte sinal amarelo": 422,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -3828,9 +3828,73 @@
             "data_retorno": "31/05/2026",
             "status": "Pendente",
             "data_emissao": "17/05/2026 14:28"
+        },
+        {
+            "id": 72,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m2",
+                    "quantidade": 18,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 120,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 120,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 80,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA",
+            "responsavel": ".",
+            "data_retorno": "25/05/2026",
+            "status": "Pendente",
+            "data_emissao": "18/05/2026 14:51"
         }
     ],
-    "contador_os": 72,
+    "contador_os": 73,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
