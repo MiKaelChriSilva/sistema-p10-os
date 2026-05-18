@@ -120,7 +120,8 @@
             "kit cabo processadora": 5,
             "regua stek": 5,
             "fonte 5v": 1,
-            "linha 10m": 10
+            "linha 10m": 10,
+            "linha 2m": 40
         },
         "Estruturas": {
             "treliça 3m": 8,
