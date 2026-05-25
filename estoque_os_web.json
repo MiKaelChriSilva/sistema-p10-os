@@ -90,8 +90,10 @@
             "fita acabamento": 10,
             "praticável 2 x 0,60": 2,
             "parafuso 17": 600,
-            "cinta/anilha": 26,
-            "ponta de eixo": 8
+            "cinta/anilha": 50,
+            "ponta de eixo": 8,
+            "talha 15m": 6,
+            "talha 10m": 6
         },
         "Cabos": {
             "ponte de ac oneligth": 170,
@@ -1455,8 +1457,9 @@
             "destino": "IMAGINE / SÃO PAULO",
             "responsavel": "EDUARDO",
             "data_retorno": "30/04/2026",
-            "status": "Pendente",
-            "data_emissao": "27/04/2026 14:33"
+            "status": "Finalizada",
+            "data_emissao": "27/04/2026 14:33",
+            "data_baixa": "25/05/2026 12:49"
         },
         {
             "id": 42,
