@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 4,
+            "p3.91 oneligth": 14,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -32,8 +32,11 @@
             "conversor digital + antena": 1,
             "notebook azus": 1,
             "processadora vc6": 1,
-            "cvt 4k": 2,
-            "gbic": 12
+            "cvt 4k": 4,
+            "gbic": 20,
+            "p3.91 americanled": 94,
+            "processadora h2": 1,
+            "note alienware": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -49,7 +52,7 @@
             "xrl": 30
         },
         "Materiais Diversos": {
-            "chapinha": 490,
+            "chapinha": 890,
             "cinta lacoste": 900,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
@@ -59,7 +62,7 @@
             "contrapeso": 20,
             "pés praticavel 0,40cm": 32,
             "marreta": 2,
-            "cinta catraca": 20,
+            "cinta catraca": 70,
             "parafuso cestavado": 54,
             "parafuso filips": 2060,
             "chapinha l": 90,
@@ -70,7 +73,7 @@
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 450,
-            "garra u": 140,
+            "garra u": 200,
             "bumper 3.9 al": 50,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
@@ -79,7 +82,7 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 73,
+            "fita isolante": 83,
             "fita preta de acabamento": 50,
             "maquina de impacto": 2,
             "praticavel 1x1": 1,
@@ -87,16 +90,19 @@
             "fita dupla face": 12,
             "fita acabamento": 10,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 40,
+            "parafuso 17": 900,
             "cinta/anilha": 50,
             "ponta de eixo": 8,
-            "cinto de segurança": 2
+            "cinto de segurança": 5,
+            "talha 15m": 8,
+            "talha 10m": 6,
+            "sacos de talha": 10
         },
         "Cabos": {
-            "ponte de ac oneligth": 140,
-            "ponte de sinal rj45 oneligth": 140,
+            "ponte de ac oneligth": 170,
+            "ponte de sinal rj45 oneligth": 170,
             "cabo rj45 principal": 58,
-            "cabo powercon pial": 12,
+            "cabo powercon pial": 72,
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
@@ -107,8 +113,8 @@
             "linha 5m": 5,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 672,
-            "ponte sinal amarelo": 672,
+            "ponte ac amarelo": 1432,
+            "ponte sinal amarelo": 1432,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -116,14 +122,14 @@
             "hdmi": 3,
             "cabo cabo configuração usb": 3,
             "rj45 principal": 39,
-            "linha de 10m": 7,
+            "linha de 10m": 17,
             "kit cabo processadora": 6,
             "regua stek": 9,
             "fonte 5v": 1,
             "linha 2m": 25,
-            "multivia ac": 2,
-            "fibra": 14,
-            "regua steck x pial house": 1
+            "multivia ac": 12,
+            "fibra": 20,
+            "regua steck x pial house": 2
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -143,8 +149,10 @@
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
-            "adaptador y camlok-granada": 1,
-            "rack pentacustica 1": 1
+            "adaptador y camlok-granada": 2,
+            "rack pentacustica 1": 1,
+            "rack mpl": 1,
+            "cabo camlok-camlok": 1
         },
         "Luz": {
             "parled": 24,
@@ -4064,178 +4072,6 @@
             "status": "Finalizada",
             "data_emissao": "20/05/2026 11:30",
             "data_baixa": "25/05/2026 12:36"
-        },
-        {
-            "id": 75,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "p3.91 americanled",
-                    "quantidade": 94,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "p3.91 oneligth",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de ac oneligth",
-                    "quantidade": 30,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de sinal rj45 oneligth",
-                    "quantidade": 30,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte ac amarelo",
-                    "quantidade": 760,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte sinal amarelo",
-                    "quantidade": 760,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo powercon pial",
-                    "quantidade": 60,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "multivia ac",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora h2",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "cvt 4k",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "fibra",
-                    "quantidade": 6,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "gbic",
-                    "quantidade": 8,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "talha 15m",
-                    "quantidade": 8,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "talha 10m",
-                    "quantidade": 6,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "sacos de talha",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "chapinha",
-                    "quantidade": 400,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso 17",
-                    "quantidade": 860,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta catraca",
-                    "quantidade": 50,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "garra u",
-                    "quantidade": 60,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinto de segurança",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "fita isolante",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Sistema de AC",
-                    "material": "rack mpl",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Sistema de AC",
-                    "material": "adaptador y camlok-granada",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Sistema de AC",
-                    "material": "cabo camlok-camlok",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "linha de 10m",
-                    "quantidade": 10,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "note alienware",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "regua steck x pial house",
-                    "quantidade": 1,
-                    "observacao": ""
-                }
-            ],
-            "destino": "FESTA DO PINHÃO",
-            "responsavel": ".",
-            "data_retorno": "01/06/2026",
-            "status": "Pendente",
-            "data_emissao": "25/05/2026 13:03"
         }
     ],
     "contador_os": 76,
