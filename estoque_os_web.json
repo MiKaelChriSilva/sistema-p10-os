@@ -121,7 +121,8 @@
             "regua stek": 9,
             "fonte 5v": 1,
             "linha 2m": 25,
-            "multivia ac": 12
+            "multivia ac": 12,
+            "fibra": 20
         },
         "Estruturas": {
             "treliça 3m": 8,
