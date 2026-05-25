@@ -7,14 +7,14 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 americanled": 74,
+            "p3.91 americanled": 94,
             "p3.91 oneligth": 14,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 32,
             "processadora v960": 1,
-            "notebook": 4,
+            "notebook": 5,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 30,
@@ -24,7 +24,7 @@
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 3,
+            "processadora vx1000 pro": 4,
             "toten de led pro ligth": 1,
             "indoor p2.97m2": 36,
             "tv 42": 2,
@@ -48,7 +48,7 @@
             "xrl": 30
         },
         "Materiais Diversos": {
-            "chapinha": 840,
+            "chapinha": 890,
             "cinta lacoste": 900,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
@@ -57,8 +57,8 @@
             "parafuso para treliça 22": 1000,
             "contrapeso": 20,
             "pés praticavel 0,40cm": 32,
-            "marreta": 1,
-            "cinta catraca": 50,
+            "marreta": 2,
+            "cinta catraca": 70,
             "parafuso cestavado": 54,
             "parafuso filips": 2060,
             "chapinha l": 90,
@@ -70,7 +70,7 @@
             "estrutura tv 98": 1,
             "cinta catraca prquena": 450,
             "garra u": 200,
-            "bumper 3.9 al": 20,
+            "bumper 3.9 al": 50,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -86,13 +86,15 @@
             "fita dupla face": 12,
             "fita acabamento": 10,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 480
+            "parafuso 17": 600,
+            "cinta/anilha": 26,
+            "ponta de eixo": 8
         },
         "Cabos": {
             "ponte de ac oneligth": 170,
             "ponte de sinal rj45 oneligth": 170,
-            "cabo rj45 principal": 48,
-            "cabo powercon pial": 55,
+            "cabo rj45 principal": 58,
+            "cabo powercon pial": 72,
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
@@ -103,8 +105,8 @@
             "linha 5m": 5,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 472,
-            "ponte sinal amarelo": 472,
+            "ponte ac amarelo": 632,
+            "ponte sinal amarelo": 632,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -116,7 +118,8 @@
             "kit cabo processadora": 6,
             "regua stek": 9,
             "fonte 5v": 1,
-            "linha 2m": 25
+            "linha 2m": 25,
+            "multivia ac": 12
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -137,7 +140,9 @@
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
             "adaptador y camlok-granada": 2,
-            "rack pentacustica 1": 1
+            "rack pentacustica 1": 1,
+            "rack mpl": 1,
+            "cabo camlok-camlok": 1
         },
         "Luz": {
             "parled": 24,
@@ -4053,8 +4058,9 @@
             "destino": "VH",
             "responsavel": ".",
             "data_retorno": "25/05/2026",
-            "status": "Pendente",
-            "data_emissao": "20/05/2026 11:30"
+            "status": "Finalizada",
+            "data_emissao": "20/05/2026 11:30",
+            "data_baixa": "25/05/2026 12:36"
         }
     ],
     "contador_os": 75,
