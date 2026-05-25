@@ -8,7 +8,7 @@
     "materiais": {
         "Painel de LED": {
             "p3.91 americanled": 74,
-            "p3.91 oneligth": 4,
+            "p3.91 oneligth": 14,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -31,7 +31,8 @@
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
             "conversor digital + antena": 1,
-            "notebook azus": 1
+            "notebook azus": 1,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -47,8 +48,8 @@
             "xrl": 30
         },
         "Materiais Diversos": {
-            "chapinha": 710,
-            "cinta lacoste": 790,
+            "chapinha": 760,
+            "cinta lacoste": 820,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
@@ -84,17 +85,18 @@
             "carpete preto/palco": 11,
             "fita dupla face": 12,
             "fita acabamento": 10,
-            "praticável 2 x 0,60": 2
+            "praticável 2 x 0,60": 2,
+            "parafuso 17": 200
         },
         "Cabos": {
-            "ponte de ac oneligth": 110,
-            "ponte de sinal rj45 oneligth": 110,
-            "cabo rj45 principal": 23,
-            "cabo powercon pial": 45,
+            "ponte de ac oneligth": 170,
+            "ponte de sinal rj45 oneligth": 170,
+            "cabo rj45 principal": 33,
+            "cabo powercon pial": 55,
             "cabo powercon pial 2.97": 65,
             "ponte de ac 2.97": 442,
             "ponte de sinal  2.97": 274,
-            "regua": 16,
+            "regua": 17,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -106,13 +108,13 @@
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
-            "cabo ac": 22,
-            "hdmi": 2,
-            "cabo cabo configuração usb": 2,
+            "cabo ac": 23,
+            "hdmi": 3,
+            "cabo cabo configuração usb": 3,
             "rj45 principal": 39,
-            "linha de 10m": 16,
+            "linha de 10m": 17,
             "kit cabo processadora": 6,
-            "regua stek": 5,
+            "regua stek": 9,
             "fonte 5v": 1,
             "linha 2m": 25
         },
@@ -133,8 +135,9 @@
             "treliça 1m": 13
         },
         "Sistema de AC": {
-            "cabo 64a - ponta pelada 4v": 3,
-            "adaptador y camlok-granada": 2
+            "cabo 64a - ponta pelada 4v": 4,
+            "adaptador y camlok-granada": 2,
+            "rack pentacustica 1": 1
         },
         "Luz": {
             "parled": 24,
@@ -3445,8 +3448,9 @@
             "destino": "LEOPOLDINA ",
             "responsavel": ".",
             "data_retorno": "18/05/2026",
-            "status": "Pendente",
-            "data_emissao": "14/05/2026 16:57"
+            "status": "Finalizada",
+            "data_emissao": "14/05/2026 16:57",
+            "data_baixa": "25/05/2026 12:36"
         },
         {
             "id": 70,
