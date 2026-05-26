@@ -48,8 +48,10 @@
             "move": 6,
             "pedestal": 10,
             "mic com fio": 10,
-            "xrl": 30,
-            "microfone": 9
+            "xrl": 100,
+            "microfone": 9,
+            "mesa digital 20 canais": 1,
+            "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
             "chapinha": 550,
@@ -108,7 +110,7 @@
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
-            "regua": 18,
+            "regua": 25,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 40,
@@ -127,12 +129,13 @@
             "kit cabo processadora": 6,
             "regua stek": 13,
             "fonte 5v": 1,
-            "linha 2m": 25,
+            "linha 2m": 40,
             "multivia ac": 12,
             "fibra": 14,
             "regua steck x pial house": 1,
             "linha stek": 4,
-            "linha 10m": 10
+            "linha 10m": 20,
+            "linha 5m": 25
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -3963,8 +3966,9 @@
             "destino": "SÃO PAULO",
             "responsavel": ".",
             "data_retorno": "18/05/2026",
-            "status": "Pendente",
-            "data_emissao": "18/05/2026 14:57"
+            "status": "Finalizada",
+            "data_emissao": "18/05/2026 14:57",
+            "data_baixa": "26/05/2026 11:31"
         },
         {
             "id": 74,
