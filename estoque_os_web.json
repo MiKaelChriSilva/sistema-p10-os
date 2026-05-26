@@ -7,16 +7,15 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 26,
+            "p3.91 oneligth": 24,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 32,
-            "notebook": 5,
+            "notebook": 4,
             "tv 98": 1,
             "tb 40": 1,
             "painel 2.6 quina": 30,
-            "processadora": 1,
             "processadora=": 1,
             "processadora+cabos": 1,
             "processadora vx16s": 2,
@@ -39,33 +38,31 @@
             "estrutura para tv": 8
         },
         "Som": {
-            "sistema slin markpro": 6,
+            "sistema slin markpro": 2,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
             "d.i": 4,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 10,
+            "pedestal": 8,
             "mic com fio": 10,
             "xrl": 100,
-            "microfone": 9,
-            "mesa digital 20 canais": 1,
-            "kit microfones sem fio kaze": 1
+            "microfone": 9
         },
         "Materiais Diversos": {
             "chapinha": 550,
-            "cinta lacoste": 940,
+            "cinta lacoste": 920,
             "cachimbo 22": 5,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
-            "contrapeso": 20,
+            "contrapeso": 16,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
-            "cinta catraca": 50,
-            "parafuso cestavado": 94,
+            "cinta catraca": 43,
+            "parafuso cestavado": 88,
             "parafuso filips": 2060,
             "chapinha l": 90,
             "adaptador parafusadeira": 100,
@@ -76,7 +73,7 @@
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
             "garra u": 140,
-            "saia de palco com 0,40cm x6m": 6,
+            "saia de palco com 0,40cm x6m": 5,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
             "kit angulos painel quina": 138,
@@ -85,8 +82,8 @@
             "bracinho/ fixar painel": 20,
             "fita isolante": 73,
             "fita preta de acabamento": 50,
-            "maquina de impacto": 3,
-            "praticavel 1x1": 2,
+            "maquina de impacto": 2,
+            "praticavel 1x1": 1,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 12,
@@ -97,16 +94,15 @@
             "cinto de segurança": 2,
             "rolete sinal principal": 1,
             "bumper one ligth": 44,
-            "praticável 2 x 1": 18,
+            "praticável 2 x 1": 17,
             "pes 0,80cm": 28,
-            "mão françesa": 4,
-            "bit cestavado 11": 1
+            "mão françesa": 2
         },
         "Cabos": {
-            "ponte de ac oneligth": 270,
-            "ponte de sinal rj45 oneligth": 270,
-            "cabo rj45 principal": 38,
-            "cabo powercon pial": 27,
+            "ponte de ac oneligth": 250,
+            "ponte de sinal rj45 oneligth": 250,
+            "cabo rj45 principal": 35,
+            "cabo powercon pial": 24,
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
@@ -127,7 +123,7 @@
             "rj45 principal": 39,
             "linha de 10m": 2,
             "kit cabo processadora": 6,
-            "regua stek": 13,
+            "regua stek": 11,
             "fonte 5v": 1,
             "linha 2m": 40,
             "multivia ac": 12,
@@ -159,7 +155,7 @@
             "rack pentacustica 1": 1,
             "rack mpl": 1,
             "cabo ponta pelada-stek 63a": 2,
-            "pentacustica stek": 2,
+            "pentacustica stek": 1,
             "cabo camlok-camlok": 1
         },
         "Luz": {
@@ -4354,9 +4350,157 @@
             "data_retorno": "31/05/2026",
             "status": "Pendente",
             "data_emissao": "26/05/2026 11:18"
+        },
+        {
+            "id": 78,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua stek",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "kit microfones sem fio kaze",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa digital 20 canais",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticavel 1x1",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "saia de palco com 0,40cm x6m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "mão françesa",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit cestavado 11",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                }
+            ],
+            "destino": "MERCADO PÚBLICO",
+            "responsavel": ".",
+            "data_retorno": "26/05/2026",
+            "status": "Pendente",
+            "data_emissao": "26/05/2026 11:43"
         }
     ],
-    "contador_os": 78,
+    "contador_os": 79,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
