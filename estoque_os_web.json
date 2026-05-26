@@ -23,7 +23,7 @@
             "dog house": 6,
             "processadora vx1000 pro": 4,
             "toten de led pro ligth": 1,
-            "indoor p2.97m2": 36,
+            "indoor p2.97m2": 30,
             "tv 42": 2,
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
@@ -32,7 +32,7 @@
             "processadora vc6": 1,
             "cvt 4k": 2,
             "gbic": 12,
-            "processadora v960": 3,
+            "processadora v960": 2,
             "notebook dell g15": 1,
             "tv": 8,
             "estrutura para tv": 8
@@ -101,10 +101,10 @@
         "Cabos": {
             "ponte de ac oneligth": 250,
             "ponte de sinal rj45 oneligth": 250,
-            "cabo rj45 principal": 35,
+            "cabo rj45 principal": 31,
             "cabo powercon pial": 24,
-            "cabo powercon pial 2.97": 80,
-            "ponte de ac 2.97": 562,
+            "cabo powercon pial 2.97": 76,
+            "ponte de ac 2.97": 517,
             "ponte de sinal  2.97": 274,
             "regua": 25,
             "cabo rj45 ponte azul": 100,
@@ -113,7 +113,7 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 672,
-            "ponte sinal amarelo": 672,
+            "ponte sinal amarelo": 622,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -4498,9 +4498,55 @@
             "data_retorno": "26/05/2026",
             "status": "Pendente",
             "data_emissao": "26/05/2026 11:43"
+        },
+        {
+            "id": 79,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m2",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 45,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 50,
+                    "observacao": ""
+                }
+            ],
+            "destino": "DJ FELIPE ",
+            "responsavel": ".",
+            "data_retorno": "08/06/2026",
+            "status": "Pendente",
+            "data_emissao": "26/05/2026 16:24"
         }
     ],
-    "contador_os": 79,
+    "contador_os": 80,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
