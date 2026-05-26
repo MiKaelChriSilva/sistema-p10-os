@@ -23,13 +23,12 @@
             "dog house": 6,
             "processadora vx1000 pro": 4,
             "toten de led pro ligth": 1,
-            "indoor p2.97m2": 30,
+            "indoor p2.97m2": 22,
             "tv 42": 2,
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
             "conversor digital + antena": 4,
             "notebook azus": 2,
-            "processadora vc6": 1,
             "cvt 4k": 2,
             "gbic": 12,
             "processadora v960": 2,
@@ -103,8 +102,8 @@
             "ponte de sinal rj45 oneligth": 250,
             "cabo rj45 principal": 31,
             "cabo powercon pial": 24,
-            "cabo powercon pial 2.97": 76,
-            "ponte de ac 2.97": 517,
+            "cabo powercon pial 2.97": 71,
+            "ponte de ac 2.97": 457,
             "ponte de sinal  2.97": 274,
             "regua": 25,
             "cabo rj45 ponte azul": 100,
@@ -113,7 +112,7 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 672,
-            "ponte sinal amarelo": 622,
+            "ponte sinal amarelo": 562,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -4544,9 +4543,49 @@
             "data_retorno": "08/06/2026",
             "status": "Pendente",
             "data_emissao": "26/05/2026 16:24"
+        },
+        {
+            "id": 80,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m2",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 5,
+                    "observacao": ""
+                }
+            ],
+            "destino": "HILTON HOTEL",
+            "responsavel": ".",
+            "data_retorno": "01/06/2026",
+            "status": "Pendente",
+            "data_emissao": "26/05/2026 16:57"
         }
     ],
-    "contador_os": 80,
+    "contador_os": 81,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
