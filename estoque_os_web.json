@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 4,
+            "p3.91 oneligth": 26,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -28,11 +28,15 @@
             "tv 42": 2,
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
-            "conversor digital + antena": 1,
-            "notebook azus": 1,
+            "conversor digital + antena": 4,
+            "notebook azus": 2,
             "processadora vc6": 1,
             "cvt 4k": 2,
-            "gbic": 12
+            "gbic": 12,
+            "processadora v960": 3,
+            "notebook dell g15": 1,
+            "tv": 8,
+            "estrutura para tv": 8
         },
         "Som": {
             "sistema slin markpro": 6,
@@ -48,18 +52,18 @@
             "microfone": 9
         },
         "Materiais Diversos": {
-            "chapinha": 490,
-            "cinta lacoste": 880,
-            "cachimbo 22": 4,
+            "chapinha": 550,
+            "cinta lacoste": 940,
+            "cachimbo 22": 5,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
             "contrapeso": 20,
-            "pés praticavel 0,40cm": 32,
+            "pés praticavel 0,40cm": 80,
             "marreta": 2,
-            "cinta catraca": 20,
-            "parafuso cestavado": 54,
+            "cinta catraca": 50,
+            "parafuso cestavado": 94,
             "parafuso filips": 2060,
             "chapinha l": 90,
             "adaptador parafusadeira": 100,
@@ -68,7 +72,7 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 450,
+            "cinta catraca prquena": 500,
             "garra u": 140,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
@@ -79,28 +83,32 @@
             "bracinho/ fixar painel": 20,
             "fita isolante": 73,
             "fita preta de acabamento": 50,
-            "maquina de impacto": 2,
-            "praticavel 1x1": 1,
-            "carpete preto/palco": 11,
+            "maquina de impacto": 3,
+            "praticavel 1x1": 2,
+            "carpete preto/palco": 12,
             "fita dupla face": 12,
-            "fita acabamento": 10,
+            "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 40,
+            "parafuso 17": 240,
             "cinta/anilha": 18,
             "ponta de eixo": 8,
             "cinto de segurança": 2,
             "rolete sinal principal": 1,
-            "bumper one ligth": 44
+            "bumper one ligth": 44,
+            "praticável 2 x 1": 18,
+            "pes 0,80cm": 28,
+            "mão françesa": 4,
+            "bit cestavado 11": 1
         },
         "Cabos": {
-            "ponte de ac oneligth": 140,
-            "ponte de sinal rj45 oneligth": 140,
-            "cabo rj45 principal": 18,
-            "cabo powercon pial": 12,
+            "ponte de ac oneligth": 270,
+            "ponte de sinal rj45 oneligth": 270,
+            "cabo rj45 principal": 38,
+            "cabo powercon pial": 27,
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
-            "regua": 15,
+            "regua": 18,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 40,
@@ -117,13 +125,14 @@
             "rj45 principal": 39,
             "linha de 10m": 2,
             "kit cabo processadora": 6,
-            "regua stek": 9,
+            "regua stek": 13,
             "fonte 5v": 1,
             "linha 2m": 25,
-            "multivia ac": 2,
+            "multivia ac": 12,
             "fibra": 14,
             "regua steck x pial house": 1,
-            "linha stek": 4
+            "linha stek": 4,
+            "linha 10m": 10
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -143,13 +152,17 @@
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
-            "adaptador y camlok-granada": 1,
-            "rack pentacustica 1": 1
+            "adaptador y camlok-granada": 6,
+            "rack pentacustica 1": 1,
+            "rack mpl": 1,
+            "cabo ponta pelada-stek 63a": 2,
+            "pentacustica stek": 2,
+            "cabo camlok-camlok": 1
         },
         "Luz": {
             "parled": 24,
             "maquína de fumaça": 5,
-            "ribalta": -1
+            "ribalta": 6
         }
     },
     "ordens_servico": [
@@ -3832,8 +3845,9 @@
             "destino": "SÃO PAULO",
             "responsavel": ".",
             "data_retorno": "31/05/2026",
-            "status": "Pendente",
-            "data_emissao": "17/05/2026 14:28"
+            "status": "Finalizada",
+            "data_emissao": "17/05/2026 14:28",
+            "data_baixa": "26/05/2026 11:31"
         },
         {
             "id": 72,
