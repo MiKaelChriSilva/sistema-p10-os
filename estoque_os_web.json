@@ -35,18 +35,17 @@
             "gbic": 12
         },
         "Som": {
-            "sistema slin markpro": 8,
+            "sistema slin markpro": 6,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
-            "mesa digital 12 canais": 1,
             "d.i": 4,
             "ribalta": 10,
             "move": 6,
             "pedestal": 10,
             "mic com fio": 10,
             "xrl": 30,
-            "microfone": 10
+            "microfone": 9
         },
         "Materiais Diversos": {
             "chapinha": 490,
@@ -101,11 +100,10 @@
             "cabo powercon pial 2.97": 80,
             "ponte de ac 2.97": 562,
             "ponte de sinal  2.97": 274,
-            "regua": 17,
+            "regua": 15,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "cabos xlr": 50,
-            "linha 5m": 5,
+            "cabos xlr": 40,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
             "ponte ac amarelo": 672,
@@ -117,7 +115,7 @@
             "hdmi": 3,
             "cabo cabo configuração usb": 3,
             "rj45 principal": 39,
-            "linha de 10m": 7,
+            "linha de 10m": 2,
             "kit cabo processadora": 6,
             "regua stek": 9,
             "fonte 5v": 1,
@@ -4286,9 +4284,61 @@
             "data_retorno": "01/06/2026",
             "status": "Pendente",
             "data_emissao": "25/05/2026 19:44"
+        },
+        {
+            "id": 77,
+            "itens": [
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa digital 12 canais",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "microfone",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GASOMETRO",
+            "responsavel": ".",
+            "data_retorno": "31/05/2026",
+            "status": "Pendente",
+            "data_emissao": "26/05/2026 11:18"
         }
     ],
-    "contador_os": 77,
+    "contador_os": 78,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
