@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 11,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -37,10 +37,10 @@
             "estrutura para tv": 8,
             "processadora": 1,
             "processadora vc6": 1,
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 83,
             "processadora h2": 1,
             "note alienware": 1,
-            "vx 2000": 2
+            "vx 2000": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -59,8 +59,8 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 950,
-            "cinta lacoste": 960,
+            "chapinha": 750,
+            "cinta lacoste": 810,
             "cachimbo 22": 5,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
@@ -79,7 +79,7 @@
             "carregador 21v": 1,
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 500,
+            "cinta catraca prquena": 440,
             "garra u": 200,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
@@ -96,7 +96,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 1100,
+            "parafuso 17": 700,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
@@ -112,10 +112,10 @@
             "bumper 3.9 al": 50
         },
         "Cabos": {
-            "ponte de ac oneligth": 300,
-            "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 94,
-            "cabo powercon pial": 87,
+            "ponte de ac oneligth": 160,
+            "ponte de sinal rj45 oneligth": 160,
+            "cabo rj45 principal": 69,
+            "cabo powercon pial": 67,
             "cabo powercon pial 2.97": 76,
             "ponte de ac 2.97": 517,
             "ponte de sinal  2.97": 274,
@@ -125,8 +125,8 @@
             "cabos xlr": 50,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 1432,
-            "ponte sinal amarelo": 1382,
+            "ponte ac amarelo": 1362,
+            "ponte sinal amarelo": 1312,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -143,7 +143,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 20,
+            "linha 10m": 10,
             "linha 5m": 30
         },
         "Estruturas": {
@@ -4678,9 +4678,109 @@
             "status": "Finalizada",
             "data_emissao": "26/05/2026 17:04",
             "data_baixa": "02/06/2026 19:41"
+        },
+        {
+            "id": 82,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 25,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vx 2000",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 140,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 140,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 70,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 70,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 25,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 400,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 150,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 60,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SANTA CRUZ ",
+            "responsavel": ".",
+            "data_retorno": "08/06/2026",
+            "status": "Pendente",
+            "data_emissao": "02/06/2026 19:47"
         }
     ],
-    "contador_os": 82,
+    "contador_os": 83,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
