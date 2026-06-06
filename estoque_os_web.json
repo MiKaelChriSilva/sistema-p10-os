@@ -14,7 +14,6 @@
             "indoor p2.97m1": 40,
             "notebook": 4,
             "tv 98": 1,
-            "tb 40": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -28,11 +27,9 @@
             "conversor digital+antena": 1,
             "indor p2.9 m2": 2,
             "conversor digital + antena": 4,
-            "notebook azus": 2,
             "cvt 4k": 4,
             "gbic": 20,
-            "processadora v960": 5,
-            "notebook dell g15": 1,
+            "processadora v960": 2,
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
@@ -41,10 +38,8 @@
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 1,
-            "painel flexivel": 2,
-            "notebook acer nitro": 1,
-            "tv 65": 2,
-            "sensor infra": 1
+            "sensor infra": 1,
+            "notebook acer nitro": 1
         },
         "Som": {
             "sistema slin markpro": 8,
