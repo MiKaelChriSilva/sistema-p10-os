@@ -12,7 +12,7 @@
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 40,
-            "notebook": 4,
+            "notebook": 3,
             "tv 98": 1,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -29,7 +29,6 @@
             "conversor digital + antena": 4,
             "cvt 4k": 4,
             "gbic": 20,
-            "processadora v960": 2,
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
@@ -38,14 +37,7 @@
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 1,
-            "sensor infra": 1,
-            "notebook acer nitro": 1,
-            "painel flexivel": 2,
-            "tv 65": 2,
-            "processadora vc4": 5,
-            "tb 40": 2,
-            "notebook azus": 2,
-            "notebook dellg15": 1
+            "processadora vc4": 4
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -64,22 +56,22 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 750,
-            "cinta lacoste": 780,
+            "chapinha": 700,
+            "cinta lacoste": 720,
             "cachimbo 22": 5,
-            "cachimbo 17": 5,
-            "cachimbo 19": 5,
-            "cachimbo 14": 5,
+            "cachimbo 17": 4,
+            "cachimbo 19": 4,
+            "cachimbo 14": 4,
             "parafuso para treliça 22": 1000,
             "contrapeso": 20,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
             "parafuso cestavado": 94,
-            "parafuso filips": 2100,
-            "chapinha l": 100,
-            "adaptador parafusadeira": 100,
-            "bit filips": 2,
+            "parafuso filips": 2000,
+            "chapinha l": 70,
+            "adaptador parafusadeira": 99,
+            "bit filips": 1,
             "bateria black tools": 4,
             "carregador 21v": 2,
             "parafuso alongado 17": 100,
@@ -95,13 +87,13 @@
             "bracinho/ fixar painel": 20,
             "fita isolante": 81,
             "fita preta de acabamento": 50,
-            "maquina de impacto": 4,
+            "maquina de impacto": 3,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 11,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 700,
+            "parafuso 17": 500,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
@@ -119,19 +111,19 @@
         "Cabos": {
             "ponte de ac oneligth": 160,
             "ponte de sinal rj45 oneligth": 160,
-            "cabo rj45 principal": 67,
-            "cabo powercon pial": 67,
+            "cabo rj45 principal": 52,
+            "cabo powercon pial": 62,
             "cabo powercon pial 2.97": 74,
             "ponte de ac 2.97": 447,
             "ponte de sinal  2.97": 344,
-            "regua": 27,
+            "regua": 24,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 1362,
-            "ponte sinal amarelo": 1172,
+            "ponte ac amarelo": 1342,
+            "ponte sinal amarelo": 1152,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -139,7 +131,7 @@
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
-            "linha de 10m": 27,
+            "linha de 10m": 17,
             "kit cabo processadora": 6,
             "regua stek": 13,
             "fonte 5v": 1,
@@ -4883,9 +4875,181 @@
             "data_retorno": "08/06/2026",
             "status": "Pendente",
             "data_emissao": "04/06/2026 17:29"
+        },
+        {
+            "id": 84,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel flexivel",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc4",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 65",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb 40",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook acer nitro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook azus",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook dellg15",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "sensor infra",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 19",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 14",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso filips",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "adaptador parafusadeira",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit filips",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha l",
+                    "quantidade": 30,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SÃO PAULO",
+            "responsavel": ".",
+            "data_retorno": "20/06/2026",
+            "status": "Pendente",
+            "data_emissao": "06/06/2026 12:50"
         }
     ],
-    "contador_os": 84,
+    "contador_os": 85,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
