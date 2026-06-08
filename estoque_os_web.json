@@ -143,7 +143,8 @@
             "regua steck x pial house": 2,
             "linha stek": 5,
             "linha 10m": 20,
-            "linha 5m": 30
+            "linha 5m": 30,
+            "ponte ac p5": 300
         },
         "Estruturas": {
             "treliça 3m": 8,
