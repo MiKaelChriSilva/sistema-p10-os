@@ -7,7 +7,7 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 11,
+            "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -33,10 +33,10 @@
             "estrutura para tv": 8,
             "processadora": 1,
             "processadora vc6": 1,
-            "p3.91 americanled": 83,
+            "p3.91 americanled": 94,
             "processadora h2": 1,
             "note alienware": 1,
-            "vx 2000": 1,
+            "vx 2000": 2,
             "processadora vc4": 4,
             "outdoor p5 m2": 20,
             "processadora v960": 1
@@ -58,8 +58,8 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 700,
-            "cinta lacoste": 720,
+            "chapinha": 900,
+            "cinta lacoste": 870,
             "cachimbo 22": 5,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
@@ -78,7 +78,7 @@
             "carregador 21v": 2,
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 440,
+            "cinta catraca prquena": 500,
             "garra u": 200,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
@@ -95,7 +95,7 @@
             "fita dupla face": 12,
             "fita acabamento": 11,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 500,
+            "parafuso 17": 900,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
@@ -111,10 +111,10 @@
             "bumper 3.9 al": 50
         },
         "Cabos": {
-            "ponte de ac oneligth": 160,
-            "ponte de sinal rj45 oneligth": 160,
-            "cabo rj45 principal": 56,
-            "cabo powercon pial": 62,
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 81,
+            "cabo powercon pial": 82,
             "cabo powercon pial 2.97": 78,
             "ponte de ac 2.97": 492,
             "ponte de sinal  2.97": 344,
@@ -124,8 +124,8 @@
             "cabos xlr": 50,
             "ac ponte p5": 280,
             "ponte sinal p5": 280,
-            "ponte ac amarelo": 1342,
-            "ponte sinal amarelo": 1202,
+            "ponte ac amarelo": 1412,
+            "ponte sinal amarelo": 1272,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -142,7 +142,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 10,
+            "linha 10m": 20,
             "linha 5m": 30
         },
         "Estruturas": {
@@ -4776,8 +4776,9 @@
             "destino": "SANTA CRUZ ",
             "responsavel": ".",
             "data_retorno": "08/06/2026",
-            "status": "Pendente",
-            "data_emissao": "02/06/2026 19:47"
+            "status": "Finalizada",
+            "data_emissao": "02/06/2026 19:47",
+            "data_baixa": "08/06/2026 18:56"
         },
         {
             "id": 83,
