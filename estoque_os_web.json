@@ -11,8 +11,8 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 40,
-            "notebook": 3,
+            "indoor p2.97m1": 36,
+            "notebook": 2,
             "tv 98": 1,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -36,8 +36,7 @@
             "p3.91 americanled": 94,
             "processadora h2": 1,
             "note alienware": 1,
-            "vx 2000": 2,
-            "processadora v960": 1
+            "vx 2000": 2
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -57,7 +56,7 @@
         },
         "Materiais Diversos": {
             "chapinha": 890,
-            "cinta lacoste": 900,
+            "cinta lacoste": 860,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
@@ -112,12 +111,12 @@
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 73,
+            "cabo rj45 principal": 68,
             "cabo powercon pial": 62,
-            "cabo powercon pial 2.97": 90,
-            "ponte de ac 2.97": 632,
-            "ponte de sinal  2.97": 344,
-            "regua": 23,
+            "cabo powercon pial 2.97": 83,
+            "ponte de ac 2.97": 592,
+            "ponte de sinal  2.97": 304,
+            "regua": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -141,7 +140,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 15,
+            "linha 10m": 12,
             "linha 5m": 30,
             "ponte ac p5": 180
         },
@@ -5243,9 +5242,79 @@
             "data_retorno": "08/06/2026",
             "status": "Pendente",
             "data_emissao": "08/06/2026 19:06"
+        },
+        {
+            "id": 86,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 40,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA",
+            "responsavel": ".",
+            "data_retorno": "09/06/2026",
+            "status": "Pendente",
+            "data_emissao": "09/06/2026 16:54"
         }
     ],
-    "contador_os": 86,
+    "contador_os": 87,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
