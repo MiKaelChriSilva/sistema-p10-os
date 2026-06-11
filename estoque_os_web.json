@@ -11,7 +11,7 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 36,
+            "indoor p2.97m1": 25,
             "notebook": 1,
             "tv 98": 1,
             "painel 2.6 quina": 18,
@@ -38,7 +38,7 @@
             "vx 2000": 2
         },
         "Som": {
-            "sistema slin markpro": 8,
+            "sistema slin markpro": 4,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
@@ -49,19 +49,17 @@
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
-            "mesa digital 12 canais": 1,
-            "kit microfones sem fio kaze": 1,
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 890,
-            "cinta lacoste": 810,
-            "cachimbo 22": 4,
+            "chapinha": 840,
+            "cinta lacoste": 760,
+            "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 999,
-            "contrapeso": 12,
+            "parafuso para treliça 22": 919,
+            "contrapeso": 4,
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
@@ -83,15 +81,14 @@
             "chapinha quina": 38,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 82,
+            "fita isolante": 81,
             "fita preta de acabamento": 49,
-            "maquina de impacto": 1,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 800,
+            "parafuso 17": 600,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -106,21 +103,19 @@
             "bumper p5": 30,
             "pés 1,5m": 4,
             "saia  1,5m x 4m": 3,
-            "pano preto 3x1": 6,
-            "pano preto 4x4": 6
+            "pano preto 4x4": 3
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 53,
+            "cabo rj45 principal": 38,
             "cabo powercon pial": 47,
-            "cabo powercon pial 2.97": 83,
-            "ponte de ac 2.97": 592,
-            "ponte de sinal  2.97": 304,
-            "regua": 20,
+            "cabo powercon pial 2.97": 73,
+            "ponte de ac 2.97": 502,
+            "ponte de sinal  2.97": 214,
+            "regua": 10,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "cabos xlr": 50,
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
             "ponte ac amarelo": 1412,
@@ -132,7 +127,6 @@
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
-            "linha de 10m": 17,
             "kit cabo processadora": 6,
             "regua stek": 13,
             "fonte 5v": 1,
@@ -146,11 +140,10 @@
             "ponte ac p5": 180
         },
         "Estruturas": {
-            "treliça 3m": 5,
-            "treliça 2m": 7,
+            "treliça 3m": 2,
             "treliça 1,5m": 4,
-            "treliça 0,50m": 7,
-            "cubo": 16,
+            "treliça 0,50m": 5,
+            "cubo": 12,
             "slevee": 4,
             "pau de carga": 4,
             "treliça 2,5m": 5,
@@ -159,7 +152,7 @@
             "p15 0,5m": 5,
             "p15 cubo": 5,
             "base grande": 10,
-            "treliça 1m": 13
+            "treliça 1m": 9
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -168,16 +161,13 @@
             "cabo ponta pelada-stek 63a": 2,
             "pentacustica stek": 2,
             "cabo camlok-camlok": 2,
-            "rack pentacustica 1": 1,
-            "propower 24t": 1
+            "rack pentacustica 1": 1
         },
         "Luz": {
-            "parled": 30,
             "maquína de fumaça": 5,
             "ribalta": 6,
-            "case cob led": 4,
-            "hqi 500m": 3,
-            "mesa de luz avolait 1024": 1
+            "case cob led": 3,
+            "hqi 500m": 1
         }
     },
     "ordens_servico": [
@@ -5471,9 +5461,205 @@
             "data_retorno": "15/06/2026",
             "status": "Pendente",
             "data_emissao": "11/06/2026 11:48"
+        },
+        {
+            "id": 88,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha de 10m",
+                    "quantidade": 17,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 3m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pano preto 3x1",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pano preto 4x4",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "parled",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "case cob led",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "hqi 500m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "mesa de luz avolait 1024",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa digital 12 canais",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "kit microfones sem fio kaze",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "propower 24t",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "FARROILHA",
+            "responsavel": ".",
+            "data_retorno": "11/06/2026",
+            "status": "Pendente",
+            "data_emissao": "11/06/2026 17:38"
         }
     ],
-    "contador_os": 88,
+    "contador_os": 89,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
