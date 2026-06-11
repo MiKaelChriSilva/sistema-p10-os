@@ -173,7 +173,8 @@
         "Luz": {
             "parled": 30,
             "maquína de fumaça": 5,
-            "ribalta": 6
+            "ribalta": 6,
+            "case cob led": 4
         }
     },
     "ordens_servico": [
