@@ -12,9 +12,9 @@
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 36,
-            "notebook": 2,
+            "notebook": 1,
             "tv 98": 1,
-            "painel 2.6 quina": 30,
+            "painel 2.6 quina": 18,
             "processadora=": 1,
             "processadora+cabos": 1,
             "processadora vx16s": 2,
@@ -32,7 +32,6 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "processadora vc6": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
             "note alienware": 1,
@@ -56,20 +55,20 @@
         },
         "Materiais Diversos": {
             "chapinha": 890,
-            "cinta lacoste": 860,
+            "cinta lacoste": 810,
             "cachimbo 22": 4,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
             "parafuso para treliça 22": 999,
-            "contrapeso": 20,
+            "contrapeso": 12,
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
-            "parafuso cestavado": 94,
+            "parafuso cestavado": 74,
             "parafuso filips": 2000,
             "chapinha l": 70,
-            "adaptador parafusadeira": 99,
+            "adaptador parafusadeira": 98,
             "bit filips": 1,
             "bateria black tools": 4,
             "carregador 21v": 2,
@@ -80,45 +79,43 @@
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
-            "kit angulos painel quina": 138,
-            "chapinha quina": 138,
+            "kit angulos painel quina": 38,
+            "chapinha quina": 38,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 83,
-            "fita preta de acabamento": 50,
-            "maquina de impacto": 2,
+            "fita isolante": 82,
+            "fita preta de acabamento": 49,
+            "maquina de impacto": 1,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 900,
+            "parafuso 17": 800,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 18,
+            "praticável 2 x 1": 14,
             "pes 0,80cm": 28,
-            "mão françesa": 4,
-            "bit cestavado 11": 1,
             "talha 15m": 8,
             "talha 10m": 4,
             "sacos de talha": 10,
             "bumper 3.9 al": 50,
             "bumper p5": 30,
-            "pés 1,5m": 20,
-            "saia  1,5m x 4m": 5
+            "pés 1,5m": 4,
+            "saia  1,5m x 4m": 3
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 68,
-            "cabo powercon pial": 62,
+            "cabo rj45 principal": 53,
+            "cabo powercon pial": 47,
             "cabo powercon pial 2.97": 83,
             "ponte de ac 2.97": 592,
             "ponte de sinal  2.97": 304,
-            "regua": 22,
+            "regua": 20,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "cabos xlr": 50,
@@ -127,8 +124,8 @@
             "ponte ac amarelo": 1412,
             "ponte sinal amarelo": 1412,
             "fonte 12v": 1,
-            "ponte ac quina": 150,
-            "ponte sinal- quina": 150,
+            "ponte ac quina": 70,
+            "ponte sinal- quina": 70,
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
@@ -142,7 +139,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 12,
+            "linha 10m": 2,
             "linha 5m": 30,
             "ponte ac p5": 180
         },
@@ -5314,9 +5311,163 @@
             "data_retorno": "09/06/2026",
             "status": "Pendente",
             "data_emissao": "09/06/2026 16:54"
+        },
+        {
+            "id": 87,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel 2.6 quina",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "kit angulos painel quina",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha quina",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "mão françesa",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit cestavado 11",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita preta de acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "adaptador parafusadeira",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés 1,5m",
+                    "quantidade": 16,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "saia  1,5m x 4m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac quina",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal- quina",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": ".",
+            "responsavel": ".",
+            "data_retorno": "15/06/2026",
+            "status": "Pendente",
+            "data_emissao": "11/06/2026 11:48"
         }
     ],
-    "contador_os": 87,
+    "contador_os": 88,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
