@@ -11,8 +11,8 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 25,
-            "notebook": 1,
+            "indoor p2.97m1": 29,
+            "notebook": 2,
             "tv 98": 1,
             "painel 2.6 quina": 18,
             "processadora=": 1,
@@ -35,7 +35,8 @@
             "p3.91 americanled": 94,
             "processadora h2": 1,
             "note alienware": 1,
-            "vx 2000": 2
+            "vx 2000": 2,
+            "processadora v960": 1
         },
         "Som": {
             "sistema slin markpro": 4,
@@ -53,7 +54,7 @@
         },
         "Materiais Diversos": {
             "chapinha": 840,
-            "cinta lacoste": 760,
+            "cinta lacoste": 800,
             "cachimbo 22": 3,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
@@ -108,12 +109,12 @@
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 38,
+            "cabo rj45 principal": 43,
             "cabo powercon pial": 47,
-            "cabo powercon pial 2.97": 73,
-            "ponte de ac 2.97": 502,
-            "ponte de sinal  2.97": 214,
-            "regua": 10,
+            "cabo powercon pial 2.97": 80,
+            "ponte de ac 2.97": 542,
+            "ponte de sinal  2.97": 254,
+            "regua": 11,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -135,7 +136,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 2,
+            "linha 10m": 5,
             "linha 5m": 30,
             "ponte ac p5": 180
         },
@@ -5305,8 +5306,9 @@
             "destino": "LEOPOLDINA",
             "responsavel": ".",
             "data_retorno": "09/06/2026",
-            "status": "Pendente",
-            "data_emissao": "09/06/2026 16:54"
+            "status": "Finalizada",
+            "data_emissao": "09/06/2026 16:54",
+            "data_baixa": "13/06/2026 13:36"
         },
         {
             "id": 87,
