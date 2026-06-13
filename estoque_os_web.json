@@ -11,9 +11,8 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 29,
+            "indoor p2.97m1": 25,
             "notebook": 2,
-            "tv 98": 1,
             "painel 2.6 quina": 18,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -25,17 +24,16 @@
             "tv 42": 2,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
-            "cvt 4k": 4,
-            "gbic": 20,
+            "cvt 4k": 3,
+            "gbic": 16,
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
             "note alienware": 1,
-            "vx 2000": 2,
-            "processadora v960": 8,
-            "indoor p2.97 m2": 40
+            "vx 2000": 1,
+            "processadora v960": 5
         },
         "Som": {
             "sistema slin markpro": 4,
@@ -52,14 +50,14 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 840,
-            "cinta lacoste": 800,
-            "cachimbo 22": 3,
+            "chapinha": 740,
+            "cinta lacoste": 720,
+            "cachimbo 22": 2,
             "cachimbo 17": 4,
             "cachimbo 19": 4,
             "cachimbo 14": 4,
-            "parafuso para treliça 22": 919,
-            "contrapeso": 4,
+            "parafuso para treliça 22": 879,
+            "contrapeso": 3,
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
@@ -88,7 +86,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 600,
+            "parafuso 17": 200,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -104,24 +102,24 @@
             "pés 1,5m": 4,
             "saia  1,5m x 4m": 3,
             "pano preto 4x4": 3,
-            "cachimbo 27": 3,
-            "maquina de impacto": 3
+            "cachimbo 27": 2,
+            "maquina de impacto": 2
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 43,
+            "cabo rj45 principal": 3,
             "cabo powercon pial": 47,
-            "cabo powercon pial 2.97": 80,
-            "ponte de ac 2.97": 542,
-            "ponte de sinal  2.97": 254,
-            "regua": 11,
+            "cabo powercon pial 2.97": 40,
+            "ponte de ac 2.97": 192,
+            "ponte de sinal  2.97": 224,
+            "regua": 6,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
             "ponte ac amarelo": 1412,
-            "ponte sinal amarelo": 1412,
+            "ponte sinal amarelo": 1082,
             "fonte 12v": 1,
             "ponte ac quina": 70,
             "ponte sinal- quina": 70,
@@ -134,16 +132,16 @@
             "fonte 5v": 1,
             "linha 2m": 40,
             "multivia ac": 18,
-            "fibra": 20,
+            "fibra": 17,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 25,
+            "linha 10m": 5,
             "linha 5m": 30,
             "ponte ac p5": 180
         },
         "Estruturas": {
             "treliça 3m": 2,
-            "treliça 1,5m": 4,
+            "treliça 1,5m": 2,
             "treliça 0,50m": 5,
             "cubo": 12,
             "slevee": 4,
@@ -153,9 +151,9 @@
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
-            "base grande": 10,
+            "base grande": 5,
             "treliça 1m": 9,
-            "treliça 2m": 9
+            "treliça 2m": 6
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -5661,9 +5659,175 @@
             "data_retorno": "11/06/2026",
             "status": "Pendente",
             "data_emissao": "11/06/2026 17:38"
+        },
+        {
+            "id": 89,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97 m2",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 98",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vx 2000",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 4k",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "gbic",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 350,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 330,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 400,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 27",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1,5m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "base grande",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CONGRESSO POA",
+            "responsavel": ".",
+            "data_retorno": "13/06/2026",
+            "status": "Pendente",
+            "data_emissao": "13/06/2026 14:05"
         }
     ],
-    "contador_os": 89,
+    "contador_os": 90,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
