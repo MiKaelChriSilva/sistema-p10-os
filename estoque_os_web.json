@@ -11,8 +11,8 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 25,
-            "notebook": 3,
+            "indoor p2.97m1": 13,
+            "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -33,8 +33,7 @@
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 1,
-            "processadora v960": 5,
-            "processadora vc6": 1
+            "processadora v960": 5
         },
         "Som": {
             "sistema slin markpro": 4,
@@ -111,12 +110,12 @@
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 18,
+            "cabo rj45 principal": 8,
             "cabo powercon pial": 62,
-            "cabo powercon pial 2.97": 40,
-            "ponte de ac 2.97": 192,
-            "ponte de sinal  2.97": 224,
-            "regua": 8,
+            "cabo powercon pial 2.97": 30,
+            "ponte de ac 2.97": 102,
+            "ponte de sinal  2.97": 134,
+            "regua": 7,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -138,7 +137,7 @@
             "fibra": 17,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 15,
+            "linha 10m": 10,
             "linha 5m": 30,
             "ponte ac p5": 180
         },
@@ -5829,9 +5828,73 @@
             "data_retorno": "13/06/2026",
             "status": "Pendente",
             "data_emissao": "13/06/2026 14:05"
+        },
+        {
+            "id": 90,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CATEDRAL",
+            "responsavel": ".",
+            "data_retorno": "17/06/2026",
+            "status": "Pendente",
+            "data_emissao": "17/06/2026 12:55"
         }
     ],
-    "contador_os": 90,
+    "contador_os": 91,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
