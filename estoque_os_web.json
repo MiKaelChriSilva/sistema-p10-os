@@ -11,7 +11,7 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 17,
+            "indoor p2.97m1": 28,
             "notebook": 3,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -46,7 +46,7 @@
             "tv 98": 1
         },
         "Som": {
-            "sistema slin markpro": 4,
+            "sistema slin markpro": 8,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
@@ -57,17 +57,19 @@
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
-            "mesa digital 20 canais": 1
+            "mesa digital 20 canais": 1,
+            "mesa digital 12 canais": 1,
+            "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 890,
-            "cinta lacoste": 910,
-            "cachimbo 22": 3,
+            "chapinha": 940,
+            "cinta lacoste": 960,
+            "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 919,
-            "contrapeso": 12,
+            "parafuso para treliça 22": 999,
+            "contrapeso": 20,
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
@@ -89,14 +91,14 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 82,
+            "fita isolante": 83,
             "fita preta de acabamento": 50,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 900,
+            "parafuso 17": 1100,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -111,21 +113,22 @@
             "bumper p5": 30,
             "pés 1,5m": 20,
             "saia  1,5m x 4m": 5,
-            "pano preto 4x4": 3,
+            "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 5,
+            "maquina de impacto": 6,
             "mão françesa": 4,
-            "bit cestavado 11": 1
+            "bit cestavado 11": 1,
+            "pano preto 3x1": 6
         },
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 63,
+            "cabo rj45 principal": 78,
             "cabo powercon pial": 67,
-            "cabo powercon pial 2.97": 70,
-            "ponte de ac 2.97": 452,
-            "ponte de sinal  2.97": 164,
-            "regua": 15,
+            "cabo powercon pial 2.97": 80,
+            "ponte de ac 2.97": 542,
+            "ponte de sinal  2.97": 254,
+            "regua": 25,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -150,13 +153,14 @@
             "linha 10m": 30,
             "linha 5m": 30,
             "ponte ac p5": 180,
-            "linha de 10m": 10
+            "linha de 10m": 27,
+            "cabos xlr": 50
         },
         "Estruturas": {
-            "treliça 3m": 2,
+            "treliça 3m": 5,
             "treliça 1,5m": 4,
-            "treliça 0,50m": 5,
-            "cubo": 12,
+            "treliça 0,50m": 7,
+            "cubo": 16,
             "slevee": 4,
             "pau de carga": 4,
             "treliça 2,5m": 5,
@@ -165,8 +169,8 @@
             "p15 0,5m": 5,
             "p15 cubo": 5,
             "base grande": 10,
-            "treliça 1m": 9,
-            "treliça 2m": 9
+            "treliça 1m": 13,
+            "treliça 2m": 16
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -175,13 +179,16 @@
             "cabo ponta pelada-stek 63a": 2,
             "pentacustica stek": 2,
             "cabo camlok-camlok": 2,
-            "rack pentacustica 1": 1
+            "rack pentacustica 1": 1,
+            "propower 24t": 1
         },
         "Luz": {
             "maquína de fumaça": 5,
             "ribalta": 6,
-            "case cob led": 3,
-            "hqi 500m": 1
+            "case cob led": 4,
+            "hqi 500m": 3,
+            "parled": 30,
+            "mesa de luz avolait 1024": 1
         }
     },
     "ordens_servico": [
@@ -5672,8 +5679,9 @@
             "destino": "FARROILHA",
             "responsavel": ".",
             "data_retorno": "11/06/2026",
-            "status": "Pendente",
-            "data_emissao": "11/06/2026 17:38"
+            "status": "Finalizada",
+            "data_emissao": "11/06/2026 17:38",
+            "data_baixa": "22/06/2026 11:36"
         },
         {
             "id": 89,
