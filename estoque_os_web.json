@@ -11,7 +11,7 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 28,
+            "indoor p2.97m1": 20,
             "notebook": 3,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -35,16 +35,13 @@
             "vx 2000": 2,
             "processadora v960": 10,
             "painel flexivel": 2,
-            "processadora vc4": 1,
             "tv 65": 2,
             "tb 40": 2,
             "notebook acer nitro": 1,
             "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
-            "indoor p2.97 m2": 40,
-            "tv 98": 1,
-            "suporte tv 98": 1
+            "indoor p2.97 m2": 40
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -124,11 +121,11 @@
         "Cabos": {
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 78,
+            "cabo rj45 principal": 75,
             "cabo powercon pial": 67,
-            "cabo powercon pial 2.97": 80,
-            "ponte de ac 2.97": 542,
-            "ponte de sinal  2.97": 254,
+            "cabo powercon pial 2.97": 72,
+            "ponte de ac 2.97": 492,
+            "ponte de sinal  2.97": 204,
             "regua": 25,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -5914,9 +5911,67 @@
             "data_retorno": "17/06/2026",
             "status": "Pendente",
             "data_emissao": "17/06/2026 12:55"
+        },
+        {
+            "id": 91,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc4",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 98",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "suporte tv 98",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 3,
+                    "observacao": ""
+                }
+            ],
+            "destino": "FELIPE SANTA CRUZ",
+            "responsavel": ".",
+            "data_retorno": "06/07/2026",
+            "status": "Pendente",
+            "data_emissao": "22/06/2026 11:46"
         }
     ],
-    "contador_os": 91,
+    "contador_os": 92,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
