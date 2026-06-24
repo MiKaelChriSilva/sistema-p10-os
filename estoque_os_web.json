@@ -11,15 +11,15 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 20,
-            "notebook": 2,
+            "indoor p2.97m1": 5,
+            "notebook": 1,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 4,
+            "processadora vx1000 pro": 3,
             "toten de led pro ligth": 1,
             "tv 42": 2,
             "conversor digital+antena": 1,
@@ -60,8 +60,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 940,
-            "cinta lacoste": 960,
+            "chapinha": 890,
+            "cinta lacoste": 910,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
@@ -96,7 +96,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 1100,
+            "parafuso 17": 900,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -121,12 +121,12 @@
         "Cabos": {
             "ponte de ac oneligth": 210,
             "ponte de sinal rj45 oneligth": 210,
-            "cabo rj45 principal": 55,
+            "cabo rj45 principal": 43,
             "cabo powercon pial": 47,
-            "cabo powercon pial 2.97": 72,
-            "ponte de ac 2.97": 492,
-            "ponte de sinal  2.97": 204,
-            "regua": 17,
+            "cabo powercon pial 2.97": 62,
+            "ponte de ac 2.97": 372,
+            "ponte de sinal  2.97": 84,
+            "regua": 15,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -148,7 +148,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 30,
+            "linha 10m": 25,
             "linha 5m": 10,
             "ponte ac p5": 180,
             "linha de 10m": 7,
@@ -177,8 +177,7 @@
             "cabo ponta pelada-stek 63a": 2,
             "pentacustica stek": 2,
             "cabo camlok-camlok": 2,
-            "rack pentacustica 1": 1,
-            "propower 24t": 1
+            "rack pentacustica 1": 1
         },
         "Luz": {
             "maquína de fumaça": 5,
@@ -6081,9 +6080,97 @@
             "data_retorno": "23/06/2026",
             "status": "Pendente",
             "data_emissao": "23/06/2026 16:40"
+        },
+        {
+            "id": 93,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 120,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 120,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "propower 24t",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA ",
+            "responsavel": ".",
+            "data_retorno": "29/06/2026",
+            "status": "Pendente",
+            "data_emissao": "24/06/2026 17:28"
         }
     ],
-    "contador_os": 93,
+    "contador_os": 94,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
