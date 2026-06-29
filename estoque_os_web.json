@@ -29,20 +29,18 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 83,
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 2,
-            "processadora v960": 8,
+            "processadora v960": 6,
             "painel flexivel": 2,
-            "tv 65": 1,
-            "tb 40": 2,
+            "tb 40": 1,
             "notebook acer nitro": 1,
             "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
-            "indoor p2.97 m2": 40,
-            "suporte de tv": 1
+            "indoor p2.97 m2": 40
         },
         "Som": {
             "sistema slin markpro": 5,
@@ -61,8 +59,8 @@
             "kit microfones sem fio kaze": 1
         },
         "Materiais Diversos": {
-            "chapinha": 890,
-            "cinta lacoste": 910,
+            "chapinha": 840,
+            "cinta lacoste": 860,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
@@ -73,10 +71,10 @@
             "marreta": 1,
             "cinta catraca": 90,
             "parafuso cestavado": 94,
-            "parafuso filips": 2100,
+            "parafuso filips": 2070,
             "chapinha l": 100,
-            "adaptador parafusadeira": 100,
-            "bit filips": 2,
+            "adaptador parafusadeira": 99,
+            "bit filips": 1,
             "bateria black tools": 4,
             "carregador 21v": 2,
             "parafuso alongado 17": 100,
@@ -97,7 +95,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 900,
+            "parafuso 17": 700,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -114,7 +112,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 6,
+            "maquina de impacto": 5,
             "mão françesa": 4,
             "bit cestavado 11": 1,
             "pano preto 3x1": 6
@@ -122,18 +120,18 @@
         "Cabos": {
             "ponte de ac oneligth": 210,
             "ponte de sinal rj45 oneligth": 210,
-            "cabo rj45 principal": 43,
-            "cabo powercon pial": 47,
+            "cabo rj45 principal": 28,
+            "cabo powercon pial": 37,
             "cabo powercon pial 2.97": 62,
             "ponte de ac 2.97": 372,
             "ponte de sinal  2.97": 84,
-            "regua": 15,
+            "regua": 11,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
-            "ponte ac amarelo": 1432,
-            "ponte sinal amarelo": 1432,
+            "ponte ac amarelo": 1332,
+            "ponte sinal amarelo": 1332,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -149,7 +147,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 25,
+            "linha 10m": 20,
             "linha 5m": 10,
             "ponte ac p5": 180,
             "linha de 10m": 7,
@@ -6169,9 +6167,127 @@
             "data_retorno": "29/06/2026",
             "status": "Pendente",
             "data_emissao": "24/06/2026 17:28"
+        },
+        {
+            "id": 94,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 65",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "suporte de tv",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb 40",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit filips",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso filips",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "adaptador parafusadeira",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "ITAJAÍ",
+            "responsavel": "TOMAS",
+            "data_retorno": "06/07/2026",
+            "status": "Pendente",
+            "data_emissao": "29/06/2026 16:58"
         }
     ],
-    "contador_os": 94,
+    "contador_os": 95,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
