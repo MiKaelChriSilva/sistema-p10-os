@@ -7,12 +7,12 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 24,
+            "p3.91 oneligth": 36,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 5,
-            "notebook": 1,
+            "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -33,17 +33,19 @@
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 2,
-            "processadora v960": 6,
+            "processadora v960": 8,
             "painel flexivel": 2,
             "tb 40": 1,
             "notebook acer nitro": 1,
             "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
-            "indoor p2.97 m2": 40
+            "indoor p2.97 m2": 40,
+            "tv 65": 1,
+            "tv 58": 1
         },
         "Som": {
-            "sistema slin markpro": 5,
+            "sistema slin markpro": 8,
             "antenas/mic": 4,
             "sistema slin db": 4,
             "pedestal mic": 10,
@@ -56,7 +58,8 @@
             "microfone": 10,
             "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
-            "kit microfones sem fio kaze": 1
+            "kit microfones sem fio kaze": 1,
+            "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
             "chapinha": 840,
@@ -118,14 +121,14 @@
             "pano preto 3x1": 6
         },
         "Cabos": {
-            "ponte de ac oneligth": 210,
-            "ponte de sinal rj45 oneligth": 210,
-            "cabo rj45 principal": 28,
-            "cabo powercon pial": 37,
+            "ponte de ac oneligth": 300,
+            "ponte de sinal rj45 oneligth": 300,
+            "cabo rj45 principal": 48,
+            "cabo powercon pial": 57,
             "cabo powercon pial 2.97": 62,
             "ponte de ac 2.97": 372,
             "ponte de sinal  2.97": 84,
-            "regua": 11,
+            "regua": 19,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -143,15 +146,15 @@
             "regua stek": 13,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 10,
+            "multivia ac": 18,
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
             "linha 10m": 20,
-            "linha 5m": 10,
+            "linha 5m": 30,
             "ponte ac p5": 180,
-            "linha de 10m": 7,
-            "cabos xlr": 20
+            "linha de 10m": 27,
+            "cabos xlr": 50
         },
         "Estruturas": {
             "treliça 3m": 5,
@@ -183,7 +186,7 @@
             "ribalta": 6,
             "case cob led": 4,
             "hqi 500m": 3,
-            "parled": 10,
+            "parled": 30,
             "mesa de luz avolait 1024": 1
         }
     },
@@ -6077,8 +6080,9 @@
             "destino": "ENDURACE",
             "responsavel": ".",
             "data_retorno": "23/06/2026",
-            "status": "Pendente",
-            "data_emissao": "23/06/2026 16:40"
+            "status": "Finalizada",
+            "data_emissao": "23/06/2026 16:40",
+            "data_baixa": "29/06/2026 20:01"
         },
         {
             "id": 93,
