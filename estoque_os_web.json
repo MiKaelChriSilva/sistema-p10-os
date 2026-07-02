@@ -29,7 +29,7 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "p3.91 americanled": 83,
+            "p3.91 americanled": 27,
             "processadora h2": 1,
             "note alienware": 1,
             "vx 2000": 2,
@@ -62,7 +62,7 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 890,
+            "chapinha": 690,
             "cinta lacoste": 910,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
@@ -98,7 +98,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 2,
-            "parafuso 17": 900,
+            "parafuso 17": 500,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
@@ -124,7 +124,7 @@
             "ponte de ac oneligth": 300,
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 60,
-            "cabo powercon pial": 57,
+            "cabo powercon pial": 27,
             "cabo powercon pial 2.97": 72,
             "ponte de ac 2.97": 492,
             "ponte de sinal  2.97": 204,
@@ -133,8 +133,8 @@
             "fibra hdmi": 10,
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
-            "ponte ac amarelo": 1332,
-            "ponte sinal amarelo": 1332,
+            "ponte ac amarelo": 902,
+            "ponte sinal amarelo": 902,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -6291,9 +6291,55 @@
             "data_retorno": "06/07/2026",
             "status": "Pendente",
             "data_emissao": "29/06/2026 16:58"
+        },
+        {
+            "id": 95,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 56,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 430,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 430,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 400,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SÃO PAULO",
+            "responsavel": ".",
+            "data_retorno": "13/07/2026",
+            "status": "Pendente",
+            "data_emissao": "02/07/2026 13:15"
         }
     ],
-    "contador_os": 95,
+    "contador_os": 96,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
