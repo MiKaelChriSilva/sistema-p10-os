@@ -11,8 +11,8 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 20,
-            "notebook": 3,
+            "indoor p2.97m1": 32,
+            "notebook": 4,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -42,7 +42,8 @@
             "sensor infra": 1,
             "indoor p2.97 m2": 40,
             "tv 65": 1,
-            "tv 58": 1
+            "tv 58": 1,
+            "processadora vc6": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -123,12 +124,12 @@
         "Cabos": {
             "ponte de ac oneligth": 100,
             "ponte de sinal rj45 oneligth": 100,
-            "cabo rj45 principal": 60,
+            "cabo rj45 principal": 70,
             "cabo powercon pial": 7,
-            "cabo powercon pial 2.97": 72,
-            "ponte de ac 2.97": 492,
-            "ponte de sinal  2.97": 204,
-            "regua": 21,
+            "cabo powercon pial 2.97": 82,
+            "ponte de ac 2.97": 582,
+            "ponte de sinal  2.97": 294,
+            "regua": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 280,
@@ -150,7 +151,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 25,
+            "linha 10m": 30,
             "linha 5m": 30,
             "ponte ac p5": 180,
             "linha de 10m": 27,
@@ -5911,8 +5912,9 @@
             "destino": "CATEDRAL",
             "responsavel": ".",
             "data_retorno": "17/06/2026",
-            "status": "Pendente",
-            "data_emissao": "17/06/2026 12:55"
+            "status": "Finalizada",
+            "data_emissao": "17/06/2026 12:55",
+            "data_baixa": "03/07/2026 20:57"
         },
         {
             "id": 91,
