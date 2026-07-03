@@ -154,7 +154,8 @@
             "linha 5m": 30,
             "ponte ac p5": 180,
             "linha de 10m": 27,
-            "cabos xlr": 50
+            "cabos xlr": 50,
+            "fibra 6v": 2
         },
         "Estruturas": {
             "treliça 3m": 5,
