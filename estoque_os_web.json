@@ -71,7 +71,7 @@
             "cachimbo 14": 5,
             "parafuso para treliça 22": 999,
             "contrapeso": 20,
-            "pés praticavel 0,40cm": 80,
+            "pés praticavel 0,40cm": 73,
             "marreta": 1,
             "cinta catraca": 90,
             "parafuso cestavado": 94,
@@ -6397,9 +6397,25 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "03/07/2026 20:56"
+        },
+        {
+            "id": 97,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés praticavel 0,40cm",
+                    "quantidade": 7,
+                    "observacao": ""
+                }
+            ],
+            "destino": "JFFJF",
+            "responsavel": "HH",
+            "data_retorno": "20/07/2026",
+            "status": "Pendente",
+            "data_emissao": "05/07/2026 02:03"
         }
     ],
-    "contador_os": 97,
+    "contador_os": 98,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
