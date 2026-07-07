@@ -11,7 +11,7 @@
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 32,
+            "indoor p2.97m1": 22,
             "notebook": 4,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -44,7 +44,7 @@
             "tv 65": 1,
             "tv 58": 1,
             "processadora vc6": 1,
-            "spotligth": 4
+            "spotligth": 3
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -125,11 +125,11 @@
         "Cabos": {
             "ponte de ac oneligth": 100,
             "ponte de sinal rj45 oneligth": 100,
-            "cabo rj45 principal": 70,
+            "cabo rj45 principal": 66,
             "cabo powercon pial": 7,
-            "cabo powercon pial 2.97": 82,
-            "ponte de ac 2.97": 582,
-            "ponte de sinal  2.97": 294,
+            "cabo powercon pial 2.97": 77,
+            "ponte de ac 2.97": 502,
+            "ponte de sinal  2.97": 214,
             "regua": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
@@ -6398,9 +6398,55 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "03/07/2026 20:56"
+        },
+        {
+            "id": 98,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "spotligth",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SILVIO MARATA",
+            "responsavel": ".",
+            "data_retorno": "13/07/2026",
+            "status": "Pendente",
+            "data_emissao": "07/07/2026 12:54"
         }
     ],
-    "contador_os": 98,
+    "contador_os": 99,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
