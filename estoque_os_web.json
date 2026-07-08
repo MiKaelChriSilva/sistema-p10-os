@@ -45,9 +45,7 @@
             "tv 58": 1,
             "processadora vc6": 1,
             "spotligth": 3,
-            "tv32": 4,
-            "suporte novo tv32": 4,
-            "controle": 4
+            "controle": 3
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -6447,9 +6445,37 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "07/07/2026 12:54"
+        },
+        {
+            "id": 99,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv32",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "suporte novo tv32",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "controle",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "IMAGINE",
+            "responsavel": ".",
+            "data_retorno": "13/07/2026",
+            "status": "Pendente",
+            "data_emissao": "08/07/2026 18:02"
         }
     ],
-    "contador_os": 99,
+    "contador_os": 100,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
