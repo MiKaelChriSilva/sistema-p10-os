@@ -12,7 +12,7 @@
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
             "indoor p2.97m1": 10,
-            "notebook": 3,
+            "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 1,
@@ -40,14 +40,12 @@
             "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
-            "indoor p2.97 m2": 40,
+            "indoor p2.97 m2": 27,
             "tv 65": 1,
             "tv 58": 1,
             "processadora vc6": 1,
             "spotligth": 3,
-            "controle": 3,
-            "tb40": 2,
-            "vc4 processadora": 4
+            "controle": 3
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -67,8 +65,8 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 470,
-            "cinta lacoste": 880,
+            "chapinha": 450,
+            "cinta lacoste": 830,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
@@ -78,11 +76,10 @@
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
-            "parafuso cestavado": 94,
-            "parafuso filips": 2070,
-            "chapinha l": 100,
-            "adaptador parafusadeira": 99,
-            "bit filips": 1,
+            "parafuso cestavado": 79,
+            "parafuso filips": 1970,
+            "chapinha l": 90,
+            "adaptador parafusadeira": 98,
             "bateria black tools": 4,
             "carregador 21v": 2,
             "parafuso alongado 17": 100,
@@ -120,18 +117,17 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 5,
+            "maquina de impacto": 4,
             "mão françesa": 4,
-            "bit cestavado 11": 1,
             "pano preto 3x1": 6
         },
         "Cabos": {
             "ponte de ac oneligth": 100,
             "ponte de sinal rj45 oneligth": 100,
-            "cabo rj45 principal": 51,
+            "cabo rj45 principal": 36,
             "cabo powercon pial": 7,
-            "cabo powercon pial 2.97": 71,
-            "ponte de ac 2.97": 402,
+            "cabo powercon pial 2.97": 56,
+            "ponte de ac 2.97": 292,
             "ponte de sinal  2.97": 114,
             "regua": 20,
             "cabo rj45 ponte azul": 100,
@@ -139,7 +135,7 @@
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
             "ponte ac amarelo": 902,
-            "ponte sinal amarelo": 902,
+            "ponte sinal amarelo": 792,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -6574,9 +6570,121 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "09/07/2026 11:22"
+        },
+        {
+            "id": 101,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97 m2",
+                    "quantidade": 13,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb40",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vc4 processadora",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 110,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 110,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso filips",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha l",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit filips",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "adaptador parafusadeira",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bit cestavado 11",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "FEIRA - FIERGS",
+            "responsavel": ".",
+            "data_retorno": "13/07/2026",
+            "status": "Pendente",
+            "data_emissao": "09/07/2026 18:23"
         }
     ],
-    "contador_os": 101,
+    "contador_os": 102,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
