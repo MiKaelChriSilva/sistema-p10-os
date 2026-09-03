@@ -7,7 +7,6 @@
     },
     "materiais": {
         "Painel de LED": {
-            "p3.91 oneligth": 2,
             "outdoor p.5 m1": 26,
             "outdoor p.5 m2": 18,
             "indoor p2.6": 15,
@@ -125,7 +124,7 @@
         },
         "Cabos": {
             "ponte de ac oneligth": 100,
-            "ponte de sinal rj45 oneligth": 100,
+            "ponte de sinal rj45 oneligth": 98,
             "cabo rj45 principal": 36,
             "cabo powercon pial": 7,
             "cabo powercon pial 2.97": 56,
@@ -6684,9 +6683,31 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "09/07/2026 18:23"
+        },
+        {
+            "id": 102,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "YDYF",
+            "responsavel": "JHVHJH",
+            "data_retorno": "07/09/2026",
+            "status": "Pendente",
+            "data_emissao": "03/09/2026 16:53"
         }
     ],
-    "contador_os": 102,
+    "contador_os": 103,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
