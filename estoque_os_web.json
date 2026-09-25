@@ -46,7 +46,7 @@
             "tv  32": 10,
             "tv 55": 1,
             "oudoor p5 m2": 18,
-            "outdoor p.5 m2": 2,
+            "outdoor p.5 m2": 4,
             "indoor p2.97m1": 40,
             "p3.91 oneligth": 36,
             "tb40": 2,
@@ -58,7 +58,8 @@
             "suporte tv 98": 1,
             "suporte de tv": 1,
             "tv32": 4,
-            "suporte novo tv32": 4
+            "suporte novo tv32": 4,
+            "cvt 10": 5
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -6497,8 +6498,9 @@
             "destino": "15158",
             "responsavel": "1515",
             "data_retorno": "21/09/2026",
-            "status": "Pendente",
-            "data_emissao": "25/09/2026 16:42"
+            "status": "Finalizada",
+            "data_emissao": "25/09/2026 16:42",
+            "data_baixa": "25/09/2026 16:45"
         }
     ],
     "contador_os": 105,
