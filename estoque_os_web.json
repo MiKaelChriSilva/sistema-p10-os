@@ -46,7 +46,8 @@
             "tv  32": 10,
             "tv 55": 1,
             "oudoor p5 m2": 18,
-            "outdoor p.5 m2": 4
+            "outdoor p.5 m2": 4,
+            "indoor p2.97m1": 10
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -135,7 +136,7 @@
             "fibra hdmi": 10,
             "ac ponte p5": 300,
             "ponte sinal p5": 180,
-            "ponte ac amarelo": 802,
+            "ponte ac amarelo": 902,
             "ponte sinal amarelo": 792,
             "fonte 12v": 1,
             "ponte ac quina": 150,
@@ -6593,28 +6594,6 @@
             "data_retorno": "07/09/2026",
             "status": "Pendente",
             "data_emissao": "03/09/2026 16:53"
-        },
-        {
-            "id": 103,
-            "itens": [
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte ac amarelo",
-                    "quantidade": 100,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "indoor p2.97m1",
-                    "quantidade": 10,
-                    "observacao": ""
-                }
-            ],
-            "destino": "POER SOUND",
-            "responsavel": "RONADO",
-            "data_retorno": "21/09/2026",
-            "status": "Pendente",
-            "data_emissao": "25/09/2026 16:41"
         }
     ],
     "contador_os": 104,
