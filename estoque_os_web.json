@@ -63,12 +63,12 @@
         },
         "Som": {
             "sistema slin markpro": 8,
-            "antenas/mic": 4,
+            "antenas/mic": 3,
             "pedestal mic": 10,
             "d.i": 4,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 10,
+            "pedestal": 8,
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
@@ -6764,9 +6764,31 @@
             "data_retorno": "28/09/2026",
             "status": "Pendente",
             "data_emissao": "25/09/2026 17:44"
+        },
+        {
+            "id": 107,
+            "itens": [
+                {
+                    "categoria": "Som",
+                    "material": "antenas/mic",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "ADORACAO  REAL",
+            "responsavel": "BRUNO MOREIRA",
+            "data_retorno": "25/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 18:42"
         }
     ],
-    "contador_os": 107,
+    "contador_os": 108,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
