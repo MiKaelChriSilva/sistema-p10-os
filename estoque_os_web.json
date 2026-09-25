@@ -12,7 +12,7 @@
             "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
-            "processadora+cabos": 1,
+            "processadora+cabos": 2,
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
@@ -45,7 +45,8 @@
             "controle": 3,
             "tv  32": 10,
             "tv 55": 1,
-            "oudoor p5 m2": 18
+            "oudoor p5 m2": 18,
+            "outdoor p.5 m2": 4
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -65,7 +66,7 @@
         },
         "Materiais Diversos": {
             "chapinha": 450,
-            "cinta lacoste": 830,
+            "cinta lacoste": 850,
             "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
@@ -75,7 +76,7 @@
             "pés praticavel 0,40cm": 80,
             "marreta": 1,
             "cinta catraca": 90,
-            "parafuso cestavado": 79,
+            "parafuso cestavado": 85,
             "parafuso filips": 1970,
             "chapinha l": 90,
             "adaptador parafusadeira": 98,
@@ -98,14 +99,14 @@
             "carpete preto/palco": 12,
             "fita dupla face": 12,
             "fita acabamento": 12,
-            "praticável 2 x 0,60": 2,
+            "praticável 2 x 0,60": 4,
             "parafuso 17": 60,
             "cinta/anilha": 80,
             "ponta de eixo": 4,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 18,
+            "praticável 2 x 1": 20,
             "pes 0,80cm": 28,
             "talha 15m": 8,
             "talha 10m": 4,
@@ -116,22 +117,24 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 4,
-            "mão françesa": 4,
-            "pano preto 3x1": 6
+            "maquina de impacto": 5,
+            "mão françesa": 6,
+            "pano preto 3x1": 6,
+            "pé 2m/práticavel": 8,
+            "bit cestavado 11": 1
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 98,
-            "cabo rj45 principal": 36,
-            "cabo powercon pial": 7,
+            "cabo rj45 principal": 38,
+            "cabo powercon pial": 10,
             "cabo powercon pial 2.97": 56,
             "ponte de ac 2.97": 292,
             "ponte de sinal  2.97": 114,
-            "regua": 20,
+            "regua": 21,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "ac ponte p5": 280,
-            "ponte sinal p5": 160,
+            "ac ponte p5": 300,
+            "ponte sinal p5": 180,
             "ponte ac amarelo": 802,
             "ponte sinal amarelo": 792,
             "fonte 12v": 1,
@@ -142,7 +145,7 @@
             "cabo cabo configuração usb": 5,
             "rj45 principal": 39,
             "kit cabo processadora": 6,
-            "regua stek": 13,
+            "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
             "multivia ac": 18,
@@ -152,7 +155,7 @@
             "linha 10m": 30,
             "linha 5m": 30,
             "ponte ac p5": 180,
-            "linha de 10m": 21,
+            "linha de 10m": 24,
             "cabos xlr": 50
         },
         "Estruturas": {
@@ -2262,118 +2265,6 @@
             "status": "Finalizada",
             "data_emissao": "02/05/2026 19:49",
             "data_baixa": "14/05/2026 10:26"
-        },
-        {
-            "id": 57,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "outdoor p.5 m2",
-                    "quantidade": 4,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora+cabos",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ac ponte p5",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte sinal p5",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo rj45 principal",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "cabo powercon pial",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "linha de 10m",
-                    "quantidade": 3,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "regua",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "praticável 2 x 1",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "praticável 2 x 0,60",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "pé 2m/práticavel",
-                    "quantidade": 8,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "mão françesa",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "bit cestavado 11",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "parafuso cestavado",
-                    "quantidade": 6,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "maquina de impacto",
-                    "quantidade": 1,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Materiais Diversos",
-                    "material": "cinta lacoste",
-                    "quantidade": 20,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "regua stek",
-                    "quantidade": 1,
-                    "observacao": ""
-                }
-            ],
-            "destino": "COPA",
-            "responsavel": "EDUARDO",
-            "data_retorno": "04/05/2026",
-            "status": "Pendente",
-            "data_emissao": "04/05/2026 19:53"
         },
         {
             "id": 58,
