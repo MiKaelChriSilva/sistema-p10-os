@@ -9,16 +9,15 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 5,
+            "notebook": 4,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
             "processadora vx16s": 2,
             "tv 32": 6,
-            "dog house": 6,
-            "processadora vx1000 pro": 4,
+            "dog house": 4,
+            "processadora vx1000 pro": 3,
             "toten de led pro ligth": 1,
-            "tv 42": 2,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
             "cvt 4k": 4,
@@ -47,7 +46,7 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "indoor p2.97m1": 40,
+            "indoor p2.97m1": 21,
             "p3.91 oneligth": 36,
             "tb40": 2,
             "vc4 processadora": 4,
@@ -59,8 +58,8 @@
             "suporte de tv": 1,
             "tv32": 4,
             "suporte novo tv32": 4,
-            "cvt 10": 5,
-            "spiter hdmi": 5
+            "cvt 10": 4,
+            "spiter hdmi": 4
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -79,14 +78,13 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 1000,
-            "cinta lacoste": 1000,
-            "cachimbo 22": 5,
+            "chapinha": 950,
+            "cinta lacoste": 950,
+            "cachimbo 22": 4,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000,
-            "contrapeso": 20,
+            "parafuso para treliça 22": 900,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
@@ -107,14 +105,14 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 83,
+            "fita isolante": 81,
             "fita preta de acabamento": 50,
             "praticavel 1x1": 2,
-            "carpete preto/palco": 12,
-            "fita dupla face": 12,
-            "fita acabamento": 12,
+            "carpete preto/palco": 9,
+            "fita dupla face": 11,
+            "fita acabamento": 10,
             "praticável 2 x 0,60": 4,
-            "parafuso 17": 1300,
+            "parafuso 17": 1100,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
@@ -131,27 +129,27 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 8,
+            "maquina de impacto": 7,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
             "bit cestavado 11": 2,
             "bit filips": 2,
             "pano preo 12x1": 8,
-            "pe de 20cm": 450,
-            "passador de side": 9,
-            "aminado": 3
+            "pe de 20cm": 442,
+            "passador de side": 8,
+            "aminado": 2
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 110,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 90,
-            "ponte de ac 2.97": 632,
-            "ponte de sinal  2.97": 344,
-            "regua": 30,
+            "cabo powercon pial 2.97": 76,
+            "ponte de ac 2.97": 452,
+            "ponte de sinal  2.97": 164,
+            "regua": 27,
             "cabo rj45 ponte azul": 100,
-            "fibra hdmi": 10,
+            "fibra hdmi": 6,
             "ac ponte p5": 300,
             "ponte sinal p5": 300,
             "ponte ac amarelo": 1432,
@@ -160,19 +158,19 @@
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
             "cabo ac": 25,
-            "hdmi": 5,
+            "hdmi": 3,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 39,
+            "rj45 principal": 27,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 22,
-            "fibra": 20,
+            "multivia ac": 19,
+            "fibra": 19,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 40,
-            "linha 5m": 30,
+            "linha 10m": 32,
+            "linha 5m": 22,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
@@ -180,20 +178,20 @@
             "fibra 6v": 2
         },
         "Estruturas": {
-            "treliça 3m": 8,
-            "treliça 1,5m": 6,
+            "treliça 3m": 5,
+            "treliça 1,5m": 2,
             "treliça 0,50m": 7,
-            "cubo": 18,
+            "cubo": 10,
             "slevee": 6,
             "pau de carga": 6,
-            "treliça 2,5m": 5,
+            "treliça 2,5m": 1,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
             "base grande": 10,
-            "treliça 1m": 13,
-            "treliça 2m": 21
+            "treliça 1m": 9,
+            "treliça 2m": 20
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -6506,9 +6504,253 @@
             "status": "Finalizada",
             "data_emissao": "25/09/2026 16:42",
             "data_baixa": "25/09/2026 16:45"
+        },
+        {
+            "id": 105,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 19,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 14,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 180,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 180,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 10",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "carpete preto/palco",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pe de 20cm",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pe de 20cm",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita dupla face",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "passador de side",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 42",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "dog house",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra hdmi",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "hdmi",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "spiter hdmi",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "aminado",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 3m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1,5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 20,
+                    "observacao": ""
+                }
+            ],
+            "destino": "DEVILLE",
+            "responsavel": "EDUARDO",
+            "data_retorno": "28/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 17:17"
         }
     ],
-    "contador_os": 105,
+    "contador_os": 106,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
