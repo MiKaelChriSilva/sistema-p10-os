@@ -63,12 +63,12 @@
         },
         "Som": {
             "sistema slin markpro": 8,
-            "antenas/mic": 3,
+            "antenas/mic": 2,
             "pedestal mic": 10,
             "d.i": 4,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 8,
+            "pedestal": 6,
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
@@ -173,7 +173,7 @@
             "linha 5m": 22,
             "ponte ac p5": 300,
             "linha de 10m": 30,
-            "cabos xlr": 50,
+            "cabos xlr": 47,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2
         },
@@ -6786,9 +6786,43 @@
             "data_retorno": "25/09/2026",
             "status": "Pendente",
             "data_emissao": "25/09/2026 18:42"
+        },
+        {
+            "id": 108,
+            "itens": [
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "antenas/mic",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "ADORACAO  REAL",
+            "responsavel": "BRUNO MOREIRA",
+            "data_retorno": "25/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 18:45"
         }
     ],
-    "contador_os": 108,
+    "contador_os": 109,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
