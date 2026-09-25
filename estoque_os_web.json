@@ -47,7 +47,8 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "indoor p2.97m1": 10
+            "indoor p2.97m1": 10,
+            "p3.91 oneligth": 2
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -125,7 +126,7 @@
             "bit cestavado 11": 1
         },
         "Cabos": {
-            "ponte de sinal rj45 oneligth": 98,
+            "ponte de sinal rj45 oneligth": 100,
             "cabo rj45 principal": 38,
             "cabo powercon pial": 10,
             "cabo powercon pial 2.97": 56,
@@ -6572,28 +6573,6 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "09/07/2026 18:23"
-        },
-        {
-            "id": 102,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "p3.91 oneligth",
-                    "quantidade": 2,
-                    "observacao": ""
-                },
-                {
-                    "categoria": "Cabos",
-                    "material": "ponte de sinal rj45 oneligth",
-                    "quantidade": 2,
-                    "observacao": ""
-                }
-            ],
-            "destino": "YDYF",
-            "responsavel": "JHVHJH",
-            "data_retorno": "07/09/2026",
-            "status": "Pendente",
-            "data_emissao": "03/09/2026 16:53"
         }
     ],
     "contador_os": 104,
