@@ -7,9 +7,8 @@
     },
     "materiais": {
         "Painel de LED": {
-            "outdoor p.5 m1": 26,
+            "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "indoor p2.97m1": 10,
             "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
@@ -51,7 +50,6 @@
         "Som": {
             "sistema slin markpro": 8,
             "antenas/mic": 4,
-            "sistema slin db": 4,
             "pedestal mic": 10,
             "d.i": 4,
             "ribalta": 10,
@@ -123,7 +121,6 @@
             "pano preto 3x1": 6
         },
         "Cabos": {
-            "ponte de ac oneligth": 100,
             "ponte de sinal rj45 oneligth": 98,
             "cabo rj45 principal": 36,
             "cabo powercon pial": 7,
@@ -135,7 +132,7 @@
             "fibra hdmi": 10,
             "ac ponte p5": 280,
             "ponte sinal p5": 160,
-            "ponte ac amarelo": 902,
+            "ponte ac amarelo": 802,
             "ponte sinal amarelo": 792,
             "fonte 12v": 1,
             "ponte ac quina": 150,
@@ -6705,9 +6702,31 @@
             "data_retorno": "07/09/2026",
             "status": "Pendente",
             "data_emissao": "03/09/2026 16:53"
+        },
+        {
+            "id": 103,
+            "itens": [
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 10,
+                    "observacao": ""
+                }
+            ],
+            "destino": "POER SOUND",
+            "responsavel": "RONADO",
+            "data_retorno": "21/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 16:41"
         }
     ],
-    "contador_os": 103,
+    "contador_os": 104,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
