@@ -46,7 +46,7 @@
             "tv  32": 10,
             "tv 55": 1,
             "oudoor p5 m2": 18,
-            "outdoor p.5 m2": 4,
+            "outdoor p.5 m2": 2,
             "indoor p2.97m1": 10,
             "p3.91 oneligth": 2,
             "tb40": 2,
@@ -6464,9 +6464,25 @@
             "data_retorno": "13/07/2026",
             "status": "Pendente",
             "data_emissao": "09/07/2026 11:22"
+        },
+        {
+            "id": 104,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "outdoor p.5 m2",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "15158",
+            "responsavel": "1515",
+            "data_retorno": "21/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 16:42"
         }
     ],
-    "contador_os": 104,
+    "contador_os": 105,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
