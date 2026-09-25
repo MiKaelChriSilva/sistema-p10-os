@@ -136,7 +136,7 @@
             "bit cestavado 11": 2,
             "bit filips": 2,
             "pano preo 12x1": 8,
-            "pe de 20cm": 442,
+            "pe de 20cm": 428,
             "passador de side": 8,
             "aminado": 2
         },
@@ -6748,9 +6748,25 @@
             "data_retorno": "28/09/2026",
             "status": "Pendente",
             "data_emissao": "25/09/2026 17:17"
+        },
+        {
+            "id": 106,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pe de 20cm",
+                    "quantidade": 14,
+                    "observacao": ""
+                }
+            ],
+            "destino": "MARCIO DERROTA ",
+            "responsavel": "MARCIO",
+            "data_retorno": "28/09/2026",
+            "status": "Pendente",
+            "data_emissao": "25/09/2026 17:44"
         }
     ],
-    "contador_os": 106,
+    "contador_os": 107,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
