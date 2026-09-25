@@ -9,14 +9,14 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 4,
+            "notebook": 5,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 3,
+            "processadora vx1000 pro": 4,
             "toten de led pro ligth": 1,
             "tv 42": 2,
             "conversor digital+antena": 1,
@@ -42,12 +42,12 @@
             "tv 58": 1,
             "processadora vc6": 1,
             "spotligth": 4,
-            "controle": 3,
+            "controle": 4,
             "tv  32": 10,
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 2,
-            "indoor p2.97m1": 28,
+            "indoor p2.97m1": 40,
             "p3.91 oneligth": 36,
             "tb40": 2,
             "vc4 processadora": 4,
@@ -56,7 +56,9 @@
             "processadora vc4": 5,
             "tv 98": 1,
             "suporte tv 98": 1,
-            "suporte de tv": 1
+            "suporte de tv": 1,
+            "tv32": 4,
+            "suporte novo tv32": 4
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -75,14 +77,14 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 980,
-            "cinta lacoste": 970,
+            "chapinha": 1000,
+            "cinta lacoste": 1000,
             "cachimbo 22": 5,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
-            "contrapeso": 8,
+            "contrapeso": 20,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
@@ -110,7 +112,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 4,
-            "parafuso 17": 1260,
+            "parafuso 17": 1300,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
@@ -136,12 +138,12 @@
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 95,
+            "cabo rj45 principal": 110,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 84,
-            "ponte de ac 2.97": 532,
-            "ponte de sinal  2.97": 244,
-            "regua": 28,
+            "cabo powercon pial 2.97": 90,
+            "ponte de ac 2.97": 632,
+            "ponte de sinal  2.97": 344,
+            "regua": 30,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -166,7 +168,7 @@
             "linha 10m": 40,
             "linha 5m": 30,
             "ponte ac p5": 300,
-            "linha de 10m": 24,
+            "linha de 10m": 30,
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2
@@ -191,10 +193,11 @@
             "cabo 64a - ponta pelada 4v": 4,
             "adaptador y camlok-granada": 7,
             "rack mpl": 2,
-            "cabo ponta pelada-stek 63a": 1,
+            "cabo ponta pelada-stek 63a": 2,
             "pentacustica stek": 2,
             "cabo camlok-camlok": 2,
-            "propower 24t": 1
+            "propower 24t": 1,
+            "rack pentacustica 1": 1
         },
         "Luz": {
             "maquína de fumaça": 5,
@@ -6376,8 +6379,9 @@
             "destino": "IMAGINE",
             "responsavel": ".",
             "data_retorno": "13/07/2026",
-            "status": "Pendente",
-            "data_emissao": "08/07/2026 18:02"
+            "status": "Finalizada",
+            "data_emissao": "08/07/2026 18:02",
+            "data_baixa": "25/09/2026 16:45"
         },
         {
             "id": 100,
@@ -6476,8 +6480,9 @@
             "destino": "09/07/22",
             "responsavel": ".",
             "data_retorno": "13/07/2026",
-            "status": "Pendente",
-            "data_emissao": "09/07/2026 11:22"
+            "status": "Finalizada",
+            "data_emissao": "09/07/2026 11:22",
+            "data_baixa": "25/09/2026 16:45"
         },
         {
             "id": 104,
