@@ -64,12 +64,12 @@
         },
         "Som": {
             "sistema slin markpro": 8,
-            "antenas/mic": 3,
+            "antenas/mic": 4,
             "pedestal mic": 10,
             "d.i": 4,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 8,
+            "pedestal": 10,
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
@@ -177,7 +177,7 @@
             "linha 5m": 15,
             "ponte ac p5": 300,
             "linha de 10m": 30,
-            "cabos xlr": 47,
+            "cabos xlr": 50,
             "ponte de ac oneligth": 90,
             "fibra 6v": 2
         },
@@ -6824,8 +6824,9 @@
             "destino": "ADORACAO  REAL",
             "responsavel": "BRUNO MOREIRA",
             "data_retorno": "25/09/2026",
-            "status": "Pendente",
-            "data_emissao": "25/09/2026 18:45"
+            "status": "Finalizada",
+            "data_emissao": "25/09/2026 18:45",
+            "data_baixa": "01/10/2026 13:55"
         },
         {
             "id": 109,
