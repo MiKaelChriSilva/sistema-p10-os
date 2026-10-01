@@ -37,7 +37,6 @@
             "notebook dellg15": 1,
             "sensor infra": 1,
             "indoor p2.97 m2": 37,
-            "tv 65": 2,
             "tv 58": 1,
             "spotligth": 4,
             "controle": 4,
@@ -60,9 +59,8 @@
             "cvt 10": 3,
             "spiter hdmi": 5,
             "tv 42": 2,
-            "painel nexo pro p3.91 outdoor": 46,
-            "painel ,2.97 50x100 nexo pro": 4,
-            "tv 50": 1
+            "painel nexo pro p3.91 outdoor": 42,
+            "painel ,2.97 50x100 nexo pro": 4
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -81,10 +79,10 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 860,
-            "cinta lacoste": 860,
+            "chapinha": 840,
+            "cinta lacoste": 840,
             "cachimbo 22": 4,
-            "cachimbo 17": 3,
+            "cachimbo 17": 2,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 800,
@@ -97,7 +95,7 @@
             "adaptador parafusadeira": 100,
             "bateria black tools": 4,
             "carregador 21v": 2,
-            "parafuso alongado 17": 10,
+            "parafuso alongado 17": 9,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 480,
             "garra u": 160,
@@ -142,15 +140,14 @@
             "pe de 20cm": 436,
             "passador de side": 9,
             "aminado": 3,
-            "contrapeso": 10,
+            "contrapeso": 1,
             "praticável 1 x 1": 4,
-            "metalon": 34,
-            "metalon de tv": 3
+            "metalon": 31
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 190,
-            "cabo rj45 principal": 106,
-            "cabo powercon pial": 72,
+            "cabo rj45 principal": 103,
+            "cabo powercon pial": 69,
             "cabo powercon pial 2.97": 87,
             "ponte de ac 2.97": 602,
             "ponte de sinal  2.97": 344,
@@ -181,7 +178,7 @@
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 90,
+            "ponte de ac oneligth": 60,
             "fibra 6v": 2
         },
         "Estruturas": {
@@ -7228,9 +7225,97 @@
             "data_retorno": "01/10/2026",
             "status": "Pendente",
             "data_emissao": "01/10/2026 14:14"
+        },
+        {
+            "id": 111,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 65",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tv 50",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "metalon de tv",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "metalon",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso alongado 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA POWER",
+            "responsavel": "RONALDO",
+            "data_retorno": "01/10/2026",
+            "status": "Pendente",
+            "data_emissao": "01/10/2026 17:36"
         }
     ],
-    "contador_os": 111,
+    "contador_os": 112,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
