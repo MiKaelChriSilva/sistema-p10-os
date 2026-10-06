@@ -27,12 +27,10 @@
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
-            "note alienware": 1,
             "vx 2000": 2,
-            "processadora v960": 10,
+            "processadora v960": 8,
             "painel flexivel": 2,
             "tb 40": 2,
-            "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
             "indoor p2.97 m2": 11,
@@ -43,9 +41,9 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "indoor p2.97m1": 40,
+            "indoor p2.97m1": 30,
             "p3.91 oneligth": 36,
-            "tb40": 2,
+            "tb40": 1,
             "vc4 processadora": 4,
             "outdoor p5 m2": 20,
             "indoor p2.97m2": 3,
@@ -62,10 +60,8 @@
             "processadora vc6": 1,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x100": 40,
-            "painel nexo pro p3.91 outdoor 50x50": 25,
-            "processadora vc6 pro": 1,
-            "tb 50": 1
+            "painel nexo pro p3.91 outdoor 50x100": 29,
+            "painel nexo pro p3.91 outdoor 50x50": 21
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -84,8 +80,8 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 800,
-            "cinta lacoste": 900,
+            "chapinha": 500,
+            "cinta lacoste": 830,
             "cachimbo 22": 1,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
@@ -103,7 +99,7 @@
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 450,
-            "garra u": 170,
+            "garra u": 130,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -118,8 +114,8 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 4,
-            "parafuso 17": 900,
-            "cinta/anilha": 92,
+            "parafuso 17": 100,
+            "cinta/anilha": 84,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
@@ -149,16 +145,16 @@
             "praticável 1 x 1": 4,
             "metalon": 40,
             "metalon de tv": 3,
-            "bumper one ligth nexo pro": 50
+            "bumper one ligth nexo pro": 46
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 80,
-            "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 60,
-            "ponte de ac 2.97": 392,
-            "ponte de sinal  2.97": 104,
-            "regua": 23,
+            "cabo rj45 principal": 60,
+            "cabo powercon pial": 78,
+            "cabo powercon pial 2.97": 52,
+            "ponte de ac 2.97": 312,
+            "ponte de sinal  2.97": 24,
+            "regua": 19,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -176,21 +172,21 @@
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 12,
+            "multivia ac": 8,
             "fibra": 18,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 30,
-            "linha 5m": 20,
+            "linha 10m": 25,
+            "linha 5m": 15,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 300,
-            "ponte de sinal oneligth longo nexo": 600,
-            "ponte de sinal oneligth curto nexo": 500,
-            "ponte de ac oneligth curto nexo": 500
+            "ponte de ac oneligth longo nexo": 230,
+            "ponte de sinal oneligth longo nexo": 530,
+            "ponte de sinal oneligth curto nexo": 460,
+            "ponte de ac oneligth curto nexo": 460
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -7500,9 +7496,187 @@
             "data_retorno": "12/10/2026",
             "status": "Pendente",
             "data_emissao": "06/10/2026 17:17"
+        },
+        {
+            "id": 113,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 70,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 70,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb40",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb 50",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook azus",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "note alienware",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 300,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 800,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 70,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bumper one ligth nexo pro",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 20,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SANTA CRUZ DJ FILIPE",
+            "responsavel": "DUDU",
+            "data_retorno": "06/10/2026",
+            "status": "Pendente",
+            "data_emissao": "06/10/2026 18:02"
         }
     ],
-    "contador_os": 113,
+    "contador_os": 114,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
