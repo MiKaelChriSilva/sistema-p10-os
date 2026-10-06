@@ -27,7 +27,7 @@
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
-            "vx 2000": 1,
+            "vx 2000": 2,
             "processadora v960": 8,
             "painel flexivel": 2,
             "tb 40": 2,
@@ -44,7 +44,7 @@
             "indoor p2.97m1": 30,
             "p3.91 oneligth": 36,
             "tb40": 1,
-            "vc4 processadora": 3,
+            "vc4 processadora": 4,
             "outdoor p5 m2": 20,
             "indoor p2.97m2": 3,
             "processadora vc4": 5,
@@ -125,7 +125,7 @@
             "talha 15m": 8,
             "talha 10m": 6,
             "sacos de talha": 10,
-            "bumper 3.9 al": 34,
+            "bumper 3.9 al": 42,
             "bumper p5": 50,
             "pés 1,5m": 20,
             "saia  1,5m x 4m": 5,
@@ -7723,8 +7723,9 @@
             "destino": "CRUZ ALTA",
             "responsavel": "AUGUSTO",
             "data_retorno": "06/10/2026",
-            "status": "Pendente",
-            "data_emissao": "06/10/2026 18:05"
+            "status": "Finalizada",
+            "data_emissao": "06/10/2026 18:05",
+            "data_baixa": "06/10/2026 18:07"
         }
     ],
     "contador_os": 116,
