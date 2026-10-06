@@ -59,9 +59,11 @@
             "cvt 10": 5,
             "spiter hdmi": 5,
             "tv 42": 2,
-            "painel nexo pro p3.91 outdoor": 60,
+            "painel nexo pro p3.91 outdoor": 64,
             "painel ,2.97 50x100 nexo pro": 4,
-            "processadora vc6": 1
+            "processadora vc6": 1,
+            "tv 65": 2,
+            "tv 50": 1
         },
         "Som": {
             "sistema slin markpro": 8,
@@ -80,10 +82,10 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 980,
-            "cinta lacoste": 980,
+            "chapinha": 1000,
+            "cinta lacoste": 1000,
             "cachimbo 22": 5,
-            "cachimbo 17": 4,
+            "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
@@ -96,7 +98,7 @@
             "adaptador parafusadeira": 100,
             "bateria black tools": 4,
             "carregador 21v": 2,
-            "parafuso alongado 17": 99,
+            "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
             "garra u": 200,
@@ -141,14 +143,15 @@
             "pe de 20cm": 450,
             "passador de side": 9,
             "aminado": 3,
-            "contrapeso": 11,
+            "contrapeso": 20,
             "praticável 1 x 1": 4,
-            "metalon": 37
+            "metalon": 40,
+            "metalon de tv": 3
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 107,
-            "cabo powercon pial": 87,
+            "cabo rj45 principal": 110,
+            "cabo powercon pial": 90,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
@@ -179,7 +182,7 @@
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 170,
+            "ponte de ac oneligth": 200,
             "fibra 6v": 2
         },
         "Estruturas": {
@@ -7315,8 +7318,9 @@
             "destino": "LEOPOLDINA POWER",
             "responsavel": "RONALDO",
             "data_retorno": "01/10/2026",
-            "status": "Pendente",
-            "data_emissao": "01/10/2026 17:36"
+            "status": "Finalizada",
+            "data_emissao": "01/10/2026 17:36",
+            "data_baixa": "06/10/2026 16:53"
         }
     ],
     "contador_os": 112,
