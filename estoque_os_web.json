@@ -137,7 +137,7 @@
             "bit cestavado 11": 2,
             "bit filips": 2,
             "pano preo 12x1": 8,
-            "pe de 20cm": 436,
+            "pe de 20cm": 450,
             "passador de side": 9,
             "aminado": 3,
             "contrapeso": 1,
@@ -6767,8 +6767,9 @@
             "destino": "MARCIO DERROTA ",
             "responsavel": "MARCIO",
             "data_retorno": "28/09/2026",
-            "status": "Pendente",
-            "data_emissao": "25/09/2026 17:44"
+            "status": "Finalizada",
+            "data_emissao": "25/09/2026 17:44",
+            "data_baixa": "06/10/2026 16:53"
         },
         {
             "id": 107,
