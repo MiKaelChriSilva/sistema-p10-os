@@ -186,7 +186,8 @@
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 300,
             "ponte de sinal oneligth longo nexo": 600,
-            "ponte de sinal oneligth curto nexo": 500
+            "ponte de sinal oneligth curto nexo": 500,
+            "ponte de ac oneligth curto nexo": 500
         },
         "Estruturas": {
             "treliça 3m": 8,
