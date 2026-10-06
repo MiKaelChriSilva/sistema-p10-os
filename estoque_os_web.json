@@ -32,11 +32,10 @@
             "processadora v960": 10,
             "painel flexivel": 2,
             "tb 40": 2,
-            "notebook acer nitro": 1,
             "notebook azus": 2,
             "notebook dellg15": 1,
             "sensor infra": 1,
-            "indoor p2.97 m2": 40,
+            "indoor p2.97 m2": 11,
             "tv 58": 1,
             "spotligth": 4,
             "controle": 4,
@@ -56,7 +55,7 @@
             "suporte de tv": 1,
             "tv32": 4,
             "suporte novo tv32": 4,
-            "cvt 10": 5,
+            "cvt 10": 3,
             "spiter hdmi": 5,
             "tv 42": 2,
             "painel nexo pro p3.91 outdoor": 64,
@@ -82,13 +81,13 @@
             "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
-            "chapinha": 1000,
-            "cinta lacoste": 1000,
-            "cachimbo 22": 5,
-            "cachimbo 17": 5,
+            "chapinha": 800,
+            "cinta lacoste": 900,
+            "cachimbo 22": 1,
+            "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000,
+            "parafuso para treliça 22": 965,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
@@ -100,8 +99,8 @@
             "carregador 21v": 2,
             "parafuso alongado 17": 100,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 500,
-            "garra u": 200,
+            "cinta catraca prquena": 450,
+            "garra u": 170,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -116,8 +115,8 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 4,
-            "parafuso 17": 1300,
-            "cinta/anilha": 100,
+            "parafuso 17": 900,
+            "cinta/anilha": 92,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
@@ -127,13 +126,13 @@
             "talha 15m": 8,
             "talha 10m": 6,
             "sacos de talha": 10,
-            "bumper 3.9 al": 50,
+            "bumper 3.9 al": 42,
             "bumper p5": 50,
             "pés 1,5m": 20,
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 8,
+            "maquina de impacto": 7,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -150,12 +149,12 @@
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
-            "cabo rj45 principal": 110,
+            "cabo rj45 principal": 80,
             "cabo powercon pial": 90,
-            "cabo powercon pial 2.97": 90,
-            "ponte de ac 2.97": 632,
-            "ponte de sinal  2.97": 344,
-            "regua": 30,
+            "cabo powercon pial 2.97": 60,
+            "ponte de ac 2.97": 392,
+            "ponte de sinal  2.97": 104,
+            "regua": 23,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -173,12 +172,12 @@
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 22,
-            "fibra": 20,
+            "multivia ac": 12,
+            "fibra": 18,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 40,
-            "linha 5m": 30,
+            "linha 10m": 30,
+            "linha 5m": 20,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
@@ -188,17 +187,17 @@
         "Estruturas": {
             "treliça 3m": 8,
             "treliça 1,5m": 6,
-            "treliça 0,50m": 7,
-            "cubo": 18,
+            "treliça 0,50m": 3,
+            "cubo": 14,
             "slevee": 6,
             "pau de carga": 6,
-            "treliça 2,5m": 5,
+            "treliça 2,5m": 1,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
             "base grande": 10,
-            "treliça 1m": 13,
+            "treliça 1m": 9,
             "treliça 2m": 21
         },
         "Sistema de AC": {
@@ -7321,9 +7320,181 @@
             "status": "Finalizada",
             "data_emissao": "01/10/2026 17:36",
             "data_baixa": "06/10/2026 16:53"
+        },
+        {
+            "id": 112,
+            "itens": [
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 240,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 240,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97 m2",
+                    "quantidade": 29,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "fibra",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 400,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bumper 3.9 al",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 35,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 10",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook acer nitro",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CRUZ ALTA",
+            "responsavel": "AUGUSTO",
+            "data_retorno": "12/10/2026",
+            "status": "Pendente",
+            "data_emissao": "06/10/2026 17:17"
         }
     ],
-    "contador_os": 112,
+    "contador_os": 113,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
