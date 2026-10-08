@@ -9,7 +9,7 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 5,
+            "notebook": 4,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
@@ -28,7 +28,7 @@
             "p3.91 americanled": 94,
             "processadora h2": 1,
             "vx 2000": 1,
-            "processadora v960": 8,
+            "processadora v960": 7,
             "painel flexivel": 2,
             "tb 40": 2,
             "sensor infra": 1,
@@ -60,7 +60,7 @@
             "tv 65": 2,
             "tv 50": 1,
             "painel nexo pro p3.91 outdoor 50x100": 19,
-            "painel nexo pro p3.91 outdoor 50x50": 19,
+            "painel nexo pro p3.91 outdoor 50x50": 17,
             "extensor fibra hdmi": 1,
             "tv 43": 3
         },
@@ -82,7 +82,7 @@
         },
         "Materiais Diversos": {
             "chapinha": 350,
-            "cinta lacoste": 750,
+            "cinta lacoste": 730,
             "cachimbo 22": 1,
             "cachimbo 17": 2,
             "cachimbo 19": 5,
@@ -107,12 +107,12 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 80,
+            "fita isolante": 79,
             "fita preta de acabamento": 50,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
-            "fita acabamento": 9,
+            "fita acabamento": 8,
             "praticável 2 x 0,60": 4,
             "cinta/anilha": 84,
             "ponta de eixo": 8,
@@ -151,11 +151,11 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 53,
-            "cabo powercon pial": 68,
+            "cabo powercon pial": 65,
             "cabo powercon pial 2.97": 51,
             "ponte de ac 2.97": 232,
             "ponte de sinal  2.97": 24,
-            "regua": 17,
+            "regua": 13,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 8,
             "ac ponte p5": 300,
@@ -168,7 +168,7 @@
             "cabo ac": 25,
             "hdmi": 2,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 29,
+            "rj45 principal": 25,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -185,9 +185,9 @@
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 170,
             "ponte de sinal oneligth longo nexo": 470,
-            "ponte de sinal oneligth curto nexo": 440,
-            "ponte de ac oneligth curto nexo": 440,
-            "linha 5m": 85
+            "ponte de sinal oneligth curto nexo": 420,
+            "ponte de ac oneligth curto nexo": 420,
+            "linha 5m": 81
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -8057,9 +8057,91 @@
             "data_retorno": "12/10/2026",
             "status": "Pendente",
             "data_emissao": "08/10/2026 13:21"
+        },
+        {
+            "id": 119,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "HOUSE",
+            "responsavel": "P10",
+            "data_retorno": "08/10/2026",
+            "status": "Pendente",
+            "data_emissao": "08/10/2026 13:45"
         }
     ],
-    "contador_os": 119,
+    "contador_os": 120,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
