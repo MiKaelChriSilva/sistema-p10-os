@@ -9,7 +9,7 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 4,
+            "notebook": 3,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
@@ -56,11 +56,10 @@
             "spiter hdmi": 3,
             "tv 42": 2,
             "painel ,2.97 50x100 nexo pro": 4,
-            "processadora vc6": 1,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x100": 19,
-            "painel nexo pro p3.91 outdoor 50x50": 17,
+            "painel nexo pro p3.91 outdoor 50x100": 11,
+            "painel nexo pro p3.91 outdoor 50x50": 15,
             "extensor fibra hdmi": 1,
             "tv 43": 3
         },
@@ -78,12 +77,11 @@
             "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
             "kit microfones sem fio kaze": 1,
-            "caixa eon jbl 500": 1,
-            "mesa midas m32": 1
+            "caixa eon jbl 500": 1
         },
         "Materiais Diversos": {
             "chapinha": 350,
-            "cinta lacoste": 730,
+            "cinta lacoste": 680,
             "cachimbo 22": 1,
             "cachimbo 17": 2,
             "cachimbo 19": 5,
@@ -108,8 +106,8 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 79,
-            "fita preta de acabamento": 50,
+            "fita isolante": 78,
+            "fita preta de acabamento": 49,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
@@ -152,7 +150,7 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 53,
-            "cabo powercon pial": 65,
+            "cabo powercon pial": 55,
             "cabo powercon pial 2.97": 51,
             "ponte de ac 2.97": 232,
             "ponte de sinal  2.97": 24,
@@ -169,12 +167,12 @@
             "cabo ac": 25,
             "hdmi": 2,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 25,
+            "rj45 principal": 15,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 8,
+            "multivia ac": 6,
             "fibra": 15,
             "regua steck x pial house": 2,
             "linha stek": 5,
@@ -184,11 +182,11 @@
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 170,
-            "ponte de sinal oneligth longo nexo": 470,
-            "ponte de sinal oneligth curto nexo": 420,
-            "ponte de ac oneligth curto nexo": 420,
-            "linha 5m": 81
+            "ponte de ac oneligth longo nexo": 122,
+            "ponte de sinal oneligth longo nexo": 422,
+            "ponte de sinal oneligth curto nexo": 410,
+            "ponte de ac oneligth curto nexo": 410,
+            "linha 5m": 71
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -8140,9 +8138,115 @@
             "data_retorno": "08/10/2026",
             "status": "Pendente",
             "data_emissao": "08/10/2026 13:45"
+        },
+        {
+            "id": 120,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 48,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 48,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita preta de acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa midas m32",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CATEDRAL",
+            "responsavel": "GUSTAVO",
+            "data_retorno": "08/10/2026",
+            "status": "Pendente",
+            "data_emissao": "08/10/2026 20:42"
         }
     ],
-    "contador_os": 120,
+    "contador_os": 121,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
