@@ -9,7 +9,7 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 3,
+            "notebook": 2,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
@@ -43,7 +43,7 @@
             "indoor p2.97m1": 21,
             "p3.91 oneligth": 36,
             "tb40": 1,
-            "vc4 processadora": 3,
+            "vc4 processadora": 2,
             "outdoor p5 m2": 20,
             "indoor p2.97m2": 3,
             "processadora vc4": 5,
@@ -58,7 +58,7 @@
             "painel ,2.97 50x100 nexo pro": 4,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x100": 11,
+            "painel nexo pro p3.91 outdoor 50x100": 7,
             "painel nexo pro p3.91 outdoor 50x50": 15,
             "extensor fibra hdmi": 1,
             "tv 43": 3
@@ -81,12 +81,11 @@
         },
         "Materiais Diversos": {
             "chapinha": 350,
-            "cinta lacoste": 680,
-            "cachimbo 22": 1,
+            "cinta lacoste": 650,
             "cachimbo 17": 2,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 965,
+            "parafuso para treliça 22": 910,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
@@ -106,20 +105,20 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 78,
+            "fita isolante": 77,
             "fita preta de acabamento": 49,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
-            "fita acabamento": 8,
+            "fita acabamento": 7,
             "praticável 2 x 0,60": 4,
             "cinta/anilha": 84,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 20,
-            "pes 0,80cm": 28,
+            "praticável 2 x 1": 18,
+            "pes 0,80cm": 20,
             "talha 15m": 8,
             "talha 10m": 6,
             "sacos de talha": 10,
@@ -129,7 +128,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 5,
+            "maquina de impacto": 4,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -145,13 +144,12 @@
             "bumper one ligth nexo pro": 46,
             "parafuso 17 longo": 1300,
             "parafuso 17": 4750,
-            "contrapeso": 60,
-            "saia de palco com 0,80cm x4m": 1
+            "contrapeso": 48
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 53,
-            "cabo powercon pial": 55,
+            "cabo powercon pial": 47,
             "cabo powercon pial 2.97": 51,
             "ponte de ac 2.97": 232,
             "ponte de sinal  2.97": 24,
@@ -168,7 +166,7 @@
             "cabo ac": 25,
             "hdmi": 2,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 15,
+            "rj45 principal": 9,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -183,28 +181,27 @@
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 122,
-            "ponte de sinal oneligth longo nexo": 422,
+            "ponte de ac oneligth longo nexo": 92,
+            "ponte de sinal oneligth longo nexo": 392,
             "ponte de sinal oneligth curto nexo": 410,
             "ponte de ac oneligth curto nexo": 410,
-            "linha 5m": 71,
-            "sinal 2m": 20
+            "linha 5m": 63,
+            "sinal 2m": 14
         },
         "Estruturas": {
             "treliça 3m": 8,
             "treliça 1,5m": 6,
-            "cubo": 14,
+            "cubo": 5,
             "slevee": 6,
             "pau de carga": 6,
-            "treliça 2,5m": 1,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
             "base grande": 10,
             "treliça 1m": 9,
-            "treliça 2m": 21,
-            "treliça 0,50m": 12
+            "treliça 2m": 15,
+            "treliça 0,50m": 7
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -8246,9 +8243,163 @@
             "data_retorno": "08/10/2026",
             "status": "Pendente",
             "data_emissao": "08/10/2026 20:42"
+        },
+        {
+            "id": 121,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "sinal 2m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vc4 processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pes 0,80cm",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2m",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 55,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "saia de palco com 0,80cm x4m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "VELEIROS ",
+            "responsavel": "P10",
+            "data_retorno": "09/10/2026",
+            "status": "Pendente",
+            "data_emissao": "09/10/2026 13:05"
         }
     ],
-    "contador_os": 121,
+    "contador_os": 122,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
