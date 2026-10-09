@@ -9,7 +9,7 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 2,
+            "notebook": 1,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
@@ -43,7 +43,7 @@
             "indoor p2.97m1": 21,
             "p3.91 oneligth": 36,
             "tb40": 1,
-            "vc4 processadora": 2,
+            "vc4 processadora": 1,
             "outdoor p5 m2": 20,
             "indoor p2.97m2": 3,
             "processadora vc4": 5,
@@ -58,7 +58,6 @@
             "painel ,2.97 50x100 nexo pro": 4,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x100": 7,
             "painel nexo pro p3.91 outdoor 50x50": 15,
             "extensor fibra hdmi": 1,
             "tv 43": 3
@@ -112,7 +111,7 @@
             "fita dupla face": 12,
             "fita acabamento": 7,
             "praticável 2 x 0,60": 4,
-            "cinta/anilha": 84,
+            "cinta/anilha": 54,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
@@ -149,11 +148,11 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 53,
-            "cabo powercon pial": 47,
+            "cabo powercon pial": 42,
             "cabo powercon pial 2.97": 51,
             "ponte de ac 2.97": 232,
             "ponte de sinal  2.97": 24,
-            "regua": 13,
+            "regua": 12,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 8,
             "ac ponte p5": 300,
@@ -166,7 +165,7 @@
             "cabo ac": 25,
             "hdmi": 2,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 9,
+            "rj45 principal": 3,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -181,11 +180,11 @@
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 92,
-            "ponte de sinal oneligth longo nexo": 392,
+            "ponte de ac oneligth longo nexo": 52,
+            "ponte de sinal oneligth longo nexo": 352,
             "ponte de sinal oneligth curto nexo": 410,
             "ponte de ac oneligth curto nexo": 410,
-            "linha 5m": 63,
+            "linha 5m": 58,
             "sinal 2m": 14
         },
         "Estruturas": {
@@ -8397,9 +8396,79 @@
             "data_retorno": "09/10/2026",
             "status": "Pendente",
             "data_emissao": "09/10/2026 13:05"
+        },
+        {
+            "id": 122,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vc4 processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 30,
+                    "observacao": ""
+                }
+            ],
+            "destino": "ALTO DA CAPELA",
+            "responsavel": "P10",
+            "data_retorno": "09/10/2026",
+            "status": "Pendente",
+            "data_emissao": "09/10/2026 13:14"
         }
     ],
-    "contador_os": 122,
+    "contador_os": 123,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
