@@ -186,7 +186,8 @@
             "ponte de sinal oneligth longo nexo": 422,
             "ponte de sinal oneligth curto nexo": 410,
             "ponte de ac oneligth curto nexo": 410,
-            "linha 5m": 71
+            "linha 5m": 71,
+            "sinal 2m": 20
         },
         "Estruturas": {
             "treliça 3m": 8,
