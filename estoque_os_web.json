@@ -9,14 +9,14 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "notebook": 5,
+            "notebook": 4,
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 3,
+            "processadora vx1000 pro": 2,
             "toten de led pro ligth": 1,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
@@ -58,7 +58,7 @@
             "painel ,2.97 50x100 nexo pro": 4,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x50": 25,
+            "painel nexo pro p3.91 outdoor 50x50": 16,
             "extensor fibra hdmi": 3,
             "tv 43": 5,
             "painel nexo pro p3.91 outdoor 50x100": 27,
@@ -86,8 +86,8 @@
             "mesa midas m32": 1
         },
         "Materiais Diversos": {
-            "chapinha": 850,
-            "cinta lacoste": 930,
+            "chapinha": 750,
+            "cinta lacoste": 830,
             "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
@@ -102,8 +102,8 @@
             "bateria black tools": 4,
             "carregador 21v": 2,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 480,
-            "garra u": 200,
+            "cinta catraca prquena": 455,
+            "garra u": 170,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -133,8 +133,8 @@
             "pés 1,5m": 20,
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
-            "cachimbo 27": 3,
-            "maquina de impacto": 6,
+            "cachimbo 27": 2,
+            "maquina de impacto": 5,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -148,20 +148,20 @@
             "metalon": 40,
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
-            "parafuso 17 longo": 1500,
-            "parafuso 17": 5800,
+            "parafuso 17 longo": 1470,
+            "parafuso 17": 5550,
             "contrapeso": 76,
             "cachimbo 22": 4,
             "saia de palco com 0,80cm x4m": 1
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 98,
-            "cabo powercon pial": 72,
+            "cabo rj45 principal": 88,
+            "cabo powercon pial": 61,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
-            "regua": 24,
+            "regua": 22,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -179,7 +179,7 @@
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 16,
+            "multivia ac": 14,
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
@@ -191,9 +191,9 @@
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 220,
             "ponte de sinal oneligth longo nexo": 520,
-            "ponte de sinal oneligth curto nexo": 500,
-            "ponte de ac oneligth curto nexo": 500,
-            "linha 5m": 107,
+            "ponte de sinal oneligth curto nexo": 420,
+            "ponte de ac oneligth curto nexo": 420,
+            "linha 5m": 97,
             "sinal 2m": 20
         },
         "Estruturas": {
@@ -8900,9 +8900,127 @@
             "data_retorno": "15/10/2026",
             "status": "Pendente",
             "data_emissao": "15/10/2026 11:39"
+        },
+        {
+            "id": 126,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 250,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 25,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 27",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17 longo",
+                    "quantidade": 30,
+                    "observacao": ""
+                }
+            ],
+            "destino": "RITA HOPPNER",
+            "responsavel": "P10",
+            "data_retorno": "15/10/2026",
+            "status": "Pendente",
+            "data_emissao": "15/10/2026 12:26"
         }
     ],
-    "contador_os": 126,
+    "contador_os": 127,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
