@@ -58,14 +58,13 @@
             "painel ,2.97 50x100 nexo pro": 4,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x50": 16,
+            "painel nexo pro p3.91 outdoor 50x50": 13,
             "extensor fibra hdmi": 3,
             "tv 43": 5,
             "painel nexo pro p3.91 outdoor 50x100": 21,
             "processadora vc6 pro": 1,
             "tb 50": 1,
             "notebook azus": 2,
-            "processadora vc6": 1,
             "notebook dellg15": 1
         },
         "Som": {
@@ -91,7 +90,7 @@
             "cachimbo 17": 3,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 994,
+            "parafuso para treliça 22": 924,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 90,
@@ -157,7 +156,7 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
             "cabo rj45 principal": 88,
-            "cabo powercon pial": 43,
+            "cabo powercon pial": 41,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
@@ -174,7 +173,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 14,
+            "rj45 principal": 12,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -191,15 +190,15 @@
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 180,
             "ponte de sinal oneligth longo nexo": 480,
-            "ponte de sinal oneligth curto nexo": 420,
-            "ponte de ac oneligth curto nexo": 420,
+            "ponte de sinal oneligth curto nexo": 390,
+            "ponte de ac oneligth curto nexo": 390,
             "linha 5m": 85,
             "sinal 2m": 20
         },
         "Estruturas": {
-            "treliça 3m": 7,
+            "treliça 3m": 5,
             "treliça 1,5m": 6,
-            "cubo": 18,
+            "cubo": 12,
             "slevee": 6,
             "pau de carga": 6,
             "p15 3m": 5,
@@ -209,8 +208,8 @@
             "base grande": 10,
             "treliça 1m": 13,
             "treliça 2m": 20,
-            "treliça 0,50m": 16,
-            "treliça 2,5m": 5
+            "treliça 0,50m": 10,
+            "treliça 2,5m": 3
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
@@ -9260,9 +9259,91 @@
             "data_retorno": "16/10/2026",
             "status": "Pendente",
             "data_emissao": "16/10/2026 13:02"
+        },
+        {
+            "id": 129,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 2,5m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 3m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 70,
+                    "observacao": ""
+                }
+            ],
+            "destino": "LEOPOLDINA BOA VISA",
+            "responsavel": "P10",
+            "data_retorno": "16/10/2026",
+            "status": "Pendente",
+            "data_emissao": "16/10/2026 13:56"
         }
     ],
-    "contador_os": 129,
+    "contador_os": 130,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
