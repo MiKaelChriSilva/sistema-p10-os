@@ -40,7 +40,7 @@
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
             "indoor p2.97m1": 40,
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 31,
             "outdoor p5 m2": 20,
             "indoor p2.97m2": 3,
             "processadora vc4": 5,
@@ -161,9 +161,9 @@
             "parafusadeira makia": 1
         },
         "Cabos": {
-            "ponte de sinal rj45 oneligth": 300,
+            "ponte de sinal rj45 oneligth": 260,
             "cabo rj45 principal": 110,
-            "cabo powercon pial": 66,
+            "cabo powercon pial": 61,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
@@ -180,7 +180,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 17,
+            "rj45 principal": 12,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -193,7 +193,7 @@
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 200,
+            "ponte de ac oneligth": 160,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 180,
             "ponte de sinal oneligth longo nexo": 480,
@@ -9758,9 +9758,49 @@
             "data_retorno": "26/10/2026",
             "status": "Pendente",
             "data_emissao": "22/10/2026 12:37"
+        },
+        {
+            "id": 133,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 5,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SILVIO",
+            "responsavel": "SILVIO",
+            "data_retorno": "31/10/2026",
+            "status": "Pendente",
+            "data_emissao": "22/10/2026 19:27"
         }
     ],
-    "contador_os": 133,
+    "contador_os": 134,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
