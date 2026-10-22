@@ -15,7 +15,7 @@
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 3,
+            "processadora vx1000 pro": 2,
             "toten de led pro ligth": 1,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
@@ -55,10 +55,10 @@
             "painel ,2.97 50x100 nexo pro": 4,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x50": 23,
+            "painel nexo pro p3.91 outdoor 50x50": 21,
             "extensor fibra hdmi": 3,
             "tv 43": 5,
-            "painel nexo pro p3.91 outdoor 50x100": 31,
+            "painel nexo pro p3.91 outdoor 50x100": 22,
             "processadora vc6 pro": 1,
             "notebook azus": 2,
             "notebook dellg15": 1,
@@ -66,7 +66,7 @@
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
-            "notebook": 4,
+            "notebook": 3,
             "processadora vc6": 1,
             "tb40": 2,
             "tb 50": 1,
@@ -91,9 +91,9 @@
             "mesa midas m32": 1
         },
         "Materiais Diversos": {
-            "chapinha": 900,
-            "cinta lacoste": 950,
-            "cachimbo 17": 4,
+            "chapinha": 800,
+            "cinta lacoste": 900,
+            "cachimbo 17": 3,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
@@ -108,7 +108,7 @@
             "carregador 21v": 2,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
-            "garra u": 180,
+            "garra u": 160,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -139,7 +139,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 7,
+            "maquina de impacto": 6,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -154,7 +154,7 @@
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 1500,
-            "parafuso 17": 5980,
+            "parafuso 17": 5760,
             "contrapeso": 76,
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
@@ -163,7 +163,7 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 110,
-            "cabo powercon pial": 78,
+            "cabo powercon pial": 66,
             "cabo powercon pial 2.97": 90,
             "ponte de ac 2.97": 632,
             "ponte de sinal  2.97": 344,
@@ -180,12 +180,12 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 28,
+            "rj45 principal": 17,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 20,
+            "multivia ac": 18,
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
@@ -195,11 +195,11 @@
             "cabos xlr": 50,
             "ponte de ac oneligth": 200,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 240,
-            "ponte de sinal oneligth longo nexo": 540,
-            "ponte de sinal oneligth curto nexo": 480,
-            "ponte de ac oneligth curto nexo": 480,
-            "linha 5m": 110,
+            "ponte de ac oneligth longo nexo": 180,
+            "ponte de sinal oneligth longo nexo": 480,
+            "ponte de sinal oneligth curto nexo": 460,
+            "ponte de ac oneligth curto nexo": 460,
+            "linha 5m": 98,
             "sinal 2m": 20,
             "pararlelo": 22
         },
@@ -9640,9 +9640,127 @@
             "data_retorno": "26/10/2026",
             "status": "Pendente",
             "data_emissao": "22/10/2026 12:37"
+        },
+        {
+            "id": 132,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 9,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 60,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 11,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 220,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 2,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GRAMADO",
+            "responsavel": "P10",
+            "data_retorno": "26/10/2026",
+            "status": "Pendente",
+            "data_emissao": "22/10/2026 12:37"
         }
     ],
-    "contador_os": 132,
+    "contador_os": 133,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
