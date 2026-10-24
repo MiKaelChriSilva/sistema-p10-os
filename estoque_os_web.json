@@ -15,18 +15,18 @@
             "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
-            "processadora vx1000 pro": 2,
+            "processadora vx1000 pro": 1,
             "toten de led pro ligth": 1,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
-            "cvt 4k": 4,
+            "cvt 4k": 1,
             "gbic": 20,
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
-            "vx 2000": 2,
+            "vx 2000": 1,
             "processadora v960": 10,
             "painel flexivel": 2,
             "tb 40": 2,
@@ -46,7 +46,7 @@
             "suporte de tv": 1,
             "tv32": 4,
             "suporte novo tv32": 4,
-            "cvt 10": 5,
+            "cvt 10": 2,
             "spiter hdmi": 5,
             "tv 42": 2,
             "tv 65": 2,
@@ -56,21 +56,18 @@
             "tv 43": 5,
             "painel nexo pro p3.91 outdoor 50x100": 22,
             "processadora vc6 pro": 1,
-            "notebook azus": 2,
-            "notebook dellg15": 1,
+            "notebook azus": 1,
             "painel indoor ph 3.07": 35,
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
             "notebook": 3,
-            "processadora vc6": 1,
             "tb40": 2,
             "tb 50": 1,
             "vc4 processadora": 4,
             "totem 43 windons": 2,
             "painel nexo pro p2.97 indor 50x50 curve": 2,
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
-            "h5 nova sar": 1,
             "h2 nova sar": 1,
             "h9 nova sar": 1
         },
@@ -220,12 +217,11 @@
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
-            "adaptador y camlok-granada": 7,
-            "rack mpl": 2,
+            "adaptador y camlok-granada": 6,
+            "rack mpl": 1,
             "cabo ponta pelada-stek 63a": 2,
-            "pentacustica stek": 2,
-            "cabo camlok-camlok": 2,
-            "propower 24t": 1,
+            "pentacustica stek": 1,
+            "cabo camlok-camlok": 1,
             "rack pentacustica 1": 1
         },
         "Luz": {
@@ -9981,9 +9977,97 @@
             "data_retorno": "23/10/2026",
             "status": "Pendente",
             "data_emissao": "23/10/2026 16:49"
+        },
+        {
+            "id": 135,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "h5 nova sar",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vx 2000",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 4k",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 10",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook dellg15",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook azus",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "cabo camlok-camlok",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "propower 24t",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "rack mpl",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "pentacustica stek",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "adaptador y camlok-granada",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "SP ",
+            "responsavel": "P10",
+            "data_retorno": "24/10/2026",
+            "status": "Pendente",
+            "data_emissao": "24/10/2026 11:31"
         }
     ],
-    "contador_os": 135,
+    "contador_os": 136,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
