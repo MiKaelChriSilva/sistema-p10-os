@@ -24,9 +24,8 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 77,
             "processadora h2": 1,
-            "vx 2000": 1,
             "processadora v960": 10,
             "painel flexivel": 2,
             "tb 40": 2,
@@ -61,7 +60,7 @@
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
-            "notebook": 3,
+            "notebook": 2,
             "tb40": 2,
             "tb 50": 1,
             "vc4 processadora": 4,
@@ -89,9 +88,9 @@
             "mesa midas m32": 1
         },
         "Materiais Diversos": {
-            "chapinha": 400,
-            "cinta lacoste": 700,
-            "cachimbo 17": 2,
+            "chapinha": 300,
+            "cinta lacoste": 650,
+            "cachimbo 17": 1,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
@@ -114,8 +113,8 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 78,
-            "fita preta de acabamento": 45,
+            "fita isolante": 77,
+            "fita preta de acabamento": 44,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
@@ -126,8 +125,8 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 20,
-            "pes 0,80cm": 28,
+            "praticável 2 x 1": 18,
+            "pes 0,80cm": 24,
             "talha 15m": 8,
             "talha 10m": 6,
             "sacos de talha": 10,
@@ -137,7 +136,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 5,
+            "maquina de impacto": 4,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -148,29 +147,28 @@
             "passador de side": 9,
             "aminado": 3,
             "praticável 1 x 1": 4,
-            "metalon": 40,
+            "metalon": 32,
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
-            "parafuso 17 longo": 1100,
-            "parafuso 17": 5160,
-            "contrapeso": 76,
+            "parafuso 17 longo": 900,
+            "parafuso 17": 5060,
+            "contrapeso": 52,
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
-            "parafusadeira makia": 1,
-            "pe de rodinha": 4
+            "parafusadeira makia": 1
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 30,
-            "cabo powercon pial": 41,
+            "cabo rj45 principal": 22,
+            "cabo powercon pial": 31,
             "cabo powercon pial 2.97": 30,
-            "regua": 20,
+            "regua": 17,
             "cabo rj45 ponte azul": 40,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
             "ponte sinal p5": 300,
-            "ponte ac amarelo": 1432,
-            "ponte sinal amarelo": 1162,
+            "ponte ac amarelo": 1292,
+            "ponte sinal amarelo": 1022,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
@@ -186,7 +184,7 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 25,
+            "linha 10m": 20,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
@@ -196,7 +194,7 @@
             "ponte de sinal oneligth longo nexo": 450,
             "ponte de sinal oneligth curto nexo": 280,
             "ponte de ac oneligth curto nexo": 280,
-            "linha 5m": 98,
+            "linha 5m": 88,
             "sinal 2m": 20,
             "pararlelo": 22
         },
@@ -10066,9 +10064,157 @@
             "data_retorno": "24/10/2026",
             "status": "Pendente",
             "data_emissao": "24/10/2026 11:31"
+        },
+        {
+            "id": 136,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 17,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 140,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 140,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "metalon",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 24,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17 longo",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pes 0,80cm",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pe de rodinha",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita preta de acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vx 2000",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "UNIAO ",
+            "responsavel": "TOMAS",
+            "data_retorno": "27/10/2026",
+            "status": "Pendente",
+            "data_emissao": "27/10/2026 22:46"
         }
     ],
-    "contador_os": 136,
+    "contador_os": 137,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
