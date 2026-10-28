@@ -26,7 +26,7 @@
             "processadora": 1,
             "p3.91 americanled": 77,
             "processadora h2": 1,
-            "processadora v960": 10,
+            "processadora v960": 9,
             "painel flexivel": 2,
             "tb 40": 2,
             "sensor infra": 1,
@@ -37,7 +37,7 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "p3.91 oneligth": 31,
+            "p3.91 oneligth": 29,
             "outdoor p5 m2": 20,
             "processadora vc4": 5,
             "tv 98": 1,
@@ -60,7 +60,7 @@
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
-            "notebook": 2,
+            "notebook": 1,
             "tb40": 2,
             "tb 50": 1,
             "vc4 processadora": 4,
@@ -85,19 +85,17 @@
             "mesa digital 12 canais": 1,
             "kit microfones sem fio kaze": 1,
             "caixa eon jbl 500": 1,
-            "mesa midas m32": 1,
-            "mesa de som 12 canais azul": 1
+            "mesa midas m32": 1
         },
         "Materiais Diversos": {
-            "chapinha": 300,
+            "chapinha": 280,
             "cinta lacoste": 650,
-            "cachimbo 17": 1,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
-            "parafuso para treliça 22": 1000,
+            "parafuso para treliça 22": 950,
             "pés praticavel 0,40cm": 80,
-            "marreta": 2,
-            "cinta catraca": 100,
+            "marreta": 1,
+            "cinta catraca": 94,
             "parafuso cestavado": 100,
             "parafuso filips": 2100,
             "chapinha l": 100,
@@ -114,22 +112,22 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 77,
+            "fita isolante": 76,
             "fita preta de acabamento": 44,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
-            "fita acabamento": 12,
+            "fita acabamento": 11,
             "praticável 2 x 0,60": 4,
-            "cinta/anilha": 100,
-            "ponta de eixo": 8,
+            "cinta/anilha": 88,
+            "ponta de eixo": 4,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
-            "bumper one ligth": 50,
+            "bumper one ligth": 47,
             "praticável 2 x 1": 18,
             "pes 0,80cm": 24,
             "talha 15m": 8,
-            "talha 10m": 6,
+            "talha 10m": 3,
             "sacos de talha": 10,
             "bumper 3.9 al": 50,
             "bumper p5": 50,
@@ -137,7 +135,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 4,
+            "maquina de impacto": 3,
             "mão françesa": 6,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
@@ -152,18 +150,18 @@
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 900,
-            "parafuso 17": 5060,
+            "parafuso 17": 4980,
             "contrapeso": 52,
-            "cachimbo 22": 5,
+            "cachimbo 22": 4,
             "saia de palco com 0,80cm x4m": 1,
             "parafusadeira makia": 1
         },
         "Cabos": {
-            "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 22,
-            "cabo powercon pial": 31,
+            "ponte de sinal rj45 oneligth": 240,
+            "cabo rj45 principal": 20,
+            "cabo powercon pial": 28,
             "cabo powercon pial 2.97": 30,
-            "regua": 17,
+            "regua": 16,
             "cabo rj45 ponte azul": 40,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -185,11 +183,11 @@
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 20,
+            "linha 10m": 17,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 160,
+            "ponte de ac oneligth": 140,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 150,
             "ponte de sinal oneligth longo nexo": 450,
@@ -200,19 +198,19 @@
             "pararlelo": 22
         },
         "Estruturas": {
-            "treliça 3m": 8,
+            "treliça 3m": 5,
             "treliça 1,5m": 6,
-            "cubo": 18,
-            "slevee": 6,
-            "pau de carga": 6,
+            "cubo": 14,
+            "slevee": 4,
+            "pau de carga": 4,
             "p15 3m": 5,
             "p15 2m": 5,
             "p15 0,5m": 5,
             "p15 cubo": 5,
-            "base grande": 10,
-            "treliça 1m": 13,
+            "base grande": 8,
+            "treliça 1m": 9,
             "treliça 2m": 21,
-            "treliça 0,50m": 16,
+            "treliça 0,50m": 12,
             "treliça 2,5m": 5
         },
         "Sistema de AC": {
@@ -10213,9 +10211,205 @@
             "data_retorno": "27/10/2026",
             "status": "Pendente",
             "data_emissao": "27/10/2026 22:46"
+        },
+        {
+            "id": 137,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bumper one ligth",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 10m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 10m",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso para treliça 22",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 22",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 3m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "slevee",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "cubo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "pau de carga",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 1m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "treliça 0,50m",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Estruturas",
+                    "material": "base grande",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "ponta de eixo",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "marreta",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CIMITERIO ",
+            "responsavel": "P10",
+            "data_retorno": "28/10/2026",
+            "status": "Pendente",
+            "data_emissao": "28/10/2026 12:34"
         }
     ],
-    "contador_os": 137,
+    "contador_os": 138,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
