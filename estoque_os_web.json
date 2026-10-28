@@ -71,22 +71,21 @@
             "h9 nova sar": 1
         },
         "Som": {
-            "sistema slin markpro": 8,
+            "sistema slin markpro": 7,
             "antenas/mic": 4,
             "pedestal mic": 10,
-            "d.i": 4,
+            "d.i": 3,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 10,
-            "mic com fio": 10,
+            "pedestal": 9,
+            "mic com fio": 9,
             "xrl": 100,
-            "microfone": 10,
+            "microfone": 9,
             "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
             "kit microfones sem fio kaze": 1,
             "caixa eon jbl 500": 1,
-            "mesa midas m32": 1,
-            "mesa de som 12 canais azul": 1
+            "mesa midas m32": 1
         },
         "Materiais Diversos": {
             "chapinha": 300,
@@ -163,7 +162,7 @@
             "cabo rj45 principal": 22,
             "cabo powercon pial": 31,
             "cabo powercon pial 2.97": 30,
-            "regua": 17,
+            "regua": 16,
             "cabo rj45 ponte azul": 40,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -188,17 +187,17 @@
             "linha 10m": 20,
             "ponte ac p5": 300,
             "linha de 10m": 30,
-            "cabos xlr": 50,
+            "cabos xlr": 44,
             "ponte de ac oneligth": 160,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 150,
             "ponte de sinal oneligth longo nexo": 450,
             "ponte de sinal oneligth curto nexo": 280,
             "ponte de ac oneligth curto nexo": 280,
-            "linha 5m": 88,
+            "linha 5m": 87,
             "sinal 2m": 20,
             "pararlelo": 22,
-            "cabo p10": 8
+            "cabo p10": 7
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -10214,9 +10213,79 @@
             "data_retorno": "27/10/2026",
             "status": "Pendente",
             "data_emissao": "27/10/2026 22:46"
+        },
+        {
+            "id": 137,
+            "itens": [
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa de som 12 canais azul",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "d.i",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mic com fio",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo p10",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "microfone",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "PATIO 24 ",
+            "responsavel": "P10",
+            "data_retorno": "28/10/2026",
+            "status": "Pendente",
+            "data_emissao": "28/10/2026 12:47"
         }
     ],
-    "contador_os": 137,
+    "contador_os": 138,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
