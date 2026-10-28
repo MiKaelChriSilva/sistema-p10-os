@@ -159,8 +159,7 @@
             "contrapeso": 43,
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
-            "parafusadeira makia": 1,
-            "alumalock": 6
+            "parafusadeira makia": 1
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
@@ -10659,9 +10658,25 @@
             "data_retorno": "28/10/2026",
             "status": "Pendente",
             "data_emissao": "28/10/2026 16:09"
+        },
+        {
+            "id": 141,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "alumalock",
+                    "quantidade": 6,
+                    "observacao": ""
+                }
+            ],
+            "destino": "VISULAL",
+            "responsavel": "P10",
+            "data_retorno": "28/10/2026",
+            "status": "Pendente",
+            "data_emissao": "28/10/2026 16:12"
         }
     ],
-    "contador_os": 141,
+    "contador_os": 142,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
