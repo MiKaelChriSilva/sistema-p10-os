@@ -26,7 +26,7 @@
             "processadora": 1,
             "p3.91 americanled": 77,
             "processadora h2": 1,
-            "processadora v960": 10,
+            "processadora v960": 9,
             "painel flexivel": 2,
             "tb 40": 2,
             "sensor infra": 1,
@@ -50,17 +50,17 @@
             "tv 42": 2,
             "tv 65": 2,
             "tv 50": 1,
-            "painel nexo pro p3.91 outdoor 50x50": 21,
+            "painel nexo pro p3.91 outdoor 50x50": 19,
             "extensor fibra hdmi": 3,
             "tv 43": 5,
-            "painel nexo pro p3.91 outdoor 50x100": 22,
+            "painel nexo pro p3.91 outdoor 50x100": 15,
             "processadora vc6 pro": 1,
             "notebook azus": 1,
             "painel indoor ph 3.07": 35,
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
-            "notebook": 2,
+            "notebook": 1,
             "tb40": 2,
             "tb 50": 1,
             "vc4 processadora": 4,
@@ -88,8 +88,8 @@
             "mesa midas m32": 1
         },
         "Materiais Diversos": {
-            "chapinha": 300,
-            "cinta lacoste": 650,
+            "chapinha": 200,
+            "cinta lacoste": 600,
             "cachimbo 17": 1,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
@@ -113,12 +113,12 @@
             "chapinha quina": 138,
             "peça cantoneira": 1,
             "bracinho/ fixar painel": 20,
-            "fita isolante": 77,
+            "fita isolante": 76,
             "fita preta de acabamento": 44,
             "praticavel 1x1": 2,
             "carpete preto/palco": 12,
             "fita dupla face": 12,
-            "fita acabamento": 12,
+            "fita acabamento": 11,
             "praticável 2 x 0,60": 4,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
@@ -151,7 +151,7 @@
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 900,
-            "parafuso 17": 5060,
+            "parafuso 17": 4860,
             "contrapeso": 52,
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
@@ -159,8 +159,8 @@
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 22,
-            "cabo powercon pial": 31,
+            "cabo rj45 principal": 16,
+            "cabo powercon pial": 14,
             "cabo powercon pial 2.97": 30,
             "regua": 16,
             "cabo rj45 ponte azul": 40,
@@ -190,11 +190,11 @@
             "cabos xlr": 44,
             "ponte de ac oneligth": 160,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 150,
-            "ponte de sinal oneligth longo nexo": 450,
-            "ponte de sinal oneligth curto nexo": 280,
-            "ponte de ac oneligth curto nexo": 280,
-            "linha 5m": 87,
+            "ponte de ac oneligth longo nexo": 110,
+            "ponte de sinal oneligth longo nexo": 410,
+            "ponte de sinal oneligth curto nexo": 260,
+            "ponte de ac oneligth curto nexo": 260,
+            "linha 5m": 80,
             "sinal 2m": 20,
             "pararlelo": 22,
             "cabo p10": 7
@@ -10283,9 +10283,115 @@
             "data_retorno": "28/10/2026",
             "status": "Pendente",
             "data_emissao": "28/10/2026 12:47"
+        },
+        {
+            "id": 138,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x50",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 17,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 200,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita isolante",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "fita acabamento",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "CATEDRAL",
+            "responsavel": "RONALDO ",
+            "data_retorno": "31/10/2026",
+            "status": "Pendente",
+            "data_emissao": "28/10/2026 15:04"
         }
     ],
-    "contador_os": 138,
+    "contador_os": 139,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
