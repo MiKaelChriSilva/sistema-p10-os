@@ -129,7 +129,7 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 18,
+            "praticável 2 x 1": 4,
             "pes 0,80cm": 24,
             "talha 15m": 8,
             "talha 10m": 6,
@@ -160,7 +160,7 @@
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
             "parafusadeira makia": 1,
-            "pé de 40": 100
+            "pé de 40": 44
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
@@ -10769,9 +10769,31 @@
             "data_retorno": "29/10/2026",
             "status": "Pendente",
             "data_emissao": "29/10/2026 13:44"
+        },
+        {
+            "id": 143,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 14,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pé de 40",
+                    "quantidade": 56,
+                    "observacao": ""
+                }
+            ],
+            "destino": "DJ ARAUJO ",
+            "responsavel": "JORGE ",
+            "data_retorno": "29/10/2026",
+            "status": "Pendente",
+            "data_emissao": "29/10/2026 19:33"
         }
     ],
-    "contador_os": 143,
+    "contador_os": 144,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
