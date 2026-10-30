@@ -9,7 +9,7 @@
         "Painel de LED": {
             "outdoor p.5 m1": 14,
             "indoor p2.6": 15,
-            "painel 2.6 quina": 30,
+            "painel 2.6 quina": 16,
             "processadora=": 1,
             "processadora+cabos": 2,
             "processadora vx16s": 2,
@@ -23,7 +23,7 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 49,
             "processadora h2": 1,
             "processadora v960": 9,
             "painel flexivel": 2,
@@ -38,13 +38,12 @@
             "outdoor p.5 m2": 4,
             "p3.91 oneligth": 31,
             "outdoor p5 m2": 15,
-            "processadora vc4": 45,
+            "processadora vc4": 37,
             "tv 98": 1,
             "suporte tv 98": 1,
             "suporte de tv": 1,
             "tv32": 4,
             "suporte novo tv32": 4,
-            "cvt 10": 2,
             "spiter hdmi": 5,
             "tv 42": 2,
             "tv 65": 2,
@@ -52,28 +51,25 @@
             "painel nexo pro p3.91 outdoor 50x50": 23,
             "extensor fibra hdmi": 3,
             "tv 43": 5,
-            "painel nexo pro p3.91 outdoor 50x100": 31,
+            "painel nexo pro p3.91 outdoor 50x100": 16,
             "processadora vc6 pro": 1,
             "notebook azus": 1,
             "painel indoor ph 3.07": 35,
             "totem 43 android": 2,
             "note alienware": 1,
             "notebook acer nitro": 1,
-            "tb40": 2,
-            "tb 50": 1,
-            "vc4 processadora": 4,
+            "vc4 processadora": 3,
             "totem 43 windons": 2,
             "painel nexo pro p2.97 indor 50x50 curve": 3,
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
             "h2 nova sar": 1,
             "h9 nova sar": 1,
-            "processadora vx1000 pro": 2,
-            "notebook": 4,
-            "indoor p2.97m1": 49,
+            "processadora vx1000 pro": 1,
+            "notebook": 2,
+            "indoor p2.97m1": 45,
             "indoor p2.97 m2": 33,
             "painel nexo pro p2.97 indor 50x50": 21,
-            "painel nexo pro p2.97 indor 50x100": 4,
-            "vx 2000": 1
+            "painel nexo pro p2.97 indor 50x100": 4
         },
         "Som": {
             "sistema slin markpro": 7,
@@ -94,8 +90,8 @@
             "rack 24 dr": 2
         },
         "Materiais Diversos": {
-            "chapinha": 890,
-            "cinta lacoste": 930,
+            "chapinha": 590,
+            "cinta lacoste": 780,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
@@ -111,7 +107,7 @@
             "carregador 21v": 2,
             "estrutura tv 98": 1,
             "cinta catraca prquena": 496,
-            "garra u": 200,
+            "garra u": 170,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -157,7 +153,7 @@
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 1460,
-            "parafuso 17": 5980,
+            "parafuso 17": 4980,
             "contrapeso": 72,
             "cachimbo 22": 5,
             "saia de palco com 0,80cm x4m": 1,
@@ -167,19 +163,19 @@
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 100,
-            "cabo powercon pial": 76,
-            "cabo powercon pial 2.97": 90,
+            "cabo rj45 principal": 70,
+            "cabo powercon pial": 36,
+            "cabo powercon pial 2.97": 85,
             "regua": 25,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 270,
             "ponte sinal p5": 270,
-            "ponte ac amarelo": 1432,
-            "ponte sinal amarelo": 1432,
+            "ponte ac amarelo": 1072,
+            "ponte sinal amarelo": 1032,
             "fonte 12v": 1,
-            "ponte ac quina": 150,
-            "ponte sinal- quina": 150,
+            "ponte ac quina": 60,
+            "ponte sinal- quina": 60,
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
@@ -188,25 +184,25 @@
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 35,
-            "multivia ac": 22,
+            "multivia ac": 17,
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 40,
+            "linha 10m": 20,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 44,
             "ponte de ac oneligth": 160,
             "fibra 6v": 2,
-            "ponte de ac oneligth longo nexo": 240,
-            "ponte de sinal oneligth longo nexo": 540,
+            "ponte de ac oneligth longo nexo": 150,
+            "ponte de sinal oneligth longo nexo": 450,
             "ponte de sinal oneligth curto nexo": 480,
             "ponte de ac oneligth curto nexo": 480,
-            "linha 5m": 111,
+            "linha 5m": 91,
             "sinal 2m": 20,
             "pararlelo": 22,
             "cabo p10": 7,
-            "ponte de ac 2.97": 660,
+            "ponte de ac 2.97": 620,
             "ponte de sinal  2.97": 344
         },
         "Estruturas": {
@@ -231,9 +227,7 @@
             "rack mpl": 1,
             "cabo ponta pelada-stek 63a": 2,
             "pentacustica stek": 1,
-            "cabo camlok-camlok": 1,
-            "rack pentacustica 1": 1,
-            "rack 24 dr": 2
+            "cabo camlok-camlok": 1
         },
         "Luz": {
             "maquína de fumaça": 5,
@@ -10798,9 +10792,211 @@
             "data_retorno": "29/10/2026",
             "status": "Pendente",
             "data_emissao": "29/10/2026 19:33"
+        },
+        {
+            "id": 144,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p3.91 outdoor 50x100",
+                    "quantidade": 15,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth longo nexo",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth longo nexo",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel 2.6 quina",
+                    "quantidade": 14,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac quina",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal- quina",
+                    "quantidade": 90,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 45,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 360,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 360,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx1000 pro",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vx 2000",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "vc4 processadora",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc4",
+                    "quantidade": 8,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb 50",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "tb40",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "cvt 10",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 150,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 300,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 1000,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "rack 24 dr",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Sistema de AC",
+                    "material": "rack pentacustica 1",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "FIERGUES",
+            "responsavel": "TODOS",
+            "data_retorno": "30/10/2026",
+            "status": "Pendente",
+            "data_emissao": "30/10/2026 13:37"
         }
     ],
-    "contador_os": 144,
+    "contador_os": 145,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
