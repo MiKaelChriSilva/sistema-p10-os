@@ -18,7 +18,7 @@
             "toten de led pro ligth": 1,
             "conversor digital+antena": 1,
             "conversor digital + antena": 4,
-            "cvt 4k": 1,
+            "cvt 4k": 4,
             "gbic": 20,
             "tv": 8,
             "estrutura para tv": 8,
@@ -53,7 +53,7 @@
             "tv 43": 5,
             "painel nexo pro p3.91 outdoor 50x100": 16,
             "processadora vc6 pro": 1,
-            "notebook azus": 1,
+            "notebook azus": 2,
             "painel indoor ph 3.07": 35,
             "totem 43 android": 2,
             "note alienware": 1,
@@ -64,12 +64,17 @@
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
             "h2 nova sar": 1,
             "h9 nova sar": 1,
-            "processadora vx1000 pro": 1,
+            "processadora vx1000 pro": 2,
             "notebook": 2,
             "indoor p2.97m1": 45,
             "indoor p2.97 m2": 33,
             "painel nexo pro p2.97 indor 50x50": 21,
-            "painel nexo pro p2.97 indor 50x100": 4
+            "painel nexo pro p2.97 indor 50x100": 4,
+            "h5 nova sar": 1,
+            "processadora vc6": 1,
+            "vx 2000": 1,
+            "cvt 10": 3,
+            "notebook dellg15": 1
         },
         "Som": {
             "sistema slin markpro": 7,
@@ -223,11 +228,12 @@
         },
         "Sistema de AC": {
             "cabo 64a - ponta pelada 4v": 4,
-            "adaptador y camlok-granada": 6,
-            "rack mpl": 1,
+            "adaptador y camlok-granada": 7,
+            "rack mpl": 2,
             "cabo ponta pelada-stek 63a": 2,
-            "pentacustica stek": 1,
-            "cabo camlok-camlok": 1
+            "pentacustica stek": 2,
+            "cabo camlok-camlok": 2,
+            "propower 24t": 1
         },
         "Luz": {
             "maquína de fumaça": 5,
@@ -10071,8 +10077,9 @@
             "destino": "SP ",
             "responsavel": "P10",
             "data_retorno": "24/10/2026",
-            "status": "Pendente",
-            "data_emissao": "24/10/2026 11:31"
+            "status": "Finalizada",
+            "data_emissao": "24/10/2026 11:31",
+            "data_baixa": "31/10/2026 17:49"
         },
         {
             "id": 136,
