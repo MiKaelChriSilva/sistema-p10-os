@@ -59,7 +59,7 @@
             "note alienware": 1,
             "notebook acer nitro": 1,
             "vc4 processadora": 4,
-            "totem 43 windons": 2,
+            "totem 43 windons": 1,
             "painel nexo pro p2.97 indor 50x50 curve": 3,
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
             "h2 nova sar": 1,
@@ -11010,9 +11010,25 @@
             "status": "Finalizada",
             "data_emissao": "30/10/2026 13:37",
             "data_baixa": "04/11/2026 11:30"
+        },
+        {
+            "id": 145,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "totem 43 windons",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "VISUAL",
+            "responsavel": "VISUAL",
+            "data_retorno": "04/11/2026",
+            "status": "Pendente",
+            "data_emissao": "04/11/2026 11:41"
         }
     ],
-    "contador_os": 145,
+    "contador_os": 146,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
