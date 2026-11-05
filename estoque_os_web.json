@@ -101,7 +101,7 @@
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
-            "pés praticavel 0,40cm": 80,
+            "pés praticavel 0,40cm": 32,
             "marreta": 2,
             "cinta catraca": 100,
             "parafuso cestavado": 94,
@@ -132,7 +132,7 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 16,
+            "praticável 2 x 1": 4,
             "pes 0,80cm": 24,
             "talha 15m": 8,
             "talha 10m": 6,
@@ -11623,9 +11623,31 @@
             "data_retorno": "05/11/2026",
             "status": "Pendente",
             "data_emissao": "05/11/2026 13:27"
+        },
+        {
+            "id": 150,
+            "itens": [
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pés praticavel 0,40cm",
+                    "quantidade": 48,
+                    "observacao": ""
+                }
+            ],
+            "destino": "COLASÇO ",
+            "responsavel": "COLASÇO",
+            "data_retorno": "05/11/2026",
+            "status": "Pendente",
+            "data_emissao": "05/11/2026 21:07"
         }
     ],
-    "contador_os": 150,
+    "contador_os": 151,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
