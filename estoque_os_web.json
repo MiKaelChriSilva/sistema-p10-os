@@ -25,7 +25,7 @@
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
-            "processadora v960": 6,
+            "processadora v960": 5,
             "painel flexivel": 2,
             "tb 40": 2,
             "sensor infra": 1,
@@ -64,8 +64,8 @@
             "h2 nova sar": 1,
             "h9 nova sar": 1,
             "processadora vx1000 pro": 3,
-            "notebook": 4,
-            "indoor p2.97m1": 24,
+            "notebook": 2,
+            "indoor p2.97m1": 20,
             "indoor p2.97 m2": 33,
             "painel nexo pro p2.97 indor 50x50": 21,
             "painel nexo pro p2.97 indor 50x100": 4,
@@ -77,17 +77,16 @@
             "tb40": 1
         },
         "Som": {
-            "sistema slin markpro": 8,
-            "antenas/mic": 4,
+            "sistema slin markpro": 4,
+            "antenas/mic": 3,
             "pedestal mic": 10,
-            "d.i": 4,
+            "d.i": 2,
             "ribalta": 10,
             "move": 6,
-            "pedestal": 10,
+            "pedestal": 8,
             "mic com fio": 10,
             "xrl": 100,
             "microfone": 10,
-            "mesa digital 20 canais": 1,
             "mesa digital 12 canais": 1,
             "kit microfones sem fio kaze": 1,
             "caixa eon jbl 500": 1,
@@ -105,7 +104,7 @@
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
-            "parafuso cestavado": 100,
+            "parafuso cestavado": 94,
             "parafuso filips": 2100,
             "chapinha l": 80,
             "adaptador parafusadeira": 100,
@@ -114,7 +113,7 @@
             "estrutura tv 98": 1,
             "cinta catraca prquena": 500,
             "garra u": 200,
-            "saia de palco com 0,40cm x6m": 6,
+            "saia de palco com 0,40cm x6m": 5,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
             "kit angulos painel quina": 38,
@@ -124,17 +123,17 @@
             "fita isolante": 75,
             "fita preta de acabamento": 50,
             "praticavel 1x1": 2,
-            "carpete preto/palco": 12,
+            "carpete preto/palco": 11,
             "fita dupla face": 12,
             "fita acabamento": 5,
-            "praticável 2 x 0,60": 4,
+            "praticável 2 x 0,60": 3,
             "cinta/anilha": 100,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 5,
-            "pes 0,80cm": 24,
+            "praticável 2 x 1": 1,
+            "pes 0,80cm": 20,
             "talha 15m": 8,
             "talha 10m": 6,
             "sacos de talha": 10,
@@ -144,8 +143,7 @@
             "saia  1,5m x 4m": 5,
             "pano preto 4x4": 6,
             "cachimbo 27": 3,
-            "maquina de impacto": 6,
-            "mão françesa": 6,
+            "mão françesa": 4,
             "pano preto 3x1": 6,
             "pé 2m/práticavel": 8,
             "bit cestavado 11": 2,
@@ -160,19 +158,18 @@
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 1300,
             "parafuso 17": 5800,
-            "contrapeso": 44,
+            "contrapeso": 41,
             "cachimbo 22": 5,
-            "saia de palco com 0,80cm x4m": 1,
             "parafusadeira makia": 1,
-            "pé de 40": 44,
+            "pé de 40": 28,
             "pe de rodinha": 4
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
             "cabo rj45 principal": 94,
             "cabo powercon pial": 71,
-            "cabo powercon pial 2.97": 76,
-            "regua": 21,
+            "cabo powercon pial 2.97": 73,
+            "regua": 16,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
@@ -185,7 +182,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 22,
+            "rj45 principal": 18,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -194,22 +191,22 @@
             "fibra": 8,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 27,
+            "linha 10m": 20,
             "ponte ac p5": 300,
             "linha de 10m": 30,
-            "cabos xlr": 50,
+            "cabos xlr": 20,
             "ponte de ac oneligth": 160,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 280,
             "ponte de sinal oneligth longo nexo": 580,
             "ponte de sinal oneligth curto nexo": 500,
             "ponte de ac oneligth curto nexo": 500,
-            "linha 5m": 103,
+            "linha 5m": 93,
             "sinal 2m": 20,
-            "pararlelo": 22,
+            "pararlelo": 16,
             "cabo p10": 8,
-            "ponte de ac 2.97": 460,
-            "ponte de sinal  2.97": 144
+            "ponte de ac 2.97": 420,
+            "ponte de sinal  2.97": 104
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -243,9 +240,9 @@
             "ribalta": 6,
             "case cob led": 4,
             "hqi 500m": 3,
-            "parled": 30,
+            "parled": 29,
             "mesa de luz avolait 1024": 1,
-            "dmx 512": 2
+            "dmx 512": 1
         }
     },
     "ordens_servico": [
@@ -11433,9 +11430,199 @@
             "data_retorno": "05/11/2026",
             "status": "Pendente",
             "data_emissao": "05/11/2026 13:00"
+        },
+        {
+            "id": 149,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 10,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 7,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabos xlr",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "pararlelo",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pé de 40",
+                    "quantidade": 16,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 0,60",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "pes 0,80cm",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "carpete preto/palco",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "saia de palco com 0,40cm x6m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "saia de palco com 0,80cm x4m",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "mão françesa",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso cestavado",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "maquina de impacto",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "sistema slin markpro",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "mesa digital 20 canais",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "antenas/mic",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "pedestal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Som",
+                    "material": "d.i",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "parled",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Luz",
+                    "material": "dmx 512",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "COCA COLA",
+            "responsavel": "BRUNO",
+            "data_retorno": "05/11/2026",
+            "status": "Pendente",
+            "data_emissao": "05/11/2026 13:27"
         }
     ],
-    "contador_os": 149,
+    "contador_os": 150,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
