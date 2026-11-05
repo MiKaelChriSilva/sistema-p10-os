@@ -132,7 +132,7 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 1,
+            "praticável 2 x 1": 15,
             "pes 0,80cm": 20,
             "talha 15m": 8,
             "talha 10m": 6,
@@ -161,7 +161,7 @@
             "contrapeso": 41,
             "cachimbo 22": 5,
             "parafusadeira makia": 1,
-            "pé de 40": 28,
+            "pé de 40": 84,
             "pe de rodinha": 4
         },
         "Cabos": {
@@ -10801,8 +10801,9 @@
             "destino": "DJ ARAUJO ",
             "responsavel": "JORGE ",
             "data_retorno": "29/10/2026",
-            "status": "Pendente",
-            "data_emissao": "29/10/2026 19:33"
+            "status": "Finalizada",
+            "data_emissao": "29/10/2026 19:33",
+            "data_baixa": "05/11/2026 21:04"
         },
         {
             "id": 144,
