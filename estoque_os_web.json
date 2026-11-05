@@ -244,7 +244,8 @@
             "case cob led": 4,
             "hqi 500m": 3,
             "parled": 30,
-            "mesa de luz avolait 1024": 1
+            "mesa de luz avolait 1024": 1,
+            "dmx 512": 2
         }
     },
     "ordens_servico": [
