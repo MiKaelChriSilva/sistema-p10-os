@@ -52,14 +52,12 @@
             "extensor fibra hdmi": 3,
             "tv 43": 5,
             "painel nexo pro p3.91 outdoor 50x100": 26,
-            "processadora vc6 pro": 1,
             "notebook azus": 1,
             "painel indoor ph 3.07": 35,
             "totem 43 android": 2,
             "notebook acer nitro": 1,
             "vc4 processadora": 4,
             "totem 43 windons": 1,
-            "painel nexo pro p2.97 indor 50x50 curve": 3,
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
             "h2 nova sar": 1,
             "h9 nova sar": 1,
@@ -165,8 +163,8 @@
         },
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
-            "cabo rj45 principal": 87,
-            "cabo powercon pial": 60,
+            "cabo rj45 principal": 85,
+            "cabo powercon pial": 57,
             "cabo powercon pial 2.97": 73,
             "regua": 16,
             "cabo rj45 ponte azul": 100,
@@ -198,8 +196,8 @@
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 218,
             "ponte de sinal oneligth longo nexo": 518,
-            "ponte de sinal oneligth curto nexo": 480,
-            "ponte de ac oneligth curto nexo": 480,
+            "ponte de sinal oneligth curto nexo": 456,
+            "ponte de ac oneligth curto nexo": 456,
             "linha 5m": 85,
             "sinal 2m": 20,
             "pararlelo": 16,
@@ -11861,9 +11859,55 @@
             "data_retorno": "05/11/2026",
             "status": "Pendente",
             "data_emissao": "05/11/2026 22:11"
+        },
+        {
+            "id": 153,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "painel nexo pro p2.97 indor 50x50 curve",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth curto nexo",
+                    "quantidade": 24,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal oneligth curto nexo",
+                    "quantidade": 24,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo rj45 principal",
+                    "quantidade": 2,
+                    "observacao": "2"
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 3,
+                    "observacao": "2"
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vc6 pro",
+                    "quantidade": 1,
+                    "observacao": "2"
+                }
+            ],
+            "destino": "PROSET",
+            "responsavel": "PROSET",
+            "data_retorno": "06/11/2026",
+            "status": "Pendente",
+            "data_emissao": "06/11/2026 13:34"
         }
     ],
-    "contador_os": 153,
+    "contador_os": 154,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
