@@ -37,7 +37,7 @@
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
             "p3.91 oneligth": 31,
-            "outdoor p5 m2": 20,
+            "outdoor p5 m2": 15,
             "processadora vc4": 45,
             "tv 98": 1,
             "suporte tv 98": 1,
@@ -129,7 +129,7 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 4,
+            "praticável 2 x 1": 3,
             "pes 0,80cm": 24,
             "talha 15m": 8,
             "talha 10m": 6,
@@ -164,13 +164,13 @@
         "Cabos": {
             "ponte de sinal rj45 oneligth": 260,
             "cabo rj45 principal": 85,
-            "cabo powercon pial": 57,
+            "cabo powercon pial": 53,
             "cabo powercon pial 2.97": 73,
             "regua": 16,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
-            "ac ponte p5": 300,
-            "ponte sinal p5": 300,
+            "ac ponte p5": 270,
+            "ponte sinal p5": 270,
             "ponte ac amarelo": 1432,
             "ponte sinal amarelo": 1432,
             "fonte 12v": 1,
@@ -179,7 +179,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 18,
+            "rj45 principal": 16,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -11905,9 +11905,55 @@
             "data_retorno": "06/11/2026",
             "status": "Pendente",
             "data_emissao": "06/11/2026 13:34"
+        },
+        {
+            "id": 154,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "outdoor p5 m2",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ac ponte p5",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal p5",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 2,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "praticável 2 x 1",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "GIROTTO EVENTOS",
+            "responsavel": "GIROTTO MORTO",
+            "data_retorno": "06/11/2026",
+            "status": "Pendente",
+            "data_emissao": "06/11/2026 14:18"
         }
     ],
-    "contador_os": 154,
+    "contador_os": 155,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
