@@ -57,7 +57,7 @@
             "totem 43 android": 2,
             "notebook acer nitro": 1,
             "vc4 processadora": 4,
-            "totem 43 windons": 1,
+            "totem 43 windons": 2,
             "painel nexo pro p2.97 indor 50x50 kina 45": 5,
             "h2 nova sar": 1,
             "h9 nova sar": 1,
@@ -11018,8 +11018,9 @@
             "destino": "VISUAL",
             "responsavel": "VISUAL",
             "data_retorno": "04/11/2026",
-            "status": "Pendente",
-            "data_emissao": "04/11/2026 11:41"
+            "status": "Finalizada",
+            "data_emissao": "04/11/2026 11:41",
+            "data_baixa": "07/11/2026 17:59"
         },
         {
             "id": 146,
