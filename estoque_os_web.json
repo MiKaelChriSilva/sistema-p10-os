@@ -25,7 +25,7 @@
             "processadora": 1,
             "p3.91 americanled": 94,
             "processadora h2": 1,
-            "processadora v960": 7,
+            "processadora v960": 6,
             "painel flexivel": 2,
             "tb 40": 2,
             "sensor infra": 1,
@@ -62,8 +62,8 @@
             "h2 nova sar": 1,
             "h9 nova sar": 1,
             "processadora vx1000 pro": 3,
-            "notebook": 4,
-            "indoor p2.97m1": 49,
+            "notebook": 3,
+            "indoor p2.97m1": 43,
             "indoor p2.97 m2": 33,
             "painel nexo pro p2.97 indor 50x50": 21,
             "painel nexo pro p2.97 indor 50x100": 4,
@@ -97,8 +97,8 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 900,
-            "cinta lacoste": 930,
+            "chapinha": 700,
+            "cinta lacoste": 900,
             "cachimbo 17": 5,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
@@ -155,12 +155,12 @@
             "passador de side": 9,
             "aminado": 3,
             "praticável 1 x 1": 4,
-            "metalon": 40,
+            "metalon": 36,
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
-            "parafuso 17 longo": 1500,
-            "parafuso 17": 5870,
-            "contrapeso": 76,
+            "parafuso 17 longo": 1400,
+            "parafuso 17": 5720,
+            "contrapeso": 64,
             "cachimbo 22": 5,
             "parafusadeira makia": 1,
             "pé de 40": 100,
@@ -172,8 +172,8 @@
             "ponte de sinal rj45 oneligth": 260,
             "cabo rj45 principal": 100,
             "cabo powercon pial": 66,
-            "cabo powercon pial 2.97": 90,
-            "regua": 24,
+            "cabo powercon pial 2.97": 86,
+            "regua": 23,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 270,
@@ -186,7 +186,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 28,
+            "rj45 principal": 22,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -205,12 +205,12 @@
             "ponte de sinal oneligth longo nexo": 600,
             "ponte de sinal oneligth curto nexo": 450,
             "ponte de ac oneligth curto nexo": 450,
-            "linha 5m": 117,
+            "linha 5m": 112,
             "sinal 2m": 20,
             "pararlelo": 22,
             "cabo p10": 8,
-            "ponte de ac 2.97": 660,
-            "ponte de sinal  2.97": 344
+            "ponte de ac 2.97": 610,
+            "ponte de sinal  2.97": 294
         },
         "Estruturas": {
             "treliça 3m": 8,
@@ -12147,9 +12147,115 @@
             "data_retorno": "09/11/2026",
             "status": "Pendente",
             "data_emissao": "09/11/2026 12:51"
+        },
+        {
+            "id": 157,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "indoor p2.97m1",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora v960",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac 2.97",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal  2.97",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 6,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial 2.97",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 5m",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17 longo",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 150,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 30,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "metalon",
+                    "quantidade": 4,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "contrapeso",
+                    "quantidade": 12,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "INSTITUTO LING",
+            "responsavel": "P10",
+            "data_retorno": "09/11/2026",
+            "status": "Pendente",
+            "data_emissao": "09/11/2026 13:01"
         }
     ],
-    "contador_os": 157,
+    "contador_os": 158,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
