@@ -12,7 +12,7 @@
             "painel 2.6 quina": 23,
             "processadora=": 1,
             "processadora+cabos": 2,
-            "processadora vx16s": 2,
+            "processadora vx16s": 1,
             "tv 32": 6,
             "dog house": 6,
             "toten de led pro ligth": 1,
@@ -12253,9 +12253,25 @@
             "data_retorno": "09/11/2026",
             "status": "Pendente",
             "data_emissao": "09/11/2026 13:01"
+        },
+        {
+            "id": 158,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx16s",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "VISUAL ",
+            "responsavel": "VISUAL ",
+            "data_retorno": "12/11/2026",
+            "status": "Pendente",
+            "data_emissao": "09/11/2026 13:37"
         }
     ],
-    "contador_os": 158,
+    "contador_os": 159,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
