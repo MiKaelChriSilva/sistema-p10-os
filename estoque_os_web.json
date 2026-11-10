@@ -12,7 +12,7 @@
             "painel 2.6 quina": 23,
             "processadora=": 1,
             "processadora+cabos": 2,
-            "processadora vx16s": 1,
+            "processadora vx16s": 2,
             "tv 32": 6,
             "dog house": 6,
             "toten de led pro ligth": 1,
@@ -103,7 +103,7 @@
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
-            "pés praticavel 0,40cm": 32,
+            "pés praticavel 0,40cm": 80,
             "marreta": 2,
             "cinta catraca": 100,
             "parafuso cestavado": 100,
@@ -134,7 +134,7 @@
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
             "bumper one ligth": 50,
-            "praticável 2 x 1": 7,
+            "praticável 2 x 1": 19,
             "pes 0,80cm": 28,
             "talha 15m": 8,
             "talha 10m": 6,
@@ -11649,8 +11649,9 @@
             "destino": "COLASÇO ",
             "responsavel": "COLASÇO",
             "data_retorno": "05/11/2026",
-            "status": "Pendente",
-            "data_emissao": "05/11/2026 21:07"
+            "status": "Finalizada",
+            "data_emissao": "05/11/2026 21:07",
+            "data_baixa": "10/11/2026 12:53"
         },
         {
             "id": 151,
@@ -12253,25 +12254,9 @@
             "data_retorno": "09/11/2026",
             "status": "Pendente",
             "data_emissao": "09/11/2026 13:01"
-        },
-        {
-            "id": 158,
-            "itens": [
-                {
-                    "categoria": "Painel de LED",
-                    "material": "processadora vx16s",
-                    "quantidade": 1,
-                    "observacao": ""
-                }
-            ],
-            "destino": "VISUAL ",
-            "responsavel": "VISUAL ",
-            "data_retorno": "12/11/2026",
-            "status": "Pendente",
-            "data_emissao": "09/11/2026 13:37"
         }
     ],
-    "contador_os": 159,
+    "contador_os": 158,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
