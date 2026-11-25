@@ -36,7 +36,7 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "p3.91 oneligth": 31,
+            "p3.91 oneligth": 36,
             "outdoor p5 m2": 15,
             "processadora vc4": 45,
             "tv 98": 1,
@@ -168,9 +168,9 @@
             "saia de palco com 0,80cm x4m": 1
         },
         "Cabos": {
-            "ponte de sinal rj45 oneligth": 260,
+            "ponte de sinal rj45 oneligth": 300,
             "cabo rj45 principal": 82,
-            "cabo powercon pial": 66,
+            "cabo powercon pial": 71,
             "cabo powercon pial 2.97": 51,
             "regua": 19,
             "cabo rj45 ponte azul": 100,
@@ -185,7 +185,7 @@
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 22,
+            "rj45 principal": 27,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
@@ -198,7 +198,7 @@
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 160,
+            "ponte de ac oneligth": 200,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 300,
             "ponte de sinal oneligth longo nexo": 600,
@@ -9808,8 +9808,9 @@
             "destino": "SILVIO",
             "responsavel": "SILVIO",
             "data_retorno": "31/10/2026",
-            "status": "Pendente",
-            "data_emissao": "22/10/2026 19:27"
+            "status": "Finalizada",
+            "data_emissao": "22/10/2026 19:27",
+            "data_baixa": "25/11/2026 13:56"
         },
         {
             "id": 134,
