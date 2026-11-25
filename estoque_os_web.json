@@ -12,7 +12,7 @@
             "painel 2.6 quina": 30,
             "processadora=": 1,
             "processadora+cabos": 2,
-            "processadora vx16s": 2,
+            "processadora vx16s": 1,
             "tv 32": 6,
             "dog house": 6,
             "toten de led pro ligth": 1,
@@ -23,7 +23,7 @@
             "tv": 8,
             "estrutura para tv": 8,
             "processadora": 1,
-            "p3.91 americanled": 94,
+            "p3.91 americanled": 72,
             "processadora h2": 1,
             "processadora v960": 10,
             "painel flexivel": 2,
@@ -36,7 +36,7 @@
             "tv 55": 1,
             "oudoor p5 m2": 18,
             "outdoor p.5 m2": 4,
-            "p3.91 oneligth": 36,
+            "p3.91 oneligth": 20,
             "outdoor p5 m2": 20,
             "processadora vc4": 45,
             "tv 98": 1,
@@ -62,7 +62,7 @@
             "h2 nova sar": 1,
             "h9 nova sar": 1,
             "processadora vx1000 pro": 4,
-            "notebook": 5,
+            "notebook": 4,
             "indoor p2.97m1": 49,
             "indoor p2.97 m2": 33,
             "painel nexo pro p2.97 indor 50x50": 21,
@@ -99,15 +99,15 @@
             "mesa digital 20 canais": 1
         },
         "Materiais Diversos": {
-            "chapinha": 1000,
-            "cinta lacoste": 1000,
-            "cachimbo 17": 5,
+            "chapinha": 540,
+            "cinta lacoste": 900,
+            "cachimbo 17": 4,
             "cachimbo 19": 5,
             "cachimbo 14": 5,
             "parafuso para treliça 22": 1000,
             "pés praticavel 0,40cm": 80,
             "marreta": 2,
-            "cinta catraca": 100,
+            "cinta catraca": 80,
             "parafuso cestavado": 100,
             "parafuso filips": 2100,
             "chapinha l": 100,
@@ -115,8 +115,8 @@
             "bateria black tools": 4,
             "carregador 21v": 2,
             "estrutura tv 98": 1,
-            "cinta catraca prquena": 500,
-            "garra u": 200,
+            "cinta catraca prquena": 450,
+            "garra u": 150,
             "saia de palco com 0,40cm x6m": 6,
             "pés de 0,80 cm": 8,
             "maleta de ferramenta": 5,
@@ -131,7 +131,7 @@
             "fita dupla face": 12,
             "fita acabamento": 12,
             "praticável 2 x 0,60": 4,
-            "cinta/anilha": 100,
+            "cinta/anilha": 60,
             "ponta de eixo": 8,
             "cinto de segurança": 5,
             "rolete sinal principal": 2,
@@ -139,9 +139,9 @@
             "praticável 2 x 1": 20,
             "pes 0,80cm": 28,
             "talha 15m": 8,
-            "talha 10m": 6,
+            "talha 10m": 5,
             "sacos de talha": 10,
-            "bumper 3.9 al": 50,
+            "bumper 3.9 al": 34,
             "bumper p5": 50,
             "pés 1,5m": 20,
             "saia  1,5m x 4m": 5,
@@ -161,7 +161,7 @@
             "metalon de tv": 3,
             "bumper one ligth nexo pro": 50,
             "parafuso 17 longo": 1500,
-            "parafuso 17": 6200,
+            "parafuso 17": 4950,
             "contrapeso": 76,
             "cachimbo 22": 5,
             "parafusadeira makia": 1,
@@ -172,37 +172,37 @@
             "alumalock": 6
         },
         "Cabos": {
-            "ponte de sinal rj45 oneligth": 300,
+            "ponte de sinal rj45 oneligth": 200,
             "cabo rj45 principal": 110,
-            "cabo powercon pial": 90,
+            "cabo powercon pial": 64,
             "cabo powercon pial 2.97": 90,
-            "regua": 30,
+            "regua": 27,
             "cabo rj45 ponte azul": 100,
             "fibra hdmi": 10,
             "ac ponte p5": 300,
             "ponte sinal p5": 300,
-            "ponte ac amarelo": 1432,
-            "ponte sinal amarelo": 1432,
+            "ponte ac amarelo": 1252,
+            "ponte sinal amarelo": 1252,
             "fonte 12v": 1,
             "ponte ac quina": 150,
             "ponte sinal- quina": 150,
             "cabo ac": 25,
             "hdmi": 5,
             "cabo cabo configuração usb": 5,
-            "rj45 principal": 39,
+            "rj45 principal": 23,
             "kit cabo processadora": 6,
             "regua stek": 14,
             "fonte 5v": 1,
             "linha 2m": 40,
-            "multivia ac": 22,
+            "multivia ac": 17,
             "fibra": 20,
             "regua steck x pial house": 2,
             "linha stek": 5,
-            "linha 10m": 40,
+            "linha 10m": 37,
             "ponte ac p5": 300,
             "linha de 10m": 30,
             "cabos xlr": 50,
-            "ponte de ac oneligth": 200,
+            "ponte de ac oneligth": 100,
             "fibra 6v": 2,
             "ponte de ac oneligth longo nexo": 300,
             "ponte de sinal oneligth longo nexo": 600,
@@ -12382,9 +12382,175 @@
             "status": "Finalizada",
             "data_emissao": "10/11/2026 13:09",
             "data_baixa": "25/11/2026 13:57"
+        },
+        {
+            "id": 159,
+            "itens": [
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 americanled",
+                    "quantidade": 22,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "p3.91 oneligth",
+                    "quantidade": 16,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "processadora vx16s",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Painel de LED",
+                    "material": "notebook",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de sinal rj45 oneligth",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte de ac oneligth",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte ac amarelo",
+                    "quantidade": 180,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "ponte sinal amarelo",
+                    "quantidade": 80,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "rj45 principal",
+                    "quantidade": 16,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "cabo powercon pial",
+                    "quantidade": 26,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "multivia ac",
+                    "quantidade": 5,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "regua",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Cabos",
+                    "material": "linha 10m",
+                    "quantidade": 3,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "bumper 3.9 al",
+                    "quantidade": 16,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta/anilha",
+                    "quantidade": 40,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca",
+                    "quantidade": 20,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta catraca prquena",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cinta lacoste",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 100,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 180,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "chapinha",
+                    "quantidade": 180,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "cachimbo 17",
+                    "quantidade": 1,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "parafuso 17",
+                    "quantidade": 1250,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "garra u",
+                    "quantidade": 50,
+                    "observacao": ""
+                },
+                {
+                    "categoria": "Materiais Diversos",
+                    "material": "talha 10m",
+                    "quantidade": 1,
+                    "observacao": ""
+                }
+            ],
+            "destino": "NOITE MUSEU ",
+            "responsavel": "P10",
+            "data_retorno": "25/11/2026",
+            "status": "Pendente",
+            "data_emissao": "25/11/2026 14:55"
         }
     ],
-    "contador_os": 159,
+    "contador_os": 160,
     "backup_restaurado": false,
     "recuperacao_senha": {}
 }
